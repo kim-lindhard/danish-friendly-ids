@@ -26,21 +26,49 @@ ids.Next(vehicle);                                         // "røde traktor"
 - **Identifiers are random.** Uniqueness is the caller's job: store what you hand out, and use `TryNext` to retry against it.
 - **Adjectives are always in the definite form** (*glade*, *kolde*, *røde*), which is the same for both genders.
 
+**No identifier is ever negative.** Two layers make sure of that:
+
+1. **Rules.** A word must pass all of these:
+   - it is 3–12 lowercase Danish letters;
+   - it has no restriction (marked usage, rare, trademark);
+   - no sense has a sexual or ethnicity topic;
+   - centrality ≥ 1;
+   - no sentiment below 0. For `Person` this holds for every sense of the word. For `Case` it holds for the sense the word is used in, so *kolde* (cold to the touch) qualifies although *kold* as a personality is negative.
+
+   `Person` also excludes any word with a sense about geography (place of origin), religion, politics or medicine.
+   `Case` excludes nouns that can also name a person (*bager* is the baker and the bakery), so a colour can never read as someone's skin.
+2. **Review.** Only words marked `approved` in `DanishFriendlyIds/Data/word-review.tsv` are ever drawn, and a word with no verdict is never drawn. The review also rejects:
+   - weapons and violence;
+   - bodies, appearance and skin colour;
+   - death, illness and misfortune;
+   - odd or unclear words.
+
+   A `pair` line blocks two words that are fine alone but insulting together.
+
 | Kind | Adjectives (a sense that is …) | Nouns (a sense that is …) | Size |
 |---|---|---|---|
-| `IdKind.Person` | Mental | Human, not Group/Institution | 235 × 739 ≈ 174k |
-| `IdKind.Case` | Physical or Colour, not Condition | Container, Furniture, Instrument, Vehicle, Garment, Building or Comestible; not Human | 429 × 1,285 ≈ 551k |
+| `IdKind.Person` | Mental | Human, not Group/Institution | 38 × 275 ≈ 10,450 |
+| `IdKind.Case` | Physical or Colour, not Condition | Container, Furniture, Instrument, Vehicle, Garment, Building or Comestible; no sense of the word names a person | 52 × 599 − 4 blocked pairs ≈ 31,144 |
 
-**Rules that always apply.** A word qualifies when *one* of its senses fits the kind. The safety rules
-apply to the *whole* word:
-- it must be 3–12 lowercase Danish letters;
-- no restriction (marked usage, rare, trademark);
-- no sense with a sexual topic;
-- centrality ≥ 1 by default;
-- not in `DanishFriendlyIds/Data/blocklist.txt`.
+### The review file
 
-`Person` also excludes words with any sense whose topic is geography (place of origin), religion,
-politics, medicine or ethnicity, and words with any sense at sentiment −2 or below.
+`word-review.tsv` has the columns `word`, `word_class` (`adj`, `sb` or `pair`), `verdict` (`approved` or
+`rejected`) and `reason`, which is required for a rejection. `word` is the form shown in the identifier:
+the definite adjective (*glade*), the noun (*danser*), or for a pair both (*tomme tønde*).
+
+The first verdicts came from two independent reviews: a word is approved only if both kept it. Of 2,442
+candidates, 975 are approved (90 adjectives, 885 nouns) and 1,467 rejected, each with its reason. Four
+pairs are blocked.
+
+Verdicts are about the word, not the kind. A project that defines its own kind, for example colours on
+person nouns, should check that the combinations it makes are still harmless.
+
+When COR is updated, or a project defines its own `IdKind`, new candidates have no verdict and are not
+used until someone reviews them:
+
+```
+dotnet run --project DanishFriendlyIds.Sample -- unreviewed     # TSV of candidates without a verdict
+```
 
 To see what the generator makes: `dotnet run --project DanishFriendlyIds.Sample -- [count=50] [seed]`.
 

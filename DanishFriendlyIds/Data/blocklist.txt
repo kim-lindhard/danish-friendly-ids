@@ -1,3 +1,0 @@
-# Words that must never appear in a generated identifier.
-# One word per line: the lemma (glad) or the form shown in the identifier (glade).
-# Lines starting with # are comments.
