@@ -1,0 +1,28 @@
+COR.SEM-id	COR-basis-id	COR.EXT-id	DDO-forskel	DDO-entryid	DDO-opslagsord	DDO-ordklasse	DDO-køn	betydningsnummer	DDO-ordklasseskift	overbegreb-tekst	overbegreb-DanNet	relaterede-ord	synonym	ontologisk-type	emne	systematisk-polysemi	DanNet-link	frame	sentiment	restriktion	centralitet	kurateret	DDO-betydninger	DDO-faste-udtryk
+COR.SEM.1000001.01		COR.EXT.137129		12002310	13-tal	sb.	itk.	1		karakter	synset-27438	13-skala|karakter|karakterskala		LanguageRepresentation+Artifact+Object	und		synset-57197		2		0	manuel	1	0
+COR.SEM.1000002.01		COR.EXT.139767		11000004	1. g'er	sb.	fk.	1		elev	synset-6051	gymnasieelev		Human+Object	und		synset-34952				0	manuel	1	0
+COR.SEM.1000008.01	COR.51220|COR.45519			11000013	A	sb.	itk.	1		bogstav	synset-8155	selvlyd|vokal		LanguageRepresentation+Artifact+Object			synset-8148				2	manuel	3	5
+COR.SEM.1000008.02	COR.51220|COR.45519			11000013	A	sb.	itk.	2		art|slags|type|form	synset-15802	adelsmærke|graduering|kvalitet|plads		Property					1		2	manuel	3	5
+COR.SEM.1000010.01		COR.EXT.145381		11000020	A38®	sb.	fk.	1		surmælksprodukt	synset-39167			Comestible+Artifact+Liquid	mad		synset-39168				0	manuel	1	0
+COR.SEM.99762.01	COR.99762			11008152	cyklist	sb.	fk.	1		trafikant	synset-6506	cykelbølle|fumlegænger|trafikant		Human+Object			synset-6947				1	manuel	1	0
+COR.SEM.96621.01	COR.96621			11008384	danser	sb.	fk.	1		person	synset-2119	balletdanser|danserinde		Human+Object+Occupation	dan		synset-6186				1	manuel	2	0
+COR.SEM.96621.02	COR.96621			11008384	danser	sb.	fk.	2		person	synset-2119	festdeltager		Human+Object	dan		synset-6192				1	manuel	2	0
+COR.SEM.15497.01	COR.15497			11018074	glad	adj.		1		karaktertræk;egenskab|beskaffenhed	synset-21666|synset-14959	begejstret|eksalteret|fornøjelig|fornøjet|humørfyldt|morsom|munter|veltilpas	fornøjelig|fornøjet|glædelig|i godt humør	Property+Mental		PROPERTY (PERSON) / PROPERTY (ACT)	synset-66499|synset-s21027643|synset-71611		3		2	manuel	7	4
+COR.SEM.42708.01	COR.42708			11025566	kasse	sb.	fk.	1		beholder	synset-1961	etui|foderal|papkasse	boks	Container+Artifact+Object		ARTIFACT / FORM|CONTAINER / CONTENTS	synset-2057|synset-13623				3	manuel	17	9
+COR.SEM.42708.02	COR.42708			11025566	kasse	sb.	fk.	2		beholder	synset-1961	boks|cigarkasse|kasseapparat|kasseterminal|opsparingsordning|pengekasse	klejnekasse|pengekasse	Container+Artifact+Object	øko		synset-2888				3	manuel	17	9
+COR.SEM.42708.03	COR.42708			11025566	kasse	sb.	fk.	3		sted	synset-4724	banklokale|skranke		Place+Object			synset-7501				3	manuel	17	9
+COR.SEM.42708.04	COR.42708			11025566	kasse	sb.	fk.	4		ting|genstand;bygning	synset-250|synset-2434	klods	klods	Artifact+Object|Form		ARTIFACT / FORM				sprogbrug	3	manuel	17	9
+COR.SEM.42708.05	COR.42708			11025566	kasse	sb.	fk.	5		art|slags|type|form	synset-15802	klasse|rubrik		Group							3	manuel	17	9
+COR.SEM.42708.06	COR.42708			11025566	kasse	sb.	fk.	6		mængde|kvantitet	synset-8365	sæk|topmål		Abstract+Quantity		CONTAINER / CONTENTS					3	manuel	17	9
+COR.SEM.42708.07	COR.42708			11025566	kasse	sb.	fk.	7		figur	synset-22514	firkant|rumlig figur	firkant	Imagerepresentation+Artifact+Object	mat		synset-22462				3	manuel	17	9
+COR.SEM.42708.08	COR.42708			11025566	kasse	sb.	fk.	8		beholdning	synset-8390	forråd|kapital		MoneyRepresentation			synset-8394				3	manuel	17	9
+COR.SEM.42708.09	COR.42708			11025566	kasse	sb.	fk.	9		rektangel	synset-22055	boks|figur	boks	Imagerepresentation+Artifact+Object	typ		synset-72591				3	manuel	17	9
+COR.SEM.15653.01	COR.15653			11026898	kold	adj.		1		egenskab|beskaffenhed	synset-14959	halvkold|kølig|sval		Property+Physical	fys		synset-46625|synset-68749				3	manuel	6	3
+COR.SEM.15653.02	COR.15653			11026898	kold	adj.		2		nuance|farvetone|tone	synset-14948	farveløs|farvemæssig|grå|klar		Property+Physical+Colour			synset-68730				3	manuel	6	3
+COR.SEM.15653.03	COR.15653			11026898	kold	adj.		3		karaktertræk	synset-21666	afmålt|afvisende|behersket|følelsesforladt|græskkatolsk|hård|hårdkogt|kølig|ligeglad|samvittighedsløs|uempatisk|ufølsom	kold i røven|kølig	Property+Mental|Property+Social			synset-68728|synset-68729|synset-68522		-2	sprogbrug	3	manuel	6	3
+COR.SEM.15831.01	COR.15831			12002730	træt	adj.		1		egenskab|beskaffenhed;tilstand|stilling	synset-14959|synset-21809	afkræftet|segnefærdig|søvnig		Property+Physical	fyo|hel	PROPERTY (PERSON) / PROPERTY (ACT)	synset-78045|synset-71102		-1		3	manuel	4	1
+COR.SEM.15831.02	COR.15831			12002730	træt	adj.		2		egenskab|beskaffenhed	synset-14959	irriteret på|misfornøjet med|utilfreds med	led og ked af	Property+Mental	psy				-1		3	manuel	4	1
+COR.SEM.15831.03	COR.15831			12002730	træt	adj.		3		egenskab|beskaffenhed	synset-14959	medtaget|vakkelvorn		Property					-1		3	manuel	4	1
+COR.SEM.1000497.01				11003097	bagefter	adv.		1		tidsmæssig	synset-68648	engang|kort efter|senere på året	derefter|dernæst|senere|siden|så	ADV_Time							0	manuel	4	0
+COR.SEM.1000497.02				11003097	bagefter	adv.		2		sted	synset-5505	efter|henne ved/i	bagved|efter	ADV_Place							0	manuel	4	0
+COR.SEM.1000497.03				11003097	bagefter	adv.		3		tidsmæssig	synset-68648	bagud|tilbage	bagud	ADV_Time							0	manuel	4	0

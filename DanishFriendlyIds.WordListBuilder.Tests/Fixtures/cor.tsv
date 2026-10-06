@@ -1,0 +1,117 @@
+COR.00010.400.01	ifølge		fork	if.	N
+COR.00010.880.01	ifølge		præp	ifølge	N
+COR.15302.300.01	blå		adj.sg.ubest.fk	blå	N
+COR.15302.301.01	blå		adj.sg.ubest.itk	blåt	N
+COR.15302.302.01	blå		adj.sg.best	blå	N
+COR.15302.303.01	blå		adj.pl	blå	N
+COR.15302.304.01	blå		adj.kompar	blåere	U
+COR.15302.305.01	blå		adj.superl.sg.ubest	blåest	U
+COR.15302.306.01	blå		adj.superl.sg.best	blåeste	U
+COR.15302.307.01	blå		adj.superl.pl	blåeste	U
+COR.15302.309.01	blå		adj.adv	blåt	U
+COR.15302.310.01	blå		adj.adv.kompar	blåere	U
+COR.15302.311.01	blå		adj.adv.superl	blåest	U
+COR.15332.300.01	moderne		adj.sg.ubest.fk	moderne	N
+COR.15332.301.01	moderne		adj.sg.ubest.itk	moderne	N
+COR.15332.302.01	moderne		adj.sg.best	moderne	N
+COR.15332.303.01	moderne		adj.pl	moderne	N
+COR.15332.304.01	moderne		adj.kompar	modernere	U
+COR.15332.305.01	moderne		adj.superl.sg.ubest	modernest	U
+COR.15332.306.01	moderne		adj.superl.sg.best	moderneste	U
+COR.15332.307.01	moderne		adj.superl.pl	moderneste	U
+COR.15332.309.01	moderne		adj.adv	moderne	U
+COR.15332.310.01	moderne		adj.adv.kompar	modernere	U
+COR.15332.311.01	moderne		adj.adv.superl	modernest	U
+COR.15497.300.01	glad		adj.sg.ubest.fk	glad	N
+COR.15497.301.01	glad		adj.sg.ubest.itk	glad	N
+COR.15497.302.01	glad		adj.sg.best	glade	N
+COR.15497.303.01	glad		adj.pl	glade	N
+COR.15497.304.01	glad		adj.kompar	gladere	U
+COR.15497.305.01	glad		adj.superl.sg.ubest	gladest	U
+COR.15497.306.01	glad		adj.superl.sg.best	gladeste	U
+COR.15497.307.01	glad		adj.superl.pl	gladeste	U
+COR.15497.309.01	glad		adj.adv	glad	U
+COR.15497.310.01	glad		adj.adv.kompar	gladere	U
+COR.15497.311.01	glad		adj.adv.superl	gladest	U
+COR.15653.300.01	kold		adj.sg.ubest.fk	kold	N
+COR.15653.301.01	kold		adj.sg.ubest.itk	koldt	N
+COR.15653.302.01	kold		adj.sg.best	kolde	N
+COR.15653.303.01	kold		adj.pl	kolde	N
+COR.15653.304.01	kold		adj.kompar	koldere	U
+COR.15653.305.01	kold		adj.superl.sg.ubest	koldest	U
+COR.15653.306.01	kold		adj.superl.sg.best	koldeste	U
+COR.15653.307.01	kold		adj.superl.pl	koldeste	U
+COR.15653.309.01	kold		adj.adv	koldt	U
+COR.15653.310.01	kold		adj.adv.kompar	koldere	U
+COR.15653.311.01	kold		adj.adv.superl	koldest	U
+COR.15831.300.01	træt		adj.sg.ubest.fk	træt	N
+COR.15831.301.01	træt		adj.sg.ubest.itk	træt	N
+COR.15831.302.01	træt		adj.sg.best	trætte	N
+COR.15831.303.01	træt		adj.pl	trætte	N
+COR.15831.304.01	træt		adj.kompar	trættere	U
+COR.15831.305.01	træt		adj.superl.sg.ubest	trættest	U
+COR.15831.306.01	træt		adj.superl.sg.best	trætteste	U
+COR.15831.307.01	træt		adj.superl.pl	trætteste	U
+COR.15831.309.01	træt		adj.adv	træt	U
+COR.15831.310.01	træt		adj.adv.kompar	trættere	U
+COR.15831.311.01	træt		adj.adv.superl	trættest	U
+COR.42708.110.01	kasse		sb.fk.sg.ubest	kasse	N
+COR.42708.111.01	kasse		sb.fk.sg.best	kassen	N
+COR.42708.112.01	kasse		sb.fk.pl.ubest	kasser	N
+COR.42708.113.01	kasse		sb.fk.pl.best	kasserne	N
+COR.42708.114.01	kasse		sb.fk.sg.ubest.gen	kasses	K
+COR.42708.115.01	kasse		sb.fk.sg.best.gen	kassens	K
+COR.42708.116.01	kasse		sb.fk.pl.ubest.gen	kassers	K
+COR.42708.117.01	kasse		sb.fk.pl.best.gen	kassernes	K
+COR.42708.119.01	kasse		sb.fk.sms	kasse-	N
+COR.44636.120.01	bord	et møbel	sb.itk.sg.ubest	bord	N
+COR.44636.121.01	bord	et møbel	sb.itk.sg.best	bordet	N
+COR.44636.122.01	bord	et møbel	sb.itk.pl.ubest	borde	N
+COR.44636.123.01	bord	et møbel	sb.itk.pl.best	bordene	N
+COR.44636.124.01	bord	et møbel	sb.itk.sg.ubest.gen	bords	K
+COR.44636.125.01	bord	et møbel	sb.itk.sg.best.gen	bordets	K
+COR.44636.126.01	bord	et møbel	sb.itk.pl.ubest.gen	bordes	K
+COR.44636.127.01	bord	et møbel	sb.itk.pl.best.gen	bordenes	K
+COR.44636.129.01	bord	et møbel	sb.itk.sms	bord-	N
+COR.45519.120.01	a		sb.itk.sg.ubest	a	N
+COR.45519.121.01	a		sb.itk.sg.best	a'et	N
+COR.45519.122.01	a		sb.itk.pl.ubest	a'er	N
+COR.45519.123.01	a		sb.itk.pl.best	a'erne	N
+COR.45519.124.01	a		sb.itk.sg.ubest.gen	a's	K
+COR.45519.125.01	a		sb.itk.sg.best.gen	a'ets	K
+COR.45519.126.01	a		sb.itk.pl.ubest.gen	a'ers	K
+COR.45519.127.01	a		sb.itk.pl.best.gen	a'ernes	K
+COR.46065.120.01	bord	planke på skib el. båd	sb.itk.sg.ubest	bord	N
+COR.46065.121.01	bord	planke på skib el. båd	sb.itk.sg.best	bordet	N
+COR.46065.122.01	bord	planke på skib el. båd	sb.itk.pl.ubest	bord	N
+COR.46065.123.01	bord	planke på skib el. båd	sb.itk.pl.best	bordene	N
+COR.46065.124.01	bord	planke på skib el. båd	sb.itk.sg.ubest.gen	bords	K
+COR.46065.125.01	bord	planke på skib el. båd	sb.itk.sg.best.gen	bordets	K
+COR.46065.126.01	bord	planke på skib el. båd	sb.itk.pl.ubest.gen	bords	K
+COR.46065.127.01	bord	planke på skib el. båd	sb.itk.pl.best.gen	bordenes	K
+COR.51220.120.01	A		sb.itk.sg.ubest	A	N
+COR.51220.121.01	A		sb.itk.sg.best	A'et	N
+COR.51220.122.01	A		sb.itk.pl.ubest	A'er	N
+COR.51220.123.01	A		sb.itk.pl.best	A'erne	N
+COR.51220.124.01	A		sb.itk.sg.ubest.gen	A's	K
+COR.51220.125.01	A		sb.itk.sg.best.gen	A'ets	K
+COR.51220.126.01	A		sb.itk.pl.ubest.gen	A'ers	K
+COR.51220.127.01	A		sb.itk.pl.best.gen	A'ernes	K
+COR.96621.110.01	danser		sb.fk.sg.ubest	danser	N
+COR.96621.111.01	danser		sb.fk.sg.best	danseren	N
+COR.96621.112.01	danser		sb.fk.pl.ubest	dansere	N
+COR.96621.113.01	danser		sb.fk.pl.best	danserne	N
+COR.96621.114.01	danser		sb.fk.sg.ubest.gen	dansers	K
+COR.96621.115.01	danser		sb.fk.sg.best.gen	danserens	K
+COR.96621.116.01	danser		sb.fk.pl.ubest.gen	danseres	K
+COR.96621.117.01	danser		sb.fk.pl.best.gen	dansernes	K
+COR.99762.110.01	cyklist		sb.fk.sg.ubest	cyklist	N
+COR.99762.111.01	cyklist		sb.fk.sg.best	cyklisten	N
+COR.99762.112.01	cyklist		sb.fk.pl.ubest	cyklister	N
+COR.99762.113.01	cyklist		sb.fk.pl.best	cyklisterne	N
+COR.99762.114.01	cyklist		sb.fk.sg.ubest.gen	cyklists	K
+COR.99762.115.01	cyklist		sb.fk.sg.best.gen	cyklistens	K
+COR.99762.116.01	cyklist		sb.fk.pl.ubest.gen	cyklisters	K
+COR.99762.117.01	cyklist		sb.fk.pl.best.gen	cyklisternes	K
+COR.00218.880.01	bagefter		præp	bagefter	N
+COR.10935.900.01	bagefter		adv	bagefter	N

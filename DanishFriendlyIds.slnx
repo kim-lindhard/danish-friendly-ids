@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DanishFriendlyIds/DanishFriendlyIds.csproj" />
+  <Project Path="DanishFriendlyIds.Sample/DanishFriendlyIds.Sample.csproj" />
+  <Folder Name="/WordListBuilder/">
+    <Project Path="DanishFriendlyIds.WordListBuilder/DanishFriendlyIds.WordListBuilder.csproj" />
+    <Project Path="DanishFriendlyIds.WordListBuilder.Tests/DanishFriendlyIds.WordListBuilder.Tests.csproj" />
+  </Folder>
+</Solution>

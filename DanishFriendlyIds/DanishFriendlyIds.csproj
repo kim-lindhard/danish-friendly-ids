@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DanishFriendlyIds</RootNamespace>
+    </PropertyGroup>
+
+    <!-- Written by DanishFriendlyIds.WordListBuilder, which itself references this project. -->
+    <ItemGroup Condition="Exists('Data/danish-words.tsv.gz')">
+        <EmbeddedResource Include="Data/danish-words.tsv.gz" LogicalName="DanishFriendlyIds.danish-words.tsv.gz" />
+    </ItemGroup>
+    <ItemGroup Condition="Exists('Data/danish-senses.tsv.gz')">
+        <EmbeddedResource Include="Data/danish-senses.tsv.gz" LogicalName="DanishFriendlyIds.danish-senses.tsv.gz" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Data/blocklist.txt" LogicalName="DanishFriendlyIds.blocklist.txt" />
+    </ItemGroup>
+
+    <!-- Test dependencies - Debug only -->
+    <ItemGroup Condition="'$(BuildingInsideVisualStudio)' == 'true' OR '$(Configuration)' == 'Debug'">
+        <PackageReference Include="xunit.v3" Version="3.2.2" PrivateAssets="all" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.8.1" PrivateAssets="all" />
+    </ItemGroup>
+
+    <!-- Exclude test files from Release builds -->
+    <ItemGroup Condition="'$(Configuration)' == 'Release'">
+        <Compile Remove="**/*Facts.cs" />
+        <None Include="**/*Facts.cs" />
+    </ItemGroup>
+
+</Project>
