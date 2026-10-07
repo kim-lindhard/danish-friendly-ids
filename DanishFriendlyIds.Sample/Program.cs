@@ -3,7 +3,7 @@ using DanishFriendlyIds.Identifiers;
 using DanishFriendlyIds.Words;
 
 const string Usage = """
-    Usage: dotnet run --project DanishFriendlyIds.Sample -- [count=50] [seed] [two|three] [maximum number, 0 = none] [danish|ascii|url] [common|less]
+    Usage: dotnet run --project DanishFriendlyIds.Sample -- [count=50] [seed] [two|three] [maximum number, 0 = none] [danish|ascii|url|pascal|pascal-ascii|camel|camel-ascii] [common|less]
            dotnet run --project DanishFriendlyIds.Sample -- capacity
            dotnet run --project DanishFriendlyIds.Sample -- unreviewed
            dotnet run --project DanishFriendlyIds.Sample -- resolve person|object <identifier in any style> [common|less]
@@ -26,7 +26,7 @@ if (args.Length is 3 or 4 && args[0] == "resolve" && (args.Length == 3 || args[3
     var resolver = new FriendlyIdGenerator();
     if (kind is not null && resolver.TryResolve(kind, args[2], out var resolved))
     {
-        Console.WriteLine($"{resolved}  |  {resolved.ToString(IdStyle.Ascii)}  |  {resolved.ToString(IdStyle.UrlSlug)}");
+        Console.WriteLine(string.Join("  |  ", IdStyle.All.Select(resolved.ToString)));
         return 0;
     }
 

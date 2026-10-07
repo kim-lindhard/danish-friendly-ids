@@ -1,13 +1,14 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace DanishFriendlyIds.Identifiers;
 
 /// <summary>
 /// Two or three words, the last a noun, optionally followed by a number: "glade dansende pilot 42".
-/// <see cref="ToString(IdStyle)"/> writes it in Danish, in ASCII or as a URL slug.
+/// <see cref="ToString(IdStyle)"/> writes it in Danish, in ASCII, as a URL slug, or in PascalCase or camelCase.
 /// </summary>
-public sealed record FriendlyId
+public sealed partial record FriendlyId
 {
     private FriendlyId(IReadOnlyList<string> words, int? number)
     {
@@ -41,19 +42,18 @@ public sealed record FriendlyId
 
     public override string ToString() => ToString(IdStyle.Danish);
 
-    public string ToString(IdStyle style)
-    {
-        var parts = Words.Select(style.Write)
-            .Concat(Number is { } number ? [number.ToString(CultureInfo.InvariantCulture)] : []);
-        return string.Join(style.Separator, parts);
-    }
+    public string ToString(IdStyle style) => style.Write(Words, Number);
 
-    /// <summary>Reads any style: words separated by spaces or by hyphens (not both), then an optional number.</summary>
+    /// <summary>
+    /// Reads any style: words separated by spaces or by hyphens (not both), or joined in PascalCase or camelCase,
+    /// then an optional number.
+    /// </summary>
     public static bool TryParse(string? text, [NotNullWhen(true)] out FriendlyId? id)
     {
         var value = text ?? "";
-        var separator = value.Contains(' ') ? ' ' : '-';
-        var parts = value.Split(separator);
+        var parts = value.Contains(' ') ? value.Split(' ')
+            : value.Contains('-') ? value.Split('-')
+            : CamelCaseParts(value);
         var lastIsNumber = int.TryParse(parts[^1], NumberStyles.None, CultureInfo.InvariantCulture, out var number);
         var words = lastIsNumber ? parts[..^1] : parts;
 
@@ -66,4 +66,15 @@ public sealed record FriendlyId
             : null;
         return id is not null;
     }
+
+    private static string[] CamelCaseParts(string value)
+    {
+        var match = CamelCaseShape().Match(value);
+        return match.Success
+            ? match.Groups["part"].Captures.Select(capture => capture.Value.ToLowerInvariant()).ToArray()
+            : [value];
+    }
+
+    [GeneratedRegex(@"^(?<part>\p{Lu}?\p{Ll}+)+(?<part>[0-9]+)?$")]
+    private static partial Regex CamelCaseShape();
 }

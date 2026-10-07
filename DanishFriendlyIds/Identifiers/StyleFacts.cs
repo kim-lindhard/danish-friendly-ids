@@ -5,7 +5,7 @@ using static DanishFriendlyIds.TestSupport.TestWords;
 
 namespace DanishFriendlyIds.Identifiers;
 
-/// <summary>Danish, ASCII and URL-slug spellings, and resolving any of them back to the Danish identifier.</summary>
+/// <summary>Danish, ASCII, URL-slug, PascalCase and camelCase spellings, and resolving any of them back to the Danish identifier.</summary>
 public partial class StyleFacts
 {
     private static readonly FriendlyId Clever = FriendlyId.Of("kløgtige", "dansende", "pilot").WithNumber(42);
@@ -14,6 +14,10 @@ public partial class StyleFacts
     [InlineData("danish", "kløgtige dansende pilot 42")]
     [InlineData("ascii", "kloegtige dansende pilot 42")]
     [InlineData("url", "kloegtige-dansende-pilot-42")]
+    [InlineData("pascal", "KløgtigeDansendePilot42")]
+    [InlineData("pascal-ascii", "KloegtigeDansendePilot42")]
+    [InlineData("camel", "kløgtigeDansendePilot42")]
+    [InlineData("camel-ascii", "kloegtigeDansendePilot42")]
     public void An_identifier_is_written_in_the_chosen_style(string styleName, string expected)
     {
         // Arrange
@@ -38,7 +42,10 @@ public partial class StyleFacts
     [InlineData("kloegtige-dansende-pilot-42", 3, 42)]
     [InlineData("glade-danser", 2, null)]
     [InlineData("blaa kasse 7", 2, 7)]
-    public void Slugs_and_ascii_text_parse(string text, int wordCount, int? number)
+    [InlineData("KloegtigeDansendePilot42", 3, 42)]
+    [InlineData("gladeDanser", 2, null)]
+    [InlineData("BlåKasse7", 2, 7)]
+    public void Slugs_ascii_and_camel_case_text_parse(string text, int wordCount, int? number)
     {
         // Act
         var parsed = FriendlyId.TryParse(text, out var id);
@@ -54,8 +61,47 @@ public partial class StyleFacts
     [InlineData("glade danser-7")]
     [InlineData("glade--danser")]
     [InlineData("-glade-danser")]
+    [InlineData("GladeDanser-7")]
     public void Mixed_or_empty_separators_do_not_parse(string text) =>
         Assert.False(FriendlyId.TryParse(text, out _));
+
+    [Theory]
+    [InlineData("gladedanser")]
+    [InlineData("GladeDANSER")]
+    [InlineData("Glade42Danser")]
+    [InlineData("Glade")]
+    public void Joined_text_parses_only_when_capitals_mark_each_word(string text) =>
+        Assert.False(FriendlyId.TryParse(text, out _));
+
+    [Fact]
+    public void Camel_case_text_parses_to_lowercase_words()
+    {
+        // Act
+        var parsed = FriendlyId.TryParse("ØvedeDanser7", out var id);
+
+        // Assert
+        Assert.True(parsed);
+        Assert.Equal(FriendlyId.Of("øvede", "danser").WithNumber(7), id);
+    }
+
+    [Theory]
+    [InlineData("danish", "ascii")]
+    [InlineData("ascii", "ascii")]
+    [InlineData("url", "url")]
+    [InlineData("pascal", "pascal-ascii")]
+    [InlineData("camel", "camel-ascii")]
+    public void Ascii_letters_turn_a_style_into_its_folded_twin(string styleName, string twinName)
+    {
+        // Arrange
+        Assert.True(IdStyle.TryFromName(styleName, out var style));
+        Assert.True(IdStyle.TryFromName(twinName, out var twin));
+
+        // Act
+        var folded = style.WithAsciiLetters();
+
+        // Assert
+        Assert.Equal(twin, folded);
+    }
 
     [Fact]
     public void Every_slug_uses_only_characters_a_url_never_escapes()
@@ -74,6 +120,26 @@ public partial class StyleFacts
         Assert.Equal(20_000, slugs.Count);
         Assert.All(slugs, slug => Assert.Matches(UrlSlugShape(), slug));
         Assert.All(slugs, slug => Assert.Equal(slug, Uri.EscapeDataString(slug)));
+    }
+
+    [Fact]
+    public void Every_folded_camel_case_identifier_is_ascii_letters_and_digits()
+    {
+        // Arrange
+        var ids = new FriendlyIdGenerator(new Random(5));
+        IdFormat[] formats = [IdFormat.TwoWords, IdFormat.ThreeWords.WithNumber(99)];
+        IdStyle[] styles = [IdStyle.PascalCase.WithAsciiLetters(), IdStyle.CamelCase.WithAsciiLetters()];
+
+        // Act
+        var texts = IdKind.PresetsWithWordChoices
+            .SelectMany(kind => formats.SelectMany(format =>
+                Enumerable.Range(0, 1_250).Select(_ => ids.Next(kind, format))))
+            .SelectMany(id => styles.Select(id.ToString))
+            .ToList();
+
+        // Assert
+        Assert.Equal(20_000, texts.Count);
+        Assert.All(texts, text => Assert.Matches(FoldedCamelCaseShape(), text));
     }
 
     [Fact]
@@ -112,6 +178,27 @@ public partial class StyleFacts
         Assert.Equal(FriendlyId.Of("blå", "kasse").WithNumber(3), id);
     }
 
+    [Fact]
+    public void A_word_starting_with_ae_capitalises_and_resolves_in_both_spellings()
+    {
+        // Arrange
+        var honest = Adjective("ærlig", "ærlige", Sense(MeaningCategory.Property, MeaningCategory.Mental));
+        var ids = ApprovingAll(honest, Dancer);
+        var expected = FriendlyId.Of("ærlige", "danser");
+
+        // Act
+        var danish = expected.ToString(IdStyle.PascalCase);
+        var ascii = expected.ToString(IdStyle.PascalCase.WithAsciiLetters());
+
+        // Assert
+        Assert.Equal("ÆrligeDanser", danish);
+        Assert.Equal("AerligeDanser", ascii);
+        Assert.True(ids.TryResolve(IdKind.Person, danish, out var fromDanish));
+        Assert.True(ids.TryResolve(IdKind.Person, ascii, out var fromAscii));
+        Assert.Equal(expected, fromDanish);
+        Assert.Equal(expected, fromAscii);
+    }
+
     [Theory]
     [InlineData("vrede-danser")]
     [InlineData("glade-traktor")]
@@ -146,4 +233,7 @@ public partial class StyleFacts
 
     [GeneratedRegex("^[a-z0-9]+(-[a-z0-9]+)*$")]
     private static partial Regex UrlSlugShape();
+
+    [GeneratedRegex("^[A-Za-z][a-z]*([A-Z][a-z]+)+[0-9]*$")]
+    private static partial Regex FoldedCamelCaseShape();
 }
