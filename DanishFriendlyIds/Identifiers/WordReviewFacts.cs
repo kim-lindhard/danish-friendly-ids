@@ -128,11 +128,11 @@ public class WordReviewFacts
     }
 
     [Theory]
-    [MemberData(nameof(Presets))]
-    public void Every_candidate_of_a_preset_has_a_verdict_in_its_list(string kindName)
+    [MemberData(nameof(PresetsWithWordChoices))]
+    public void Every_candidate_of_a_preset_has_a_verdict_in_its_list(int presetIndex)
     {
         // Arrange
-        var kind = IdKind.Presets.Single(preset => preset.Name == kindName);
+        var kind = IdKind.PresetsWithWordChoices[presetIndex];
 
         // Act
         var unreviewed = WordPoolSelector.Unreviewed(Lexicon.Embedded, ReviewLists.Embedded, kind);
@@ -143,5 +143,5 @@ public class WordReviewFacts
         Assert.Empty(unreviewed.Nouns);
     }
 
-    public static TheoryData<string> Presets => new(IdKind.Presets.Select(kind => kind.Name));
+    public static TheoryData<int> PresetsWithWordChoices => new(Enumerable.Range(0, IdKind.PresetsWithWordChoices.Count));
 }

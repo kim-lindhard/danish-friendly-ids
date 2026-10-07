@@ -8,6 +8,24 @@ namespace DanishFriendlyIds.Identifiers;
 public class KindRulesFacts
 {
     [Fact]
+    public void A_less_common_word_is_drawn_only_when_the_kind_includes_less_common_words()
+    {
+        // Arrange
+        var rare = Adjective("ufortrøden", "ufortrødne", Sense(MeaningCategory.Property, MeaningCategory.Mental) with { Centrality = 0 });
+        var ids = ApprovingAll(Happy, rare, Dancer);
+
+        // Act
+        var common = ids.PoolsOf(IdKind.Person).Adjectives;
+        var lessCommonToo = ids.PoolsOf(IdKind.Person.WithLessCommonWords()).Adjectives;
+
+        // Assert
+        Assert.Equal(["glade"], common);
+        Assert.Equal(["glade", "ufortrødne"], lessCommonToo);
+        Assert.False(IdKind.Person.UsesLessCommonWords);
+        Assert.True(IdKind.Person.WithLessCommonWords().UsesLessCommonWords);
+    }
+
+    [Fact]
     public void A_word_qualifies_through_any_one_of_its_senses()
     {
         // Arrange

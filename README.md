@@ -20,6 +20,7 @@ if (ids.TryNext(IdKind.Person, IdFormat.ThreeWords, id => store.Exists(id.ToStri
     store.Add(free.ToString());                                     // up to 1,000 tries
 
 long space = ids.CapacityOf(IdKind.Person, IdFormat.ThreeWords);    // exact
+ids.Next(IdKind.Person.WithLessCommonWords());                      // also draws approved less common words
 
 var id = ids.Next(IdKind.Person, IdFormat.ThreeWords.WithNumber(99));
 id.ToString();                                  // "kløgtige dansende pilot 42"
@@ -54,7 +55,7 @@ ids.Next(vehicle);                                         // "røde traktor"
    - it is 3–12 lowercase Danish letters;
    - it has no restriction (marked usage, rare, trademark);
    - no sense has a sexual or ethnicity topic;
-   - centrality ≥ 1;
+   - centrality ≥ 1 (common words). `kind.WithLessCommonWords()` lowers this to 0, so approved peripheral words are drawn too. Same review, same never-negative rules; just more words;
    - no sentiment below 0. For `Person` this holds for every sense of the word. For `Object` it holds for the sense the word is used in, so an adjective that is negative only about people can still describe a thing.
 
    `Person` also excludes any word with a sense about geography (place of origin), religion, politics or medicine.
@@ -79,6 +80,8 @@ ids.Next(vehicle);                                         // "røde traktor"
 |---|---:|---:|---:|---:|---:|---:|
 | `Person` (61 adjectives, 66 -ende words, 275 nouns) | 34,615 | 311,535 | 3,426,885 | 1,103,819 | 9,934,371 | 109,278,081 |
 | `Object` (67 adjectives, 23 -ende words, 599 nouns) | 53,880 | 484,920 | 5,334,120 | 917,631 | 8,258,679 | 90,845,469 |
+| `Person.WithLessCommonWords()` (81 adjectives, 93 -ende words, 723 nouns) | 124,956 | 1,124,604 | 12,370,644 | 5,432,644 | 48,893,796 | 537,831,756 |
+| `Object.WithLessCommonWords()` (195 adjectives, 40 -ende words, 2,458 nouns) | 576,097 | 5,184,873 | 57,033,603 | 19,050,519 | 171,454,671 | 1,886,001,381 |
 
 ### The review file
 

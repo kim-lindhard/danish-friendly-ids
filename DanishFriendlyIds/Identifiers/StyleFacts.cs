@@ -65,13 +65,13 @@ public partial class StyleFacts
         IdFormat[] formats = [IdFormat.TwoWords, IdFormat.ThreeWords.WithNumber(99)];
 
         // Act
-        var slugs = IdKind.Presets
+        var slugs = IdKind.PresetsWithWordChoices
             .SelectMany(kind => formats.SelectMany(format =>
                 Enumerable.Range(0, 2_500).Select(_ => ids.Next(kind, format).ToString(IdStyle.UrlSlug))))
             .ToList();
 
         // Assert
-        Assert.Equal(10_000, slugs.Count);
+        Assert.Equal(20_000, slugs.Count);
         Assert.All(slugs, slug => Assert.Matches(UrlSlugShape(), slug));
         Assert.All(slugs, slug => Assert.Equal(slug, Uri.EscapeDataString(slug)));
     }
@@ -81,7 +81,7 @@ public partial class StyleFacts
     {
         // Arrange
         var ids = new FriendlyIdGenerator(new Random(4));
-        var drawn = IdKind.Presets
+        var drawn = IdKind.PresetsWithWordChoices
             .SelectMany(kind => new[] { IdFormat.TwoWords, IdFormat.ThreeWords.WithNumber(9) }
                 .SelectMany(format => Enumerable.Range(0, 500).Select(_ => (Kind: kind, Id: ids.Next(kind, format)))))
             .ToList();

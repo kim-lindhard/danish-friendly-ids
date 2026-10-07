@@ -20,8 +20,16 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
     {
     }
 
-    /// <summary>COR.SEM centrality runs from 0 (peripheral) to 3 (core vocabulary).</summary>
+    /// <summary>
+    /// COR.SEM centrality runs from 0 (peripheral) to 3 (core vocabulary). The default, 1, keeps a kind to
+    /// common words; <see cref="WithLessCommonWords"/> also lets in the peripheral ones the review approved.
+    /// </summary>
     public int MinimumCentrality { get; init; } = 1;
+
+    public bool UsesLessCommonWords => MinimumCentrality == 0;
+
+    /// <summary>The same kind, also drawing less common words (centrality 0) that its review list approved.</summary>
+    public IdKind WithLessCommonWords() => this with { MinimumCentrality = 0 };
 
     /// <summary>The lowest sentiment any sense of the word may have; an unrated sense counts as 0.</summary>
     public int MinimumSentiment { get; init; } = 0;
@@ -64,4 +72,8 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
     };
 
     public static IReadOnlyList<IdKind> Presets { get; } = [Person, Object];
+
+    /// <summary>Every preset, with common words only and with less common words too.</summary>
+    public static IReadOnlyList<IdKind> PresetsWithWordChoices { get; } =
+        [Person, Person.WithLessCommonWords(), Object, Object.WithLessCommonWords()];
 }
