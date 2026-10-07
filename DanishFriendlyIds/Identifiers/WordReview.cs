@@ -3,19 +3,15 @@
 namespace DanishFriendlyIds.Identifiers;
 
 /// <summary>
-/// The hand-checked verdict on every word an identifier may use. Only approved words are drawn; a word
+/// The hand-checked verdicts for one <see cref="Vocabulary"/>. Only approved words are drawn; a word
 /// with no verdict is treated as rejected, so a new COR release cannot put an unread word into an
 /// identifier. A rejected pair blocks two words that are fine alone but insulting together.
 /// </summary>
 public sealed class WordReview
 {
-    public const string EmbeddedResourceName = "DanishFriendlyIds.word-review.tsv";
-
     public static IReadOnlyList<string> Columns { get; } = ["word", "word_class", "verdict", "reason"];
 
     private const char Separator = '\t';
-
-    private static readonly Lazy<WordReview> EmbeddedReview = new(LoadEmbedded);
 
     private readonly Dictionary<(ReviewSubject Subject, string Word), ReviewEntry> entries;
 
@@ -35,8 +31,6 @@ public sealed class WordReview
                 : throw new InvalidDataException($"Pair '{entry.Word}' is not two words"))
             .ToList();
     }
-
-    public static WordReview Embedded => EmbeddedReview.Value;
 
     public static WordReview Empty { get; } = new([]);
 
@@ -99,10 +93,10 @@ public sealed class WordReview
         return new ReviewEntry(fields[0], subject, verdict, fields[3]);
     }
 
-    private static WordReview LoadEmbedded()
+    public static WordReview LoadEmbedded(string resourceName)
     {
-        using var stream = typeof(WordReview).Assembly.GetManifestResourceStream(EmbeddedResourceName)
-            ?? throw new InvalidOperationException($"Embedded resource {EmbeddedResourceName} is missing");
+        using var stream = typeof(WordReview).Assembly.GetManifestResourceStream(resourceName)
+            ?? throw new InvalidOperationException($"Embedded resource {resourceName} is missing");
         using var reader = new StreamReader(stream);
         return Parse(reader);
     }

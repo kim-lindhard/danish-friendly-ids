@@ -16,7 +16,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <EmbeddedResource Include="Data/word-review.tsv" LogicalName="DanishFriendlyIds.word-review.tsv" />
+        <EmbeddedResource Include="Data/review-people.tsv" LogicalName="DanishFriendlyIds.review-people.tsv" />
+        <EmbeddedResource Include="Data/review-objects.tsv" LogicalName="DanishFriendlyIds.review-objects.tsv" />
     </ItemGroup>
 
     <!-- Test dependencies - Debug only -->
@@ -32,7 +33,9 @@
     <!-- Exclude test files from Release builds -->
     <ItemGroup Condition="'$(Configuration)' == 'Release'">
         <Compile Remove="**/*Facts.cs" />
+        <Compile Remove="TestSupport/**" />
         <None Include="**/*Facts.cs" />
+        <None Include="TestSupport/**" />
     </ItemGroup>
 
 </Project>

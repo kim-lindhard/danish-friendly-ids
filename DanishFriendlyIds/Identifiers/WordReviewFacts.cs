@@ -63,8 +63,14 @@ public class WordReviewFacts
         Assert.Contains("header", error.Message);
     }
 
-    [Fact]
-    public void Every_reviewed_word_is_a_word_the_lexicon_can_show()
+    public static TheoryData<string> Lists => new(Vocabulary.People.Name, Vocabulary.Objects.Name);
+
+    private static WordReview EmbeddedList(string listName) =>
+        listName == Vocabulary.People.Name ? ReviewLists.Embedded.People : ReviewLists.Embedded.Objects;
+
+    [Theory]
+    [MemberData(nameof(Lists))]
+    public void Every_reviewed_word_is_a_word_the_lexicon_can_show(string listName)
     {
         // Arrange
         var lexicon = Lexicon.Embedded;
@@ -72,7 +78,7 @@ public class WordReviewFacts
         var nouns = lexicon.Of(WordClass.Noun).Select(word => word.Lemma).ToHashSet();
 
         // Act
-        var unknown = WordReview.Embedded.Entries
+        var unknown = EmbeddedList(listName).Entries
             .Where(entry => entry.Subject == ReviewSubject.Adjective && adjectives.Contains(entry.Word) == false
                             || entry.Subject == ReviewSubject.Noun && nouns.Contains(entry.Word) == false)
             .Select(entry => entry.Word)
@@ -82,11 +88,12 @@ public class WordReviewFacts
         Assert.Empty(unknown);
     }
 
-    [Fact]
-    public void Every_blocked_pair_is_made_of_approved_words()
+    [Theory]
+    [MemberData(nameof(Lists))]
+    public void Every_blocked_pair_is_made_of_words_approved_in_the_same_list(string listName)
     {
         // Arrange
-        var review = WordReview.Embedded;
+        var review = EmbeddedList(listName);
 
         // Act
         var pairsWithUnapprovedWords = review.BlockedPairs
@@ -100,18 +107,18 @@ public class WordReviewFacts
 
     [Theory]
     [MemberData(nameof(Presets))]
-    public void Every_candidate_of_a_preset_has_a_verdict(string kindName)
+    public void Every_candidate_of_a_preset_has_a_verdict_in_its_list(string kindName)
     {
         // Arrange
-        var kind = kindName == IdKind.Person.Name ? IdKind.Person : IdKind.Case;
+        var kind = IdKind.Presets.Single(preset => preset.Name == kindName);
 
         // Act
-        var unreviewed = WordPoolSelector.Unreviewed(Lexicon.Embedded, WordReview.Embedded, kind);
+        var unreviewed = WordPoolSelector.Unreviewed(Lexicon.Embedded, ReviewLists.Embedded, kind);
 
         // Assert
         Assert.Empty(unreviewed.Adjectives);
         Assert.Empty(unreviewed.Nouns);
     }
 
-    public static TheoryData<string> Presets => new(IdKind.Person.Name, IdKind.Case.Name);
+    public static TheoryData<string> Presets => new(IdKind.Presets.Select(kind => kind.Name));
 }

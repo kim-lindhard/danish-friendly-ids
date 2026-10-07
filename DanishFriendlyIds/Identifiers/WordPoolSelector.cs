@@ -4,7 +4,8 @@ using DanishFriendlyIds.Words;
 namespace DanishFriendlyIds.Identifiers;
 
 /// <summary>
-/// Candidates are the words the rules allow for a kind; pools are the candidates the review approved.
+/// Candidates are the words the rules allow for a kind; pools are the candidates approved in the
+/// review list of the kind's <see cref="IdKind.Vocabulary"/>.
 /// </summary>
 public static partial class WordPoolSelector
 {
@@ -14,11 +15,11 @@ public static partial class WordPoolSelector
         Candidates(lexicon.Of(WordClass.Adjective), word => word.DefiniteForm, kind.Adjectives, kind),
         Candidates(lexicon.Of(WordClass.Noun), word => word.Lemma, kind.Nouns, kind));
 
-    public static WordPools Select(Lexicon lexicon, WordReview review, IdKind kind) =>
-        WithVerdict(Candidates(lexicon, kind), review, ReviewVerdict.Approved);
+    public static WordPools Select(Lexicon lexicon, ReviewLists reviews, IdKind kind) =>
+        WithVerdict(Candidates(lexicon, kind), reviews.For(kind.Vocabulary), ReviewVerdict.Approved);
 
-    public static WordPools Unreviewed(Lexicon lexicon, WordReview review, IdKind kind) =>
-        WithVerdict(Candidates(lexicon, kind), review, ReviewVerdict.Unreviewed);
+    public static WordPools Unreviewed(Lexicon lexicon, ReviewLists reviews, IdKind kind) =>
+        WithVerdict(Candidates(lexicon, kind), reviews.For(kind.Vocabulary), ReviewVerdict.Unreviewed);
 
     public static bool FollowsTheRules(Word word, IdKind kind)
     {

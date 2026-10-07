@@ -3,15 +3,20 @@
 namespace DanishFriendlyIds.Identifiers;
 
 /// <summary>
-/// What an identifier names, and so which adjectives and nouns it may be made of.
+/// What an identifier names, so which adjectives and nouns it may be made of, and which reviewed
+/// <see cref="Vocabulary"/> the words must be approved in.
 /// <see cref="MinimumSentiment"/> and <see cref="ExcludedTopics"/> apply to every sense of a word,
 /// not just the sense that matched: a word with one negative or sensitive sense stays out.
 /// The sense that matched must also meet its <see cref="SenseFilter.MinimumSentiment"/>.
 /// </summary>
-public sealed record IdKind(string Name, SenseFilter Adjectives, SenseFilter Nouns)
+public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adjectives, SenseFilter Nouns)
 {
-    public IdKind(string name, IReadOnlyCollection<MeaningCategory> adjectiveCategories, IReadOnlyCollection<MeaningCategory> nounCategories)
-        : this(name, new SenseFilter(adjectiveCategories, []), new SenseFilter(nounCategories, []))
+    public IdKind(
+        string name,
+        Vocabulary vocabulary,
+        IReadOnlyCollection<MeaningCategory> adjectiveCategories,
+        IReadOnlyCollection<MeaningCategory> nounCategories)
+        : this(name, vocabulary, new SenseFilter(adjectiveCategories, []), new SenseFilter(nounCategories, []))
     {
     }
 
@@ -24,9 +29,11 @@ public sealed record IdKind(string Name, SenseFilter Adjectives, SenseFilter Nou
     public IReadOnlyCollection<Topic> ExcludedTopics { get; init; } = [];
 
     // A name given to a person must not hint at where they come from, their faith, politics or health.
+    // Physical traits count (energisk, adræt); the review keeps out the ones about bodies.
     public static readonly IdKind Person = new(
         "Person",
-        SenseFilter.Any(MeaningCategory.Mental),
+        Vocabulary.People,
+        SenseFilter.Any(MeaningCategory.Mental, MeaningCategory.Physical).Except(MeaningCategory.Condition),
         SenseFilter.Any(MeaningCategory.Human).Except(MeaningCategory.Group, MeaningCategory.Institution))
     {
         ExcludedTopics = [new Topic("geg"), new Topic("rel"), new Topic("pol"), new Topic("med")]
@@ -35,8 +42,9 @@ public sealed record IdKind(string Name, SenseFilter Adjectives, SenseFilter Nou
     // A thing may have a negative sense elsewhere (kold as a personality) as long as the sense it is used in is not.
     // A noun that can also name a person (bager: the baker and the bakery) stays out, or a colour would read
     // as the person's skin.
-    public static readonly IdKind Case = new(
-        "Case",
+    public static readonly IdKind Object = new(
+        "Object",
+        Vocabulary.Objects,
         SenseFilter.Any(MeaningCategory.Physical, MeaningCategory.Colour).Except(MeaningCategory.Condition),
         SenseFilter.Any(
                 MeaningCategory.Container, MeaningCategory.Furniture, MeaningCategory.Instrument, MeaningCategory.Vehicle,
@@ -45,4 +53,6 @@ public sealed record IdKind(string Name, SenseFilter Adjectives, SenseFilter Nou
     {
         MinimumSentiment = -3
     };
+
+    public static IReadOnlyList<IdKind> Presets { get; } = [Person, Object];
 }

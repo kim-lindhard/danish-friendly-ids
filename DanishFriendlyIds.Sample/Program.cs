@@ -3,7 +3,7 @@ using DanishFriendlyIds.Identifiers;
 using DanishFriendlyIds.Words;
 
 const int DefaultCount = 50;
-IdKind[] presets = [IdKind.Person, IdKind.Case];
+var presets = IdKind.Presets;
 
 if (args.Length > 0 && args[0] == "unreviewed")
 {
@@ -47,19 +47,19 @@ void PrintUnreviewed()
     var unreviewed = presets
         .SelectMany(kind =>
         {
-            var words = WordPoolSelector.Unreviewed(Lexicon.Embedded, WordReview.Embedded, kind);
-            return words.Adjectives.Select(word => (Subject: ReviewSubject.Adjective, Word: word, Kind: kind.Name))
-                .Concat(words.Nouns.Select(word => (Subject: ReviewSubject.Noun, Word: word, Kind: kind.Name)));
+            var words = WordPoolSelector.Unreviewed(Lexicon.Embedded, ReviewLists.Embedded, kind);
+            return words.Adjectives.Select(word => (List: kind.Vocabulary.Name, Subject: ReviewSubject.Adjective, Word: word))
+                .Concat(words.Nouns.Select(word => (List: kind.Vocabulary.Name, Subject: ReviewSubject.Noun, Word: word)));
         })
-        .GroupBy(entry => (entry.Subject, entry.Word))
-        .Select(group => (group.Key.Subject, group.Key.Word, Kinds: string.Join(",", group.Select(entry => entry.Kind))))
-        .OrderBy(entry => entry.Subject.Code, StringComparer.Ordinal)
+        .Distinct()
+        .OrderBy(entry => entry.List, StringComparer.Ordinal)
+        .ThenBy(entry => entry.Subject.Code, StringComparer.Ordinal)
         .ThenBy(entry => entry.Word, StringComparer.Ordinal)
         .ToList();
 
-    Console.WriteLine("word\tword_class\tkinds");
-    foreach (var (subject, word, kinds) in unreviewed)
-        Console.WriteLine($"{word}\t{subject.Code}\t{kinds}");
+    Console.WriteLine("list\tword\tword_class");
+    foreach (var (list, subject, word) in unreviewed)
+        Console.WriteLine($"{list}\t{word}\t{subject.Code}");
 
     Console.Error.WriteLine($"{unreviewed.Count} unreviewed candidate words");
 }

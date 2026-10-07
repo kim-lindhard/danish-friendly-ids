@@ -1,37 +1,30 @@
 word	word_class	verdict	reason
-abstrakte	adj	rejected	odd-unclear: abstract; does not describe a person or a physical thing
-adrætte	adj	rejected	odd-unclear: describes agile people/animals, not things; old-fashioned
+abstrakte	adj	rejected	odd-unclear: art-style/conceptual word; odd on ordinary objects (abstrakte kommode)
+adrætte	adj	rejected	odd-unclear: kim placed it in the people list
 afførende	adj	rejected	body-appearance: laxative; bodily function
 aflange	adj	approved	
 aktive	adj	rejected	odd-unclear: reads as a case status ("active case")
 alkoholfrie	adj	rejected	death-illness-misfortune: alludes to alcohol/addiction
-ambitiøse	adj	approved	
 animalske	adj	rejected	odd-unclear: odd for a thing; can mean brutish
-ansvarsløse	adj	rejected	negative: irresponsible
-antikke	adj	rejected	sensitive: colloquially 'ancient/outdated'; can read as a jab at someone's age (second review)
+antikke	adj	approved	kim
 antistatiske	adj	rejected	odd-unclear: technical
-appetitlige	adj	rejected	body-appearance: food word also used for sexual attractiveness
+appetitlige	adj	approved	kim
 artsrige	adj	rejected	odd-unclear: biology jargon
 arvelige	adj	rejected	death-illness-misfortune: evokes hereditary disease
 automatiske	adj	rejected	odd-unclear: technical; reads like a case-handling mode (automated decision) (second review)
 baglæns	adj	rejected	odd-unclear: adverb, not a property of a thing
 bagudrettede	adj	rejected	odd-unclear: odd; can read as backward-looking
-balancerede	adj	rejected	odd-unclear: unnatural on physical things; reads like an assessment/accounting status (second review)
+balancerede	adj	rejected	odd-unclear: kim placed it in the people list
 bare	adj	rejected	body-appearance: bare/naked; also confusable with "bare" (just)
 barmfagre	adj	rejected	body-appearance: large-breasted
-begejstrede	adj	approved	
 behagelige	adj	approved	
 behændige	adj	rejected	odd-unclear: describes dexterity of people, not things
-bekendte	adj	rejected	odd-unclear: ambiguous with noun "acquaintance"
 belagte	adj	rejected	odd-unclear: unclear standalone; medical sense coated tongue
-belæste	adj	approved	
 benzindrevne	adj	rejected	odd-unclear: technical, engines only
 beslægtede	adj	rejected	odd-unclear: kinship relation, odd for a thing
-bevidste	adj	rejected	odd-unclear: reads as conscious vs unconscious state
 bevoksede	adj	rejected	odd-unclear: overgrown, odd for a thing
-bevægelige	adj	rejected	odd-unclear: odd for a person; evokes physical mobility
+bevægelige	adj	approved	kim
 billedskønne	adj	rejected	odd-unclear: literary, used for scenery or a person's looks; odd on everyday objects (second review)
-bistre	adj	rejected	negative: grim, stern
 blandbare	adj	rejected	odd-unclear: chemistry jargon
 blanke	adj	rejected	negative: slang 'broke' and 'clueless'; also 'blank/empty' record (second review)
 blege	adj	rejected	body-appearance: pale complexion
@@ -40,112 +33,86 @@ blodige	adj	rejected	weapons-violence: bloody
 blonde	adj	rejected	body-appearance: hair colour of people
 blå	adj	approved	
 blårøde	adj	rejected	death-illness-misfortune: typical of bruised or frozen skin
-bløde	adj	rejected	negative: of a person reads as weak/soft or flabby (second review)
+bløde	adj	rejected	body-appearance: homograph of the verb bløde 'to bleed'; soft/limp innuendo with some nouns; 'blød' of people = weak/soft (second review)
 brandbare	adj	rejected	odd-unclear: technical; flammable, danger
 brandhærgede	adj	rejected	death-illness-misfortune: fire-ravaged, disaster
 brandsikre	adj	rejected	odd-unclear: technical building term; evokes fire (second review)
 bratte	adj	rejected	odd-unclear: steep/abrupt, odd for a thing; "brat død"
-brave	adj	rejected	odd-unclear: old-fashioned, can be patronising; false friend of English "brave"
 brede	adj	approved	
 bredstribede	adj	approved	
 brune	adj	rejected	sensitive: skin-colour reading; 'de brune' = Nazis/far right (second review)
 brungule	adj	rejected	negative: unappealing nicotine-stain / sickly-skin colour (second review)
-byggede	adj	rejected	odd-unclear: body-build sense; odd standalone
+byggede	adj	approved	kim
 bærbare	adj	approved	
-børstede	adj	rejected	odd-unclear: technical metal-finish term; otherwise brushed hair/teeth (second review)
-centrale	adj	rejected	odd-unclear: relational/abstract, not a personal quality; odd before a person noun (second review)
+børstede	adj	approved	kim
 cylindriske	adj	rejected	odd-unclear: technical/geometric (second review)
 dagklare	adj	rejected	odd-unclear: rare word
 direkte	adj	rejected	odd-unclear: not a property of a thing; uninflected
-distraherede	adj	rejected	negative: distracted
-distræte	adj	rejected	negative: absent-minded
-dobbelte	adj	rejected	odd-unclear: reads like a 'duplicate' record; dobbeltspil/dobbeltmoral connotations (second review)
+dobbelte	adj	approved	kim
 dovne	adj	rejected	negative: lazy
-driftsklare	adj	rejected	odd-unclear: technical jargon
+driftsklare	adj	approved	kim
 drikkeklare	adj	rejected	odd-unclear: odd; alcohol connotation
-dybe	adj	rejected	negative: a 'deep' person is often said sarcastically; unnatural before person nouns (second review)
-dybfølte	adj	rejected	odd-unclear: describes feelings, not people
-dygtige	adj	approved	
-dynamiske	adj	rejected	odd-unclear: abstract; does not naturally describe a physical thing (second review)
+dybe	adj	approved	kim
+dynamiske	adj	rejected	odd-unclear: kim placed it in the people list
 eftergivende	adj	rejected	negative: yielding/permissive
-elektriske	adj	rejected	odd-unclear: odd for a person
-elektroniske	adj	rejected	odd-unclear: technical; reads like record format and evokes 'elektronisk fodlænke' (ankle tag) (second review)
+elektriske	adj	approved	kim
+elektroniske	adj	approved	kim
 embryonale	adj	rejected	odd-unclear: biology/medical jargon
 endelige	adj	rejected	odd-unclear: final/finite, odd for a thing
-energiske	adj	rejected	odd-unclear: describes people, not physical things
+energiske	adj	rejected	odd-unclear: kim placed it in the people list
 enetages	adj	rejected	odd-unclear: uninflected building term
-enige	adj	rejected	odd-unclear: needs others; meaningless for one person
 enliters	adj	rejected	odd-unclear: measurement jargon
 ensfarvede	adj	approved	
 enstemmige	adj	rejected	odd-unclear: unanimous/music term, odd for a thing
 enæggede	adj	rejected	odd-unclear: biology jargon (identical twins)
-erfarne	adj	approved	
-etiske	adj	rejected	odd-unclear: abstract moral term, reads as a judgement
 etværelses	adj	rejected	odd-unclear: uninflected housing term
 fade	adj	rejected	negative: insipid, bland
-faktuelle	adj	rejected	odd-unclear: abstract, not a person trait
-fanatiske	adj	rejected	negative: fanatical
 fangne	adj	rejected	weapons-violence: captive, imprisoned
-fartglade	adj	rejected	negative: can imply reckless driving
 farverige	adj	approved	
 farveægte	adj	rejected	odd-unclear: laundry jargon
 faste	adj	rejected	odd-unclear: homograph with religious fasting/Lent; 'sidder fast' = stuck case (second review)
 fastgroede	adj	rejected	negative: stuck, ingrown
 fede	adj	rejected	body-appearance: fat
-filosofiske	adj	approved	
 fine	adj	approved	
 firbenede	adj	rejected	odd-unclear: four-legged, animals only
 firestemmige	adj	rejected	odd-unclear: music jargon
 firkantede	adj	rejected	negative: figuratively rigid/bureaucratic, bad next to a case
 fladbrystede	adj	rejected	body-appearance: flat-chested
-flegmatiske	adj	rejected	negative: phlegmatic, sluggish
-fleksible	adj	rejected	sensitive: in social/HR settings evokes 'fleksjob' (reduced working capacity); body flexibility for persons (second review)
+fleksible	adj	approved	
 flerfarvede	adj	approved	
 flittige	adj	rejected	odd-unclear: describes people, not things
-flydende	adj	rejected	odd-unclear: liquid/fluent, odd for a person
-forbavsede	adj	approved	
+flydende	adj	rejected	odd-unclear: liquid/floating/fluent; contradictory or unclear on solid objects
 forblæste	adj	rejected	negative: windswept; also scatterbrained
-foretagsomme	adj	approved	
 formbare	adj	rejected	odd-unclear: technical; of people means malleable/manipulable (second review)
-fornøjelige	adj	rejected	odd-unclear: describes experiences; of a person reads as 'amusing/laughable' (second review)
 forsigtige	adj	rejected	odd-unclear: describes people, not things
-forudseelige	adj	rejected	negative: predictable
 fossile	adj	rejected	negative: figuratively outdated ("old fossil")
 fribladede	adj	rejected	odd-unclear: botany jargon
 frie	adj	rejected	odd-unclear: unclear for a thing (free of charge? released?)
-frisindede	adj	rejected	sensitive: political/sexual liberalism
 friskbagte	adj	rejected	odd-unclear: baked goods only
-friske	adj	rejected	negative: of a person means cheeky/forward; also health status ('rask og frisk') (second review)
-frivillige	adj	rejected	sensitive: reads like legal status (voluntary vs compulsory placement/admission), not a trait (second review)
+friske	adj	rejected	sensitive: frisk = not sick (cf. friskmelding after sick leave in HR/social cases) and 'cheeky/forward/up for it' of people; odd with non-food objects (second review)
 frodige	adj	rejected	body-appearance: also means voluptuous
 frosne	adj	rejected	negative: reads like case status (frozen/suspended, frozen assets) (second review)
 frugtbare	adj	rejected	body-appearance: fertility
 fugtige	adj	rejected	negative: damp, mouldy
 fulde	adj	rejected	negative: also means drunk
 fysiske	adj	rejected	odd-unclear: abstract, odd for a thing
-færdige	adj	rejected	negative: "færdig" = worn out, done for
-føjelige	adj	rejected	negative: docile, submissive
-følsomme	adj	rejected	negative: over-sensitive; "sensitive case"
-galsindede	adj	rejected	negative: vicious, rabid
-geniale	adj	approved	
+færdige	adj	rejected	odd-unclear: reads as case status 'finished/closed' (færdig sag); 'færdig' of people = exhausted/done for (second review)
+føjelige	adj	rejected	odd-unclear: mainly a character trait (compliant, docile); physical sense rare
+følsomme	adj	rejected	odd-unclear: mainly about people's feelings (sensitive)
 gentekniske	adj	rejected	odd-unclear: genetic engineering jargon
 geografiske	adj	rejected	odd-unclear: abstract domain term
 geologiske	adj	rejected	odd-unclear: domain term
 geometriske	adj	rejected	odd-unclear: abstract/technical
 geotermiske	adj	rejected	odd-unclear: technical
 giftige	adj	rejected	negative: poisonous; venomous person
-glade	adj	approved	
 glatte	adj	rejected	negative: 'glat afslag' = flat refusal; 'glat' person = slick/slippery (second review)
-glædelige	adj	rejected	odd-unclear: describes events, not people
-gode	adj	approved	
-godhjertede	adj	approved	
 grafiske	adj	rejected	odd-unclear: domain term, odd for a thing
 grove	adj	rejected	negative: coarse, rude
 grå	adj	rejected	negative: dull ('grå mus'), legal grey area, grey-haired/age (second review)
 gråblå	adj	approved	
 gråbrune	adj	approved	
 grågrønne	adj	approved	
-grænseløse	adj	rejected	negative: without boundaries, inappropriate behaviour
+grænseløse	adj	rejected	odd-unclear: abstract (limitless); about people means lacking boundaries
 græsgrønne	adj	approved	
 grødede	adj	rejected	odd-unclear: mushy, unappealing
 grønne	adj	rejected	odd-unclear: traffic-light triage/risk colour ('grøn sag'); 'grøn' = inexperienced (second review)
@@ -154,38 +121,28 @@ gulgrønne	adj	rejected	negative: sickly/nauseous colour (bile, pus, face) (seco
 gullighvide	adj	rejected	odd-unclear: discoloured off-white, unappealing
 handy	adj	rejected	odd-unclear: uninflected loanword
 harmoniske	adj	rejected	odd-unclear: abstract; unnatural on physical things; reads like a family assessment (second review)
-hede	adj	rejected	body-appearance: hot, sexual connotation
-hemmelige	adj	rejected	odd-unclear: "secret" person/case is unclear and suspicious
-holdbare	adj	rejected	odd-unclear: shelf-life sense odd for a person
+hede	adj	rejected	body-appearance: 'hed' carries a strong sexual/passionate reading (hede nætter)
+hemmelige	adj	rejected	odd-unclear: not a physical property; could be misread as a confidentiality label on cases/records
+holdbare	adj	rejected	odd-unclear: legal assessment reading 'tenable/holds up' (holdbar påstand/afgørelse) reads as a verdict on the case (second review)
 hornede	adj	rejected	odd-unclear: horned; devilish connotation
-hurtige	adj	approved	
 hvide	adj	rejected	sensitive: skin-colour reading too likely in social-services/HR cases (second review)
 hvidlige	adj	rejected	odd-unclear: whitish, typical of coatings/discharge
 hårde	adj	rejected	negative: figuratively harsh/tough; crude readings possible
 hårede	adj	rejected	body-appearance: hairy
 hæse	adj	rejected	death-illness-misfortune: hoarse, illness
-høje	adj	rejected	body-appearance: tall (height); also "high" on drugs
+høje	adj	rejected	sensitive: 'høj' = high on drugs (sensitive in social-services/substance cases); also reads as a severity level (høj risiko/prioritet) (second review)
 højhælede	adj	rejected	odd-unclear: footwear only; gendered
 højloftede	adj	rejected	odd-unclear: rooms only
 højrøde	adj	rejected	body-appearance: typically a flushed red face (second review)
-højtbegavede	adj	rejected	sensitive: clinical IQ/cognitive-assessment term in social services (second review)
 højtliggende	adj	rejected	odd-unclear: location term
 ikkehvide	adj	rejected	sensitive: skin colour / ethnicity
-imponerende	adj	approved	
 indadvendte	adj	rejected	odd-unclear: personality trait, odd for a thing
 indendørs	adj	rejected	odd-unclear: uninflected; not a property of a thing
-indlysende	adj	rejected	odd-unclear: describes facts, not people
-indre	adj	rejected	odd-unclear: abstract
+indre	adj	rejected	odd-unclear: relational/positional and strongly mental (indre ro) or organ-related (indre organer)
 indsatte	adj	rejected	weapons-violence: "de indsatte" = prison inmates
-indvendige	adj	rejected	odd-unclear: odd for a person
-innovative	adj	approved	
-inspirerende	adj	approved	
-intense	adj	rejected	negative: can read as overbearing
-interessante	adj	rejected	negative: euphemism for an odd or difficult person (second review)
+indvendige	adj	rejected	odd-unclear: relational/positional (inside of something); odd on standalone objects
 interne	adj	rejected	odd-unclear: abstract, odd for a thing
-intetanende	adj	rejected	negative: unsuspecting, victim-like
 isede	adj	rejected	odd-unclear: uncommon form
-ivrige	adj	approved	
 jordiske	adj	rejected	death-illness-misfortune: "jordiske rester" (mortal remains); religious
 kampberedte	adj	rejected	weapons-violence: combat-ready
 kemiske	adj	rejected	odd-unclear: technical; chemical weapons
@@ -195,13 +152,11 @@ kirurgiske	adj	rejected	death-illness-misfortune: surgery
 klangfulde	adj	rejected	odd-unclear: sound term, odd for most things
 klanglige	adj	rejected	odd-unclear: technical sound term
 klangløse	adj	rejected	odd-unclear: toneless, odd and dull
-klare	adj	rejected	odd-unclear: reads like case status ('klar sag' = open-and-shut / ready); 'klar i hovedet' (second review)
+klare	adj	rejected	odd-unclear: reads as case status 'ready'/'clear-cut case' (klar sag); homograph of verb klare (sig) 'cope', functional-assessment language in social services (second review)
 klejne	adj	rejected	negative: puny, weak
 klimatiske	adj	rejected	odd-unclear: abstract domain term
-kloge	adj	approved	
 klumpede	adj	rejected	negative: lumpy
 klæbrige	adj	rejected	negative: sticky; clingy
-kløgtige	adj	approved	
 kokrøde	adj	rejected	body-appearance: flushed face
 kolde	adj	rejected	negative: 'cold case' status; cold = unfeeling (second review)
 kompakte	adj	approved	
@@ -213,17 +168,15 @@ kortbølgede	adj	rejected	odd-unclear: physics jargon
 korte	adj	approved	
 kosmetiske	adj	rejected	body-appearance: cosmetics; also "superficial"
 kraftfulde	adj	approved	
-kreative	adj	rejected	odd-unclear: mental trait, does not describe a physical thing (Case)
+kreative	adj	rejected	odd-unclear: character trait of people
 krigsramte	adj	rejected	weapons-violence: war-stricken
 kromosomale	adj	rejected	death-illness-misfortune: genetic disorders
 kronede	adj	rejected	odd-unclear: crowned; odd for a thing
-kropslige	adj	rejected	body-appearance: bodily
+kropslige	adj	rejected	body-appearance: means bodily
 kugleformede	adj	rejected	odd-unclear: technical; 'kugle' = bullet (second review)
 kuldskære	adj	rejected	odd-unclear: gardening jargon
-kunstneriske	adj	approved	
 kvantitative	adj	rejected	odd-unclear: abstract technical
 kvindelige	adj	rejected	sensitive: gender
-kærlige	adj	rejected	sensitive: intimate/romantic connotation, embarrassing in HR cases (second review)
 kølige	adj	approved	
 kønnede	adj	rejected	sensitive: gender/sex
 landlige	adj	rejected	odd-unclear: describes places, not things; provincial tone
@@ -238,7 +191,7 @@ lavvandede	adj	rejected	negative: figuratively shallow
 leddelte	adj	rejected	odd-unclear: technical
 legemlige	adj	rejected	body-appearance: bodily
 letflydende	adj	rejected	odd-unclear: technical
-lette	adj	rejected	body-appearance: weight; "let pige" connotation
+lette	adj	rejected	odd-unclear: reads as assessment 'let sag' = easy/trivial case; homograph of verb lette; 'let (på tråden)' of women = promiscuous (second review)
 levende	adj	rejected	death-illness-misfortune: life-status word
 lig	adj	rejected	death-illness-misfortune: "lig" = corpse
 lige	adj	rejected	odd-unclear: ambiguous (straight/equal/just)
@@ -246,26 +199,21 @@ lilla	adj	approved
 lille	adj	approved	
 linde	adj	rejected	odd-unclear: archaic/poetic; also a tree name
 lineære	adj	rejected	odd-unclear: mathematical jargon
-litterære	adj	rejected	odd-unclear: domain term, not a natural person trait
 lodrette	adj	rejected	odd-unclear: orientation term, odd on objects; 'lodret løgn/forkert' intensifier (second review)
-logiske	adj	rejected	odd-unclear: describes arguments, not people; odd before a person noun (second review)
 luftformige	adj	rejected	odd-unclear: physics jargon
 lukkede	adj	rejected	odd-unclear: reads as case status ("closed case"); reserved person
-lydige	adj	rejected	negative: obedient, patronising
 lydløse	adj	rejected	odd-unclear: evokes 'den lydløse dræber'; a case gone silent (second review)
-lykkelige	adj	approved	
 lymfatiske	adj	rejected	death-illness-misfortune: medical
-lyse	adj	rejected	body-appearance: fair hair/skin
+lyse	adj	approved	
 lyseblå	adj	approved	
 lysebrune	adj	rejected	body-appearance: common skin-tone descriptor (second review)
 lysegrå	adj	approved	
 lysegule	adj	approved	
 lyserøde	adj	approved	
-læselige	adj	rejected	odd-unclear: legible, odd for a person
+læselige	adj	rejected	odd-unclear: only meaningful for text; unclear on most objects, implies others are illegible
 løse	adj	rejected	odd-unclear: ambiguous with verb "løse"; "løs" can mean promiscuous
 løstsiddende	adj	rejected	odd-unclear: clothing only
 løvgrønne	adj	approved	
-madglade	adj	rejected	body-appearance: euphemism for overweight
 magelige	adj	rejected	negative: indolent, lazy
 magnetiske	adj	rejected	odd-unclear: technical physics property, odd on most objects (second review)
 manuelle	adj	rejected	odd-unclear: technical; reads like case-handling mode (manual processing) (second review)
@@ -273,23 +221,15 @@ marineblå	adj	approved
 markante	adj	rejected	odd-unclear: abstract; mostly used of facial features or changes (second review)
 massive	adj	approved	
 matte	adj	rejected	negative: 'mat' = weak/faint/exhausted (second review)
-mekaniske	adj	rejected	negative: robotic for a person
-menneskelige	adj	rejected	odd-unclear: odd for a thing; "menneskelige rester"
-mentale	adj	rejected	death-illness-misfortune: mental health; slang for crazy
-milde	adj	rejected	odd-unclear: legal 'mild straf' (lenient sentence); unnatural on objects (second review)
+mekaniske	adj	approved	
+menneskelige	adj	rejected	odd-unclear: describes humans/human nature; unsettling or unclear on objects
+milde	adj	rejected	odd-unclear: mainly temperament, weather or taste; odd on ordinary objects
 miljømæssige	adj	rejected	odd-unclear: abstract
-modige	adj	approved	
-modne	adj	rejected	sensitive: age ("moden kvinde")
-moralske	adj	rejected	negative: moralising
+modne	adj	rejected	sensitive: maturity/age of people, with a 'modne kvinder' sexual connotation; on objects only fits fruit/cheese
 motoriske	adj	rejected	odd-unclear: physiology jargon
-mundlamme	adj	rejected	odd-unclear: speechless; contains "lam" (paralysed)
-muntre	adj	rejected	negative: common euphemism for tipsy (second review)
-musikalske	adj	approved	
 muskuløse	adj	rejected	body-appearance: muscular build
-målbevidste	adj	approved	
 målelige	adj	rejected	odd-unclear: technical
 mægtige	adj	rejected	odd-unclear: grandiose/archaic on everyday objects; 'mægtig' = powerful (second review)
-mærkelige	adj	rejected	negative: strange
 mætte	adj	rejected	odd-unclear: satiated, odd for a thing
 mønstrede	adj	approved	
 møre	adj	rejected	negative: also worn out, brittle
@@ -303,68 +243,46 @@ naive	adj	rejected	negative: naive
 nedslidte	adj	rejected	negative: worn-out
 nordiske	adj	rejected	sensitive: nationality/region
 nuttede	adj	rejected	negative: often condescending/sarcastic ('how cute'); unprofessional (second review)
-nyfigne	adj	rejected	negative: nosy
-nysgerrige	adj	rejected	negative: also means nosy/prying ('nysgerrige nabo') (second review)
 nysynede	adj	rejected	odd-unclear: rare automotive term
-nærværende	adj	rejected	odd-unclear: legalese 'nærværende sag' = 'the present case'; odd before a person noun (second review)
 næste	adj	rejected	odd-unclear: "next", not a property
 nøgne	adj	rejected	body-appearance: naked
 oceaniske	adj	rejected	odd-unclear: geographic term
 oliefyrede	adj	rejected	odd-unclear: technical
 opdækkede	adj	rejected	odd-unclear: table-setting term
-opfindsomme	adj	approved	
-opmærksomme	adj	approved	
 opslidte	adj	rejected	negative: worn out
 opsmøgede	adj	rejected	odd-unclear: rolled-up sleeves only
-opstemte	adj	rejected	death-illness-misfortune: psychiatric term for elevated/manic mood; also tipsy (second review)
 optagne	adj	rejected	odd-unclear: busy/recorded, ambiguous
-optimistiske	adj	approved	
 orale	adj	rejected	body-appearance: oral, sexual connotation
 orangegule	adj	approved	
 orangerøde	adj	approved	
 ordentlige	adj	rejected	negative: judgmental (decent/proper); 'en ordentlig omgang' = a beating (second review)
 overfladiske	adj	rejected	negative: superficial
-overgivne	adj	rejected	odd-unclear: rare; also "surrendered"
 papirstynde	adj	rejected	negative: flimsy
-passionerede	adj	rejected	sensitive: sexual/romantic connotation, embarrassing in HR cases (second review)
-pertentlige	adj	rejected	negative: fussy, pedantic
 pink	adj	approved	
 plane	adj	rejected	odd-unclear: technical; English "plane"
 planteædende	adj	rejected	odd-unclear: herbivorous, odd for a thing
-populære	adj	approved	
-positive	adj	rejected	death-illness-misfortune: reads as a positive test result (HIV/COVID-positive) (second review)
 praktiske	adj	approved	
 puklede	adj	rejected	body-appearance: hunchbacked
-pædagogiske	adj	rejected	odd-unclear: domain term; can be condescending
 refleksfrie	adj	rejected	odd-unclear: technical
 regelmæssige	adj	rejected	odd-unclear: abstract for a thing
 regnfulde	adj	rejected	odd-unclear: weather term, odd for a thing
-rejselystne	adj	approved	
 rene	adj	rejected	sensitive: 'ren' = drug-free / clean criminal record; purity connotation (second review)
-retslærde	adj	rejected	odd-unclear: archaic legal term
 rette	adj	rejected	odd-unclear: ambiguous with verb "rette"
 rige	adj	rejected	sensitive: wealth/class
 rigelige	adj	rejected	odd-unclear: quantity, odd for a thing
-robuste	adj	rejected	body-appearance: euphemism for stout build
-rolige	adj	rejected	odd-unclear: unnatural on physical things; reads like a behaviour/sedation note for persons (second review)
-romantiske	adj	rejected	sensitive: romantic/sexual connotation, embarrassing in HR cases (second review)
+robuste	adj	approved	
+rolige	adj	rejected	odd-unclear: describes people's temperament (calm)
 rumlige	adj	rejected	odd-unclear: abstract
 runde	adj	approved	
 rytmiske	adj	rejected	odd-unclear: odd for a thing
 rødbrune	adj	approved	
 røde	adj	rejected	odd-unclear: traffic-light triage/risk status ('rød sag', 'røde flag'); flushed face; political (second review)
 rødmossede	adj	rejected	body-appearance: ruddy complexion
-rørte	adj	rejected	odd-unclear: ambiguous (touched/stirred)
+rørte	adj	rejected	odd-unclear: mainly emotionally moved; on objects reads as 'touched/stirred', unclear
 sagte	adj	rejected	odd-unclear: adverb, odd for a thing
-sande	adj	rejected	odd-unclear: "true", ambiguous with verb "sande"
-scenevante	adj	rejected	odd-unclear: theatre jargon, odd for most persons
 seismiske	adj	rejected	odd-unclear: technical
 sejlklare	adj	rejected	odd-unclear: nautical jargon
-selvoptagne	adj	rejected	negative: self-absorbed
-selvsikre	adj	rejected	negative: often implies cocky/overconfident (second review)
 sene	adj	rejected	odd-unclear: "late case"; also noun "tendon"
-sentimentale	adj	rejected	negative: mildly mocking
-sikre	adj	rejected	odd-unclear: ambiguous with the verb 'sikre' (to secure); 'safe' evokes risk assessment (second review)
 sirlige	adj	rejected	odd-unclear: literary, mainly about handwriting/manners; can imply fussy (second review)
 skaldede	adj	rejected	body-appearance: bald
 skarpe	adj	rejected	weapons-violence: knives, live ammunition
@@ -375,244 +293,153 @@ skyede	adj	rejected	odd-unclear: weather term
 skyfrie	adj	rejected	odd-unclear: weather term
 skællede	adj	rejected	body-appearance: scaly skin
 slanke	adj	rejected	body-appearance: body weight
-slikne	adj	rejected	negative: greedy for sweets
 slække	adj	rejected	odd-unclear: nautical, verb-like
 smagfulde	adj	approved	
 smalle	adj	approved	
 smukke	adj	approved	
 små	adj	rejected	odd-unclear: plural-only form
 småbladede	adj	rejected	odd-unclear: botany jargon
-snedige	adj	rejected	negative: sly
 snedækkede	adj	approved	
 snefri	adj	rejected	odd-unclear: not a definite form; weather term
 snævre	adj	rejected	negative: narrow-minded
 solrige	adj	rejected	odd-unclear: places/days only
-sorgløse	adj	rejected	negative: careless; contains "sorg" (grief)
 sortladne	adj	rejected	body-appearance: swarthy complexion
 spidse	adj	rejected	negative: also "tipsy", snide
 spilleklare	adj	rejected	odd-unclear: sports jargon
 spinkle	adj	rejected	body-appearance: frail, slight build
 spiredygtige	adj	rejected	odd-unclear: botany jargon
-spiselige	adj	rejected	odd-unclear: odd for a person; slang for attractive
-spontane	adj	approved	
+spiselige	adj	rejected	negative: 'spiselig' is common faint praise (just about acceptable); also odd on non-food objects
 sportslige	adj	rejected	odd-unclear: odd for a thing
-sprogkyndige	adj	rejected	sensitive: formal; language proficiency is sensitive in immigration cases (second review)
-sproglige	adj	rejected	odd-unclear: domain term
-spændende	adj	approved	
 stabile	adj	rejected	death-illness-misfortune: reads like a medical/case status ('stabil tilstand') (second review)
-stedkendte	adj	rejected	odd-unclear: rare
 stille	adj	rejected	odd-unclear: 'sagen står stille' = case at a standstill; odd on objects (second review)
 stilrene	adj	approved	
 store	adj	approved	
 stramme	adj	rejected	negative: strict; slang for drunk
 stribede	adj	approved	
-stridslystne	adj	rejected	negative: quarrelsome
-studieegnede	adj	rejected	odd-unclear: education jargon
-stumme	adj	rejected	death-illness-misfortune: mute
-stædige	adj	rejected	negative: stubborn
 stærke	adj	approved	
 stødte	adj	rejected	negative: offended/bumped/injured
 støjsvage	adj	rejected	odd-unclear: technical product term
-subjektive	adj	rejected	odd-unclear: abstract, reads as criticism
-sultne	adj	rejected	negative: hungry
+sultne	adj	rejected	odd-unclear: state of a living being (hungry)
 sunde	adj	rejected	death-illness-misfortune: health-status word
 sure	adj	rejected	negative: sour/grumpy
 svedige	adj	rejected	body-appearance: sweaty
 svære	adj	rejected	negative: difficult; also "obese"
 synlige	adj	rejected	odd-unclear: bland/odd for a thing
-synske	adj	rejected	odd-unclear: clairvoyant, occult
 søde	adj	approved	
-taknemlige	adj	rejected	negative: patronizing in social-services contexts (the grateful recipient) (second review)
 taktile	adj	rejected	odd-unclear: technical
-talentfulde	adj	approved	
-tankefulde	adj	approved	
-tanketomme	adj	rejected	negative: empty-headed
 teglhængte	adj	rejected	odd-unclear: building jargon
-tekniske	adj	rejected	odd-unclear: odd for a thing
+tekniske	adj	approved	
 teknologiske	adj	rejected	odd-unclear: abstract
 telefoniske	adj	rejected	odd-unclear: abstract
 ternede	adj	approved	
 terrængående	adj	rejected	odd-unclear: vehicles only
-tilfredse	adj	approved	
 tilgrænsende	adj	rejected	odd-unclear: relational
-tilgængelige	adj	rejected	odd-unclear: "available" person, ambiguous/suggestive
 tilrøgede	adj	rejected	negative: smoke-filled
 tolerable	adj	rejected	negative: merely tolerable; medical
 tolerante	adj	rejected	odd-unclear: person trait, odd for a thing
 tomme	adj	rejected	odd-unclear: "empty case"; also vacuous
 transparente	adj	rejected	odd-unclear: technical loanword
 travle	adj	rejected	odd-unclear: odd for a thing
-troværdige	adj	rejected	sensitive: reads like a legal/asylum credibility assessment (second review)
 trådløse	adj	rejected	odd-unclear: technical; only fits electronic devices (second review)
 tunge	adj	rejected	body-appearance: heavy; noun "tongue"
 turkise	adj	approved	
 turkisgrønne	adj	approved	
-tydelige	adj	rejected	odd-unclear: does not naturally describe a person or a physical thing (second review)
+tydelige	adj	rejected	odd-unclear: perceptual/abstract quality (distinct, evident); unclear as a property of a thing
 tykke	adj	rejected	body-appearance: fat/thick
 tyktflydende	adj	rejected	odd-unclear: technical
 tynde	adj	rejected	body-appearance: thin
-tålmodige	adj	approved	
-tænkelige	adj	rejected	odd-unclear: abstract
-tænksomme	adj	approved	
 tætte	adj	rejected	negative: slang for drunk; stocky
 tørre	adj	rejected	odd-unclear: ambiguous with verb; dry/boring; sober alcoholic
-tørstige	adj	rejected	negative: slang for desperate; thirst
+tørstige	adj	rejected	odd-unclear: state of a living being (thirsty); English slang 'thirsty' is also embarrassing
 ubesmykkede	adj	rejected	odd-unclear: rare
-ubetingede	adj	rejected	odd-unclear: abstract; "ubetinget fængsel"
 ubetydelige	adj	rejected	negative: insignificant
 ublandede	adj	rejected	odd-unclear: technical
 udadvendte	adj	rejected	odd-unclear: personality trait, odd for a thing
 udbredte	adj	rejected	odd-unclear: abstract
-udflydende	adj	rejected	negative: vague, rambling
 udhvilede	adj	rejected	odd-unclear: odd for a thing
-ufortrødne	adj	rejected	odd-unclear: literary; odd for a thing
+ufortrødne	adj	rejected	odd-unclear: character trait (undaunted, tireless)
 ujævne	adj	rejected	negative: uneven, poor quality
-ukloge	adj	rejected	negative: unwise
-ukritiske	adj	rejected	negative: uncritical
-underfundige	adj	rejected	negative: can mean sly
-underlige	adj	rejected	negative: strange
 ungdommelige	adj	rejected	sensitive: age
 unge	adj	rejected	sensitive: age
-unuancerede	adj	rejected	negative: simplistic
-uovervejede	adj	rejected	negative: rash
-upåagtede	adj	rejected	negative: overlooked, sad
 upåklædte	adj	rejected	body-appearance: undressed
-uredelige	adj	rejected	negative: dishonest
 urene	adj	rejected	negative: dirty/impure
-uskyldige	adj	rejected	weapons-violence: evokes guilt/crime
 usoignerede	adj	rejected	negative: unkempt
 usynlige	adj	rejected	odd-unclear: odd; ignored/overlooked tone
 usårlige	adj	rejected	odd-unclear: invulnerable, wound reference
 vandrette	adj	rejected	odd-unclear: geometric term; misreadable as 'vandrede' (wandered) (second review)
 vandrige	adj	rejected	odd-unclear: geographic
-vandtætte	adj	rejected	odd-unclear: odd for a person; "vandtæt alibi"
-varme	adj	rejected	negative: of a person can mean feverish or aroused; dated slur 'varm bror'; 'hot' case (second review)
+vandtætte	adj	rejected	odd-unclear: stock legal phrase 'vandtæt alibi/bevis/sag' = watertight case; reads as an assessment in legal/case systems (second review)
+varme	adj	rejected	sensitive: 'varm' = sexually aroused ('varm på'), dated derogatory slang for gay, and feverish; doubt rule applies despite physical sense dominating (second review)
 velduftende	adj	approved	
 velklædte	adj	rejected	odd-unclear: describes people, used for Case
-veloplagte	adj	approved	
 velsmagende	adj	rejected	odd-unclear: food only
-veltilfredse	adj	rejected	negative: connotes smug/complacent ('veltilfreds smil') (second review)
-velvillige	adj	rejected	odd-unclear: formal; reads like a compliance assessment of a client (second review)
 venlige	adj	rejected	odd-unclear: person trait, odd for a thing
 vide	adj	rejected	odd-unclear: ambiguous with verb "vide"
-vilde	adj	rejected	negative: unruly; sexual connotation
-viljestærke	adj	rejected	negative: common euphemism for stubborn/headstrong (esp. children) (second review)
-villige	adj	rejected	body-appearance: "villig" has sexual connotation
 violblå	adj	approved	
-vise	adj	rejected	odd-unclear: ambiguous with verb "vise" / noun "vise"
-viselige	adj	rejected	odd-unclear: archaic
-visse	adj	rejected	odd-unclear: quantifier "certain"
 vissengrønne	adj	rejected	negative: withered/sickly green
-vittige	adj	approved	
 vokale	adj	rejected	odd-unclear: odd for a thing
-voksne	adj	rejected	sensitive: age
-vrøvlede	adj	rejected	negative: nonsensical
-vågne	adj	rejected	odd-unclear: odd for a thing; consciousness state
-værdige	adj	rejected	odd-unclear: dignified/worthy ambiguous; needs complement
+voksne	adj	rejected	sensitive: age of people; 'voksen' also connotes adult content
+vågne	adj	rejected	odd-unclear: state of a living being (awake)
 ydmyge	adj	rejected	negative: verb "ydmyge" = humiliate
 ydre	adj	rejected	odd-unclear: abstract
-åbenlyse	adj	rejected	odd-unclear: describes facts, not people
 åbne	adj	rejected	odd-unclear: reads as case status; verb "åbne"
-åndsfriske	adj	rejected	sensitive: used of the elderly (age)
-årvågne	adj	rejected	odd-unclear: formal; stock phrase 'en årvågen borger' = police tipster (second review)
 ægte	adj	rejected	sensitive: implies an authenticity judgement (fraud context); 'ægte/uægte barn' (second review)
-æstetiske	adj	rejected	odd-unclear: unusual for a person; appearance
 økologiske	adj	rejected	odd-unclear: only fits food/farming; odd on other things (second review)
 østlige	adj	rejected	sensitive: region/political
-abonnent	sb	approved	
 accelerator	sb	rejected	odd-unclear: technical (particle accelerator / throttle)
 accessoires	sb	rejected	odd-unclear: French plural spelling, collective
-adoptant	sb	rejected	sensitive: adoption/family-status role
-adoptivbarn	sb	rejected	death-illness-misfortune: life-status word (adopted child)
-adressat	sb	rejected	odd-unclear: formal jargon (addressee)
 adskillelse	sb	rejected	odd-unclear: abstract; also separation/divorce sense
-advokat	sb	rejected	sensitive: justice-system role; in legal/social-services cases reads as a party's actual role (second review)
 afbryder	sb	rejected	odd-unclear: technical electrical switch; also 'interrupter'
 afgrøde	sb	rejected	odd-unclear: agricultural mass noun, not a discrete everyday thing
-afholdsmand	sb	rejected	sensitive: alcohol-abstinence lifestyle label, old-fashioned and gendered
-afkom	sb	rejected	odd-unclear: collective 'offspring', animal-like for a person
-afløser	sb	approved	
 afsnit	sb	rejected	odd-unclear: abstract (section/episode); also hospital ward
 afspiller	sb	approved	
 aftenskole	sb	approved	
 aftensmad	sb	approved	
-agent	sb	rejected	weapons-violence: spy/military intelligence sense
 agterparti	sb	rejected	body-appearance: slang for buttocks; ship part
 agurk	sb	approved	
 ajlebeholder	sb	rejected	body-appearance: liquid manure container
-akademiker	sb	rejected	sensitive: education/class status label
 akkordeon	sb	approved	
-aktionær	sb	rejected	sensitive: wealth/class status rather than a role
 akvarie	sb	approved	
 alarmsystem	sb	rejected	odd-unclear: technical system; alarm/burglary connotation
 album	sb	approved	
 alkohol	sb	rejected	death-illness-misfortune: alcohol/addiction association
 alkometer	sb	rejected	weapons-violence: police drunk-driving test device
-alt	sb	rejected	odd-unclear: 'alto' sense unreadable, reads as 'everything'
 altangang	sb	rejected	odd-unclear: rare architectural term
 alter	sb	rejected	sensitive: religious object
-ambassade	sb	rejected	sensitive: diplomatic/national institution
-ambassadør	sb	approved	
 ambulance	sb	rejected	death-illness-misfortune: accidents/emergency
 ambulatorie	sb	rejected	death-illness-misfortune: outpatient clinic
 ammunition	sb	rejected	weapons-violence: ammunition
 amtshospital	sb	rejected	death-illness-misfortune: hospital; also archaic
-analytiker	sb	approved	
 and	sb	approved	
 andelsbolig	sb	rejected	odd-unclear: legal/economic housing form, not an everyday thing
-andelshaver	sb	rejected	odd-unclear: legal jargon (co-op shareholder)
 androide	sb	rejected	odd-unclear: sci-fi/technical, not everyday
-angriber	sb	rejected	weapons-violence: 'attacker'
 anhænger	sb	approved	
 anhængertræk	sb	rejected	odd-unclear: technical vehicle part
 anker	sb	approved	
-anklager	sb	rejected	weapons-violence: criminal prosecution; also 'accuser'
 anlæg	sb	rejected	odd-unclear: highly ambiguous (plant, stereo, park, predisposition)
-anmelder	sb	rejected	sensitive: legal sense is the person who filed a police report (anmeldelse); confusing in legal/social cases (second review)
-ansigt	sb	rejected	body-appearance: body part (face)
-ansøger	sb	rejected	odd-unclear: administrative status (applicant), confusable with real case status
 antenne	sb	approved	
-antropolog	sb	approved	
 apotek	sb	rejected	death-illness-misfortune: medicine/illness association
-apoteker	sb	approved	
 apparat	sb	rejected	odd-unclear: vague; also 'apparatet' = bureaucratic machinery/the system (second review)
 appelsin	sb	approved	
 arbejde	sb	rejected	odd-unclear: abstract, confusing in a work-case context
-arbejder	sb	rejected	sensitive: class label (working class)
-arbejdsbi	sb	rejected	negative: can read as belittling (mere worker bee)
 arbejdsbord	sb	approved	
-arbejdsdyr	sb	rejected	negative: animal metaphor (workhorse), belittling
-arbejdsgiver	sb	approved	
 arbejdsplads	sb	rejected	odd-unclear: abstract/institutional
 arbejdsrum	sb	approved	
 arbejdssted	sb	rejected	odd-unclear: abstract/administrative
 arena	sb	approved	
-arkitekt	sb	approved	
 arkiv	sb	rejected	odd-unclear: confusing in case handling (archived case)
-arkæolog	sb	approved	
 armbåndsur	sb	approved	
 arsenal	sb	rejected	weapons-violence: weapons stockpile
 artilleri	sb	rejected	weapons-violence: military artillery
-artist	sb	approved	
-arveonkel	sb	rejected	death-illness-misfortune: implies inheritance via death
-astrolog	sb	rejected	sensitive: esoteric belief, may read as mocking
-astronom	sb	approved	
 atelier	sb	approved	
-atlet	sb	approved	
-atomforsker	sb	rejected	odd-unclear: overly specialised; nuclear connotation
 atomreaktor	sb	rejected	odd-unclear: technical; nuclear accident connotation
 atomvåben	sb	rejected	weapons-violence: nuclear weapon
 audio	sb	rejected	odd-unclear: English term, not a concrete Danish noun
 autocamper	sb	approved	
 automat	sb	rejected	death-illness-misfortune: commonly short for spilleautomat (slot machine, gambling); also automatic weapon (second review)
-autoophugger	sb	rejected	odd-unclear: rare occupation, hard to read
-autoritet	sb	rejected	odd-unclear: mostly abstract
-baby	sb	rejected	sensitive: age, infantilising for an adult
 babymad	sb	rejected	negative: idiom 'det er babymad' = trivial, belittles the case
 babyudstyr	sb	rejected	odd-unclear: collective term, not a single thing
-bachelor	sb	rejected	sensitive: education status; English 'bachelor' = unmarried man
 bacon	sb	rejected	sensitive: pork product (religious dietary sensitivity)
-badegæst	sb	approved	
 badekar	sb	rejected	body-appearance: bathroom/hygiene item, nudity
 badested	sb	approved	
 badetøj	sb	rejected	body-appearance: swimwear, body exposure
@@ -621,7 +448,6 @@ badeværelse	sb	rejected	body-appearance: bathroom/toilet
 bag	sb	rejected	body-appearance: buttocks
 bagagerum	sb	rejected	odd-unclear: vehicle part rather than standalone thing
 bagdel	sb	rejected	body-appearance: buttocks
-bager	sb	approved	
 bagkrop	sb	rejected	body-appearance: rear body (animal/vehicle)
 bagperron	sb	rejected	odd-unclear: archaic vehicle part
 bagsmæk	sb	rejected	odd-unclear: vehicle part; 'smæk bagi' innuendo
@@ -629,23 +455,15 @@ bagværk	sb	approved
 bakke	sb	approved	
 balje	sb	rejected	body-appearance: colloquial for backside ('et spark i baljen') (second review)
 balkon	sb	rejected	body-appearance: well-known slang for a large bust (second review)
-balletdanser	sb	approved	
 ballon	sb	approved	
 banan	sb	rejected	body-appearance: phallic innuendo; also associated with racist abuse of Black players (second review)
-bande	sb	rejected	weapons-violence: criminal gang
 banegårdshal	sb	approved	
 bank	sb	rejected	negative: also 'a beating' (få bank)
-bankdirektør	sb	approved	
-bankkunde	sb	approved	
-bankrådgiver	sb	approved	
 bar	sb	rejected	odd-unclear: ambiguous (pub/alcohol, pressure unit, adj. 'naked')
 barbergrej	sb	rejected	body-appearance: shaving/hygiene items
-barn	sb	rejected	sensitive: age, infantilising for an adult
-barnebarn	sb	rejected	sensitive: family-status/age
 barnekammer	sb	rejected	odd-unclear: old-fashioned
 barnevogn	sb	approved	
 barometer	sb	approved	
-baron	sb	rejected	sensitive: nobility title
 barre	sb	rejected	odd-unclear: rare (ballet bar / ingot)
 basis	sb	rejected	odd-unclear: abstract
 bassin	sb	approved	
@@ -653,67 +471,36 @@ batteri	sb	approved
 beboelse	sb	rejected	odd-unclear: formal/abstract
 beboerhus	sb	approved	
 bedested	sb	rejected	sensitive: religious place of prayer
-bedstefar	sb	rejected	sensitive: age/family-status, gendered
-bedstemor	sb	rejected	sensitive: age/family-status, gendered
-bedømmer	sb	rejected	odd-unclear: uncommon role word; judging connotation
-begynder	sb	rejected	negative: implies inexperience
-behandler	sb	rejected	odd-unclear: vague therapy/health jargon
 beholder	sb	approved	
-bekendt	sb	approved	
-bekendtskab	sb	rejected	odd-unclear: mostly abstract (acquaintanceship)
 beklædning	sb	rejected	odd-unclear: formal collective term
 belysning	sb	rejected	odd-unclear: mass/collective, not a single thing
-beretter	sb	rejected	odd-unclear: rare literary word
-berømthed	sb	approved	
-besidder	sb	rejected	odd-unclear: legal jargon
-beskuer	sb	rejected	odd-unclear: literary
 beslag	sb	rejected	odd-unclear: ambiguous (fitting / seizure)
 bestik	sb	approved	
-bestyrer	sb	approved	
-betaler	sb	rejected	odd-unclear: financial jargon
-betjent	sb	rejected	weapons-violence: police officer
 betonbyggeri	sb	rejected	odd-unclear: technical; used pejoratively for ugly buildings
 bibliotek	sb	approved	
-bibliotekar	sb	approved	
-bidragsyder	sb	rejected	sensitive: also child-support payer (family law)
 biksemad	sb	rejected	negative: idiom 'blive til biksemad' = smashed/wrecked; also a muddle (second review)
 bil	sb	approved	
-bilist	sb	approved	
 billard	sb	approved	
 billardbord	sb	approved	
-billedhugger	sb	approved	
 bilmotor	sb	rejected	odd-unclear: vehicle part rather than standalone thing
 bilrude	sb	rejected	odd-unclear: vehicle part
 bind	sb	rejected	body-appearance: also sanitary pad / bandage
-biograf	sb	approved	
-biolog	sb	approved	
 bistade	sb	approved	
 bjælke	sb	approved	
 blad	sb	approved	
-blok	sb	rejected	sensitive: political ('blå blok', 'røde blok')
 blyant	sb	approved	
-blæksprutte	sb	approved	
-blæser	sb	rejected	odd-unclear: person sense (wind player) unclear, slang risk
-bobestyrer	sb	rejected	death-illness-misfortune: estate/bankruptcy administrator
 boble	sb	rejected	death-illness-misfortune: 'bobler' = sparkling wine (alcohol); also bursting bubble/living in a bubble (second review)
 bod	sb	rejected	negative: homograph of 'bod' = penance ('gøre bod'); guilt/atonement (second review)
-boganmelder	sb	approved	
 boghandel	sb	approved	
-boghandler	sb	approved	
 bogreol	sb	approved	
-bogsamler	sb	approved	
-bokser	sb	rejected	weapons-violence: combat sport; also underwear
-boldspiller	sb	approved	
 bolero	sb	rejected	odd-unclear: uncommon garment/music term
 bolig	sb	approved	
 bolle	sb	rejected	body-appearance: vulgar slang for sex
 bolsje	sb	approved	
 bolt	sb	approved	
 bombefly	sb	rejected	weapons-violence: bomber aircraft
-bonde	sb	rejected	negative: used as an insult (hick/peasant); class
 bondegård	sb	approved	
 bondehus	sb	approved	
-bookmaker	sb	rejected	death-illness-misfortune: gambling addiction association
 bopæl	sb	rejected	odd-unclear: administrative/abstract
 bor	sb	rejected	odd-unclear: ambiguous (drill bit / boron / verb 'lives')
 bord	sb	approved	
@@ -721,34 +508,21 @@ bordkniv	sb	rejected	weapons-violence: knife
 boremaskine	sb	approved	
 boreplatform	sb	rejected	odd-unclear: industrial, not everyday
 borg	sb	approved	
-borger	sb	approved	
-bornholmer	sb	rejected	sensitive: regional origin
 bosættelse	sb	rejected	sensitive: political (settlements)
-botaniker	sb	approved	
 bouillon	sb	approved	
 bowlingbane	sb	approved	
-brandchef	sb	approved	
-brandmand	sb	rejected	sensitive: gendered (-mand) occupation term
 brandsikring	sb	rejected	odd-unclear: abstract/technical
-brandslukker	sb	rejected	odd-unclear: person sense unusual
 bremse	sb	rejected	negative: also obstacle/killjoy; horsefly
 bremsesystem	sb	rejected	odd-unclear: technical vehicle system
 brev	sb	approved	
-brevskriver	sb	approved	
 brik	sb	approved	
 briller	sb	rejected	body-appearance: eyewear/appearance; plural-only
 bro	sb	approved	
 broccoli	sb	approved	
-broder	sb	rejected	sensitive: gendered family term; religious 'brother'
 bropille	sb	rejected	odd-unclear: technical construction part
-brud	sb	rejected	death-illness-misfortune: also fracture/breach; marital/gendered
 brug	sb	rejected	odd-unclear: abstract
-bruger	sb	rejected	death-illness-misfortune: slang for drug user
-bryder	sb	rejected	weapons-violence: combat sport (wrestler); also 'breaker'
-brygger	sb	rejected	death-illness-misfortune: alcohol association
 brygning	sb	rejected	odd-unclear: process, not a thing
 bryst	sb	rejected	body-appearance: body part
-brændehugger	sb	approved	
 brændeskur	sb	approved	
 brændevin	sb	rejected	death-illness-misfortune: spirits/alcohol
 brød	sb	approved	
@@ -767,13 +541,9 @@ bureau	sb	rejected	odd-unclear: institutional, French spelling
 bus	sb	approved	
 butik	sb	approved	
 butikscenter	sb	approved	
-bybo	sb	rejected	odd-unclear: uncommon; origin label
-byggeleder	sb	approved	
 byggemarked	sb	approved	
 bygning	sb	approved	
-bylt	sb	rejected	odd-unclear: bundle, odd for a person
 båd	sb	approved	
-bådebygger	sb	approved	
 bånd	sb	approved	
 båndmål	sb	approved	
 bås	sb	rejected	negative: idiom 'sætte i bås' (pigeonhole); animal stall
@@ -783,25 +553,16 @@ bænk	sb	approved
 bøf	sb	rejected	negative: slang 'lave en bøf' = blunder
 bønne	sb	approved	
 bønnespire	sb	approved	
-børnehave	sb	rejected	negative: used to mock childish behaviour
 børnemad	sb	rejected	negative: idiom for trivially easy, belittles the case
-børnepasser	sb	approved	
 børneværelse	sb	approved	
-børsmægler	sb	approved	
-børste	sb	rejected	body-appearance: hygiene item; person sense = grumpy old man
 bøtte	sb	approved	
 campingvogn	sb	approved	
-campist	sb	approved	
-celle	sb	rejected	weapons-violence: prison/terror cell
 cembalo	sb	rejected	odd-unclear: rare instrument, not an everyday thing (second review)
 center	sb	rejected	odd-unclear: abstract/generic
 centralbank	sb	rejected	odd-unclear: financial institution, not everyday
-chauffør	sb	approved	
-chef	sb	approved	
 chokolade	sb	approved	
 cigar	sb	rejected	death-illness-misfortune: tobacco/addiction
 cigaret	sb	rejected	death-illness-misfortune: tobacco/addiction
-cigarmager	sb	rejected	death-illness-misfortune: tobacco association
 cirkus	sb	rejected	negative: idiom for chaos
 citron	sb	approved	
 citrusfrugt	sb	approved	
@@ -812,45 +573,29 @@ cowboybukser	sb	approved
 cowboytøj	sb	approved	
 creme	sb	rejected	body-appearance: skin cream/cosmetic
 cykel	sb	approved	
-cykelrytter	sb	approved	
-cykelsmed	sb	approved	
 cykeltaske	sb	approved	
-cyklist	sb	approved	
 daddel	sb	rejected	negative: 'en daddel' = a reprimand/rebuke (second review)
 dagligvare	sb	rejected	odd-unclear: abstract trade term
 damper	sb	rejected	negative: 'få en damper' = setback
 dampskib	sb	approved	
-danser	sb	approved	
 danseskole	sb	approved	
 dansested	sb	approved	
-darling	sb	rejected	odd-unclear: English endearment, embarrassing
 datalager	sb	rejected	odd-unclear: technical
-datalog	sb	approved	
-date	sb	rejected	sensitive: romantic/dating connotation
 datostempel	sb	rejected	odd-unclear: administrative/technical
-datter	sb	rejected	sensitive: gendered family term
 david	sb	rejected	odd-unclear: rare ship part (davit), reads as name David
-debattør	sb	rejected	sensitive: political commentator; opinionated
 dej	sb	approved	
 delikatesse	sb	approved	
-deltager	sb	approved	
 depot	sb	approved	
-designer	sb	approved	
 dessert	sb	approved	
 detektor	sb	rejected	odd-unclear: technical
 detonator	sb	rejected	weapons-violence: explosives
 diode	sb	rejected	odd-unclear: technical electronics
 dip	sb	approved	
-diplomat	sb	approved	
-direktør	sb	approved	
-dirigent	sb	approved	
 dirigentstok	sb	approved	
 disk	sb	approved	
 display	sb	rejected	odd-unclear: English/technical
 diæt	sb	rejected	body-appearance: dieting/body weight; medical
-dommer	sb	rejected	sensitive: court/judgment role; confusing and loaded in legal/social-services cases (second review)
 dragt	sb	rejected	weapons-violence: idiom 'en dragt prygl' = a beating (second review)
-dramatiker	sb	approved	
 dressing	sb	approved	
 drik	sb	rejected	death-illness-misfortune: drinking/alcohol connotation; also reads as imperative 'drink!' (second review)
 drikkelse	sb	rejected	odd-unclear: old-fashioned, slightly pejorative
@@ -858,20 +603,13 @@ drikkevare	sb	rejected	odd-unclear: formal trade term
 drink	sb	rejected	death-illness-misfortune: alcoholic drink
 drivhjul	sb	rejected	odd-unclear: technical
 drivhus	sb	approved	
-drivkraft	sb	rejected	odd-unclear: abstract
-dronning	sb	rejected	sensitive: royal title; gendered
 druesort	sb	rejected	odd-unclear: abstract (grape variety)
 druevin	sb	rejected	death-illness-misfortune: alcohol
 dræsine	sb	rejected	odd-unclear: rare
-drømmekvinde	sb	rejected	sensitive: gendered, romantic/sexual
 dunk	sb	approved	
 dybfryser	sb	approved	
 dykkerskole	sb	approved	
 dyrehandel	sb	approved	
-dyrehandler	sb	approved	
-dyreven	sb	approved	
-dyrlæge	sb	approved	
-dyslektiker	sb	rejected	death-illness-misfortune: disability/condition
 dyt	sb	rejected	odd-unclear: child language/sound
 dåse	sb	approved	
 dæk	sb	approved	
@@ -881,113 +619,64 @@ dørklokke	sb	approved
 dørplade	sb	rejected	odd-unclear: technical part
 dørtrin	sb	approved	
 dørtærskel	sb	approved	
-dørvogter	sb	rejected	weapons-violence: bouncer/security guard role (second review)
 eddike	sb	approved	
-efterkommer	sb	rejected	sensitive: origin (immigrant-descendant statistics term)
 efterret	sb	approved	
-eftersnakker	sb	rejected	negative: copycat
 ejendom	sb	approved	
-ejer	sb	approved	
 ejerbolig	sb	rejected	odd-unclear: legal housing form
-ejermand	sb	rejected	odd-unclear: old-fashioned, gendered
-eksaminand	sb	rejected	odd-unclear: jargon
-eksaminator	sb	rejected	odd-unclear: jargon
-eksempel	sb	rejected	odd-unclear: not a person
-eksistens	sb	rejected	odd-unclear: abstract
-ekspedition	sb	rejected	odd-unclear: abstract/ambiguous
-ekspert	sb	approved	
-eksportør	sb	approved	
-elektriker	sb	approved	
 elektronik	sb	rejected	odd-unclear: collective/abstract
 elektronrør	sb	rejected	odd-unclear: technical
 element	sb	rejected	odd-unclear: generic/ambiguous
-elev	sb	approved	
 elevator	sb	approved	
 elmotor	sb	rejected	odd-unclear: technical component
 embedsbolig	sb	rejected	odd-unclear: administrative jargon
-emne	sb	rejected	odd-unclear: mostly abstract (topic)
-eneforsørger	sb	rejected	sensitive: single-parent family status
-ener	sb	rejected	negative: loner
 energianlæg	sb	rejected	odd-unclear: technical
-enke	sb	rejected	death-illness-misfortune: widow
-enkeltperson	sb	rejected	odd-unclear: administrative
-entreprenør	sb	approved	
-entusiast	sb	approved	
 etage	sb	approved	
 etagebyggeri	sb	rejected	odd-unclear: technical/collective
-etiker	sb	rejected	odd-unclear: rare academic
 etui	sb	approved	
 fabrik	sb	approved	
 facade	sb	rejected	negative: also 'false front'
 fad	sb	rejected	odd-unclear: ambiguous with adjective 'fad' (bland)
-fader	sb	rejected	sensitive: gendered family/religious term
-faderbillede	sb	rejected	sensitive: psychological family term
 fag	sb	rejected	odd-unclear: abstract
-faglærer	sb	approved	
 fakkel	sb	rejected	odd-unclear: not everyday; fire, torch marches/protest connotation (second review)
 faldskærm	sb	rejected	negative: 'gyldne faldskærm' idiom; emergency connotation
-fan	sb	rejected	negative: homograph of Swedish curse 'fan' (devil), cf. Danish 'fanden' (second review)
-farao	sb	rejected	sensitive: royal/religious historical title
 farm	sb	approved	
-farmaceut	sb	approved	
-farmand	sb	rejected	sensitive: gendered family term
 farsret	sb	rejected	sensitive: reads as 'fars ret' (father's right/custody) in family-law cases (second review)
 fartmåler	sb	rejected	odd-unclear: technical instrument
 fartøj	sb	approved	
 fastfood	sb	rejected	negative: junk food connotation
-fastholder	sb	rejected	odd-unclear: unclear role
-fatalist	sb	rejected	negative: resigned outlook
 fedt	sb	rejected	body-appearance: body fat
 fedtstof	sb	rejected	body-appearance: fat/diet
 fejebakke	sb	approved	
-feltpræst	sb	rejected	sensitive: religious/military
-feminist	sb	rejected	sensitive: political
 ferieby	sb	approved	
-festdeltager	sb	approved	
 festtøj	sb	approved	
 fetaost	sb	approved	
 fiber	sb	rejected	odd-unclear: abstract/technical
 figen	sb	approved	
-figur	sb	rejected	body-appearance: body shape sense
 fil	sb	rejected	odd-unclear: ambiguous (tool / computer file)
-filantrop	sb	approved	
 filet	sb	approved	
-filmfotograf	sb	approved	
-filosof	sb	approved	
 filter	sb	approved	
-finder	sb	rejected	odd-unclear: odd as person name
 finger	sb	rejected	body-appearance: body part
-finmekaniker	sb	approved	
-finne	sb	rejected	sensitive: nationality (Finn); also pimple
 fisk	sb	rejected	negative: insulting person idioms 'kold fisk', 'underlig fisk', 'glat fisk' (second review)
 fiskefartøj	sb	approved	
 fiskekrog	sb	approved	
 fiskekød	sb	rejected	odd-unclear: unusual compound
 fiskenet	sb	approved	
-fisker	sb	approved	
 fiskerbåd	sb	approved	
 fiskestang	sb	approved	
 fiskesuppe	sb	approved	
 fjeder	sb	approved	
-fjerdemand	sb	rejected	odd-unclear: card-game jargon; gendered
 fjerkrækød	sb	rejected	odd-unclear: unusual compound
 fjernsyn	sb	approved	
-fjollerik	sb	rejected	negative: silly person
 flaske	sb	rejected	death-illness-misfortune: 'flasken' = drinking problem ('gå på flasken'); alcohol (second review)
 flip	sb	rejected	odd-unclear: collar tip; slang 'freak out'
 fly	sb	approved	
-flygtning	sb	rejected	sensitive: refugee status
-flyttemand	sb	rejected	sensitive: gendered (-mand) occupation term
 flyvemaskine	sb	approved	
 flyver	sb	approved	
 flåde	sb	rejected	weapons-violence: navy/fleet
 flådestation	sb	rejected	weapons-violence: naval base
 fløde	sb	approved	
 flødeskum	sb	approved	
-fløj	sb	rejected	sensitive: political wing
 foder	sb	approved	
-fodgænger	sb	approved	
-foged	sb	rejected	death-illness-misfortune: debt enforcement/eviction
 fokus	sb	rejected	odd-unclear: abstract
 fold	sb	rejected	odd-unclear: ambiguous/abstract
 foldekniv	sb	rejected	weapons-violence: knife
@@ -995,46 +684,20 @@ folkedragt	sb	rejected	sensitive: national/ethnic costume
 folkekøkken	sb	rejected	death-illness-misfortune: soup kitchen, poverty
 fond	sb	rejected	odd-unclear: abstract/financial
 for	sb	rejected	odd-unclear: reads as preposition
-forbillede	sb	rejected	odd-unclear: abstract role
-forbindelse	sb	rejected	odd-unclear: abstract
-forbruger	sb	approved	
 forbrænding	sb	rejected	death-illness-misfortune: burn injury / incineration
-forfader	sb	rejected	death-illness-misfortune: deceased ancestor
-forfatter	sb	approved	
-forgænger	sb	rejected	odd-unclear: relational word (predecessor), odd as a name
 forhal	sb	approved	
-forhandler	sb	rejected	weapons-violence: in crime/legal contexts reads as (drug) dealer (second review)
 forlag	sb	rejected	odd-unclear: institution, not a concrete everyday thing
-forligsmand	sb	rejected	odd-unclear: specialised official title
 forlygte	sb	rejected	body-appearance: 'forlygter' is slang for breasts (like English 'headlights') (second review)
-forlægger	sb	approved	
 form	sb	rejected	odd-unclear: abstract/ambiguous (shape, form, mould)
-formand	sb	approved	
-fornyer	sb	rejected	odd-unclear: rare as a standalone noun
 forretning	sb	rejected	body-appearance: toilet euphemism 'gøre sin (store/lille) forretning' (second review)
 forråd	sb	rejected	odd-unclear: abstract supply/stock
 forsager	sb	rejected	weapons-violence: firearm part
-forsker	sb	approved	
-forstander	sb	approved	
 forstykke	sb	rejected	odd-unclear: obscure garment part
-forsvarer	sb	rejected	weapons-violence: criminal defence counsel / military defence (second review)
-forsvarschef	sb	rejected	weapons-violence: military chief
 forsøgsanlæg	sb	rejected	odd-unclear: technical
-forsørger	sb	rejected	sensitive: family/economic status word (provider)
-fortaler	sb	rejected	odd-unclear: relational, needs 'for ...'
-fortolker	sb	rejected	odd-unclear: uncommon standalone
-fortsætter	sb	rejected	odd-unclear: very odd as a person noun
-fortæller	sb	approved	
-fotograf	sb	approved	
-fragtmand	sb	approved	
 fragtskib	sb	approved	
 frakke	sb	approved	
-fredsforsker	sb	rejected	odd-unclear: niche academic title tied to war/conflict studies (second review)
-fredsmægler	sb	rejected	negative: implies conflict/war; loaded in HR or dispute cases (second review)
 fremviser	sb	rejected	odd-unclear: dated device, ambiguous with person
 friskost	sb	approved	
-frisør	sb	approved	
-fritidshjem	sb	rejected	odd-unclear: child-care institution, not a thing
 fritidshus	sb	approved	
 frokost	sb	approved	
 fromage	sb	approved	
@@ -1043,156 +706,90 @@ frugtsaft	sb	approved
 frugttærte	sb	approved	
 frugtvin	sb	rejected	sensitive: alcoholic drink
 frysepose	sb	approved	
-fulderik	sb	rejected	negative: drunkard
-fund	sb	rejected	odd-unclear: a 'find', not a person word
 fundament	sb	approved	
-funktionær	sb	rejected	odd-unclear: HR/legal employment-status term (funktionærloven); dull-bureaucrat connotation (second review)
 fyld	sb	rejected	odd-unclear: substance; also 'filler/padding' (negative)
 fyr	sb	rejected	odd-unclear: ambiguous: lighthouse/furnace/pine/'guy'
-fyrste	sb	rejected	sensitive: royal/noble title
-fyrtårn	sb	rejected	odd-unclear: metaphorical for a person
-fysiker	sb	approved	
-fægter	sb	rejected	weapons-violence: sword fighting (second review)
 fænghætte	sb	rejected	weapons-violence: ammunition part
-fænomen	sb	rejected	odd-unclear: abstract, not a person word
 færdigret	sb	approved	
 færge	sb	approved	
-fætter	sb	rejected	sensitive: family relation, gendered
 føde	sb	rejected	odd-unclear: ambiguous with 'give birth'; feed
 fødeafdeling	sb	rejected	death-illness-misfortune: hospital ward
-fødselar	sb	approved	
 føler	sb	rejected	odd-unclear: technical sensor/insect feeler
-følger	sb	rejected	negative: commonly read as plural 'følger' = consequences/after-effects (senfølger) (second review)
-førskolebarn	sb	rejected	sensitive: age/child status
-gadehandler	sb	approved	
 gaffel	sb	approved	
-galleri	sb	approved	
-gamer	sb	approved	
 gang	sb	rejected	odd-unclear: abstract/ambiguous (time, walk, hallway)
 garage	sb	approved	
 garderobe	sb	approved	
 gardin	sb	approved	
 garn	sb	approved	
-gartner	sb	approved	
 gasbeholder	sb	rejected	odd-unclear: technical industrial container
 gaspedal	sb	approved	
-gastronom	sb	approved	
 gear	sb	approved	
 gearkasse	sb	approved	
 gearstang	sb	rejected	body-appearance: 'stang' vulgar slang for erection; gear-stick innuendo (second review)
 geigertæller	sb	rejected	odd-unclear: technical radiation instrument
-genbo	sb	approved	
 genbrugstøj	sb	rejected	sensitive: second-hand clothes, poverty connotation
-general	sb	rejected	weapons-violence: military rank
 generator	sb	approved	
-genforsker	sb	rejected	odd-unclear: niche; genetics/heredity touches on illness (second review)
-genganger	sb	rejected	death-illness-misfortune: ghost/revenant
-geni	sb	rejected	negative: very often sarcastic ('dit geni'); intelligence label (second review)
-gentleman	sb	rejected	sensitive: gendered
-geolog	sb	approved	
 gevindskærer	sb	rejected	odd-unclear: technical tool
 gevær	sb	rejected	weapons-violence: rifle
-giftefoged	sb	rejected	odd-unclear: archaic official title
 gigbag	sb	rejected	odd-unclear: jargon loanword
-giver	sb	rejected	odd-unclear: rare as a standalone noun; reads as verb 'giver' (gives) (second review)
-glaciolog	sb	rejected	odd-unclear: very rare profession
-glarmester	sb	approved	
 glas	sb	approved	
 glasbygning	sb	approved	
-globetrotter	sb	approved	
-golfspiller	sb	approved	
-goliat	sb	rejected	body-appearance: refers to body size; biblical
 gong	sb	rejected	odd-unclear: not an everyday object (second review)
-gourmet	sb	approved	
-grafiker	sb	approved	
 granat	sb	rejected	weapons-violence: grenade
 gratin	sb	approved	
-gratist	sb	rejected	negative: freeloader
-gratulant	sb	approved	
-greve	sb	rejected	sensitive: noble title
 grill	sb	rejected	weapons-violence: slang 'få én i grillen' = punch in the face; 'grille' = interrogate (second review)
-grinebider	sb	approved	
-grundejer	sb	approved	
 gryde	sb	approved	
 grydelap	sb	approved	
 gryn	sb	rejected	negative: idiom 'ikke meget gryn i hovedet' = dim-witted; vague as standalone (second review)
-græsenke	sb	rejected	sensitive: marital status, contains 'enke', gendered
 græskar	sb	approved	
 grød	sb	rejected	negative: figuratively a mush/mess ('grød i munden'); lexicon sentiment -1 (second review)
 grødris	sb	approved	
 grønsag	sb	rejected	death-illness-misfortune: used of a person in a vegetative state (second review)
 grønt	sb	rejected	odd-unclear: reads as adjective, mass noun
-grønthandler	sb	approved	
-guide	sb	approved	
 guitar	sb	approved	
-guitarist	sb	approved	
-gulddreng	sb	rejected	sensitive: gendered/age ('boy')
-guldsmed	sb	approved	
 gulerod	sb	approved	
 gulv	sb	approved	
 gummibåd	sb	rejected	sensitive: strongly associated with migrant boat crossings/drownings (second review)
 gummisko	sb	approved	
 gummistøvle	sb	approved	
-guvernør	sb	rejected	sensitive: political/colonial title
-gymnast	sb	approved	
 gymnastiksal	sb	approved	
 gård	sb	approved	
-gås	sb	rejected	negative: insult for a silly woman ('dumme gås') (second review)
-gæst	sb	approved	
 habit	sb	approved	
 hakkekød	sb	rejected	weapons-violence: idiom 'lave hakkekød af nogen' = beat to a pulp (second review)
 hal	sb	approved	
 hale	sb	rejected	body-appearance: body part (tail, also slang for backside)
-halinspektør	sb	approved	
 hals	sb	rejected	body-appearance: body part
 halstørklæde	sb	approved	
 halvtag	sb	approved	
 hammer	sb	rejected	weapons-violence: frequent assault weapon; 'komme under hammeren' = forced sale (second review)
-handlende	sb	rejected	odd-unclear: participle noun, odd
 handske	sb	approved	
 harddisk	sb	approved	
 hardware	sb	rejected	odd-unclear: abstract mass noun, jargon
 harmonika	sb	approved	
 hat	sb	approved	
 havemøbel	sb	approved	
-havforsker	sb	approved	
 havn	sb	approved	
-havnefoged	sb	rejected	sensitive: 'foged' evokes fogedret (debt enforcement, eviction) (second review)
 havregryn	sb	approved	
-headhunter	sb	rejected	weapons-violence: literal sense is head-hunting; jargon
 headset	sb	approved	
 hedvin	sb	rejected	sensitive: alcoholic drink
 helikopter	sb	approved	
 helsekost	sb	rejected	odd-unclear: category/mass noun, health-related
-helt	sb	rejected	odd-unclear: homograph of very common adverb 'helt' (completely); often ironic (second review)
 heroin	sb	rejected	death-illness-misfortune: hard drug, addiction
-herre	sb	rejected	sensitive: gendered, master/servant connotation
-herremand	sb	rejected	sensitive: class/gendered title
-hertug	sb	rejected	sensitive: noble title
 hestevogn	sb	approved	
 himmel	sb	rejected	sensitive: religious 'heaven' sense; sky not a thing
-historiker	sb	approved	
 hjem	sb	rejected	sensitive: home; risky in social/case contexts ('cold home')
 hjemmedragt	sb	rejected	odd-unclear: uncommon word
 hjemmesko	sb	approved	
-hjerne	sb	rejected	body-appearance: body part (brain)
-hjerteknuser	sb	rejected	body-appearance: romantic/sexual connotation
 hjul	sb	approved	
 hjulophæng	sb	rejected	odd-unclear: technical car part
-hjælp	sb	rejected	odd-unclear: 'help' as a person is dated/odd
-hjælper	sb	approved	
 hobbyrum	sb	approved	
-hofdame	sb	rejected	sensitive: royal court, gendered
 holder	sb	rejected	odd-unclear: vague generic word
 honning	sb	approved	
 horn	sb	rejected	negative: 'sætte horn i panden på' = cuckold; devil's horns (second review)
-hortonom	sb	rejected	odd-unclear: technical title
 hospital	sb	rejected	death-illness-misfortune: illness/hospital
 hotdog	sb	rejected	body-appearance: sausage innuendo (cf. pølse) (second review)
 hotel	sb	approved	
-hoved	sb	rejected	body-appearance: body part (head)
 hovedkontor	sb	approved	
-hovedperson	sb	approved	
 hovedsæde	sb	approved	
 hue	sb	approved	
 hugvåben	sb	rejected	weapons-violence: weapon
@@ -1200,11 +797,7 @@ hukommelse	sb	rejected	odd-unclear: abstract (memory)
 hule	sb	rejected	negative: den-of-vice compounds (røverhule, narkohule, spillehule); adjective 'hule' = hollow (second review)
 humle	sb	rejected	death-illness-misfortune: known chiefly as beer ingredient (alcohol) (second review)
 hummer	sb	rejected	weapons-violence: slang 'hummeren' = jail (second review)
-humørspreder	sb	approved	
-hun	sb	rejected	sensitive: pronoun 'she'/female, gender
-hus	sb	approved	
 husmandskost	sb	rejected	odd-unclear: cuisine category, not a thing
-husmor	sb	rejected	sensitive: gender role (housewife)
 hvede	sb	approved	
 hverdagsmad	sb	rejected	odd-unclear: category, not a thing
 hvidløg	sb	approved	
@@ -1212,17 +805,13 @@ hvidvin	sb	rejected	sensitive: alcoholic drink
 hvælving	sb	rejected	odd-unclear: architectural term, not everyday
 hydrometer	sb	rejected	odd-unclear: technical instrument
 hylde	sb	rejected	negative: idiom 'lagt på hylden' = shelved/abandoned (reads as a shelved case); 'blive på hylden' = left unmarried (second review)
-hyrde	sb	rejected	sensitive: strong biblical/religious connotation ('den gode hyrde'); rare occupation today (second review)
 hytte	sb	approved	
 håndgranat	sb	rejected	weapons-violence: hand grenade
 håndklæde	sb	rejected	body-appearance: bathroom/hygiene item; idiom 'kaste håndklædet i ringen' = give up (second review)
 håndled	sb	rejected	body-appearance: body part
-håndværker	sb	approved	
 hårtørrer	sb	rejected	body-appearance: personal hair-care/grooming item (second review)
-hædersmand	sb	rejected	sensitive: gendered, old-fashioned
 hæfte	sb	rejected	odd-unclear: ambiguous with 'hæfte' (detention/liability)
 hæl	sb	rejected	body-appearance: body part
-hærfører	sb	rejected	weapons-violence: military commander
 hætte	sb	approved	
 hæveautomat	sb	approved	
 hævemiddel	sb	rejected	odd-unclear: abstract substance category
@@ -1233,54 +822,33 @@ højtaler	sb	approved
 høreapparat	sb	rejected	death-illness-misfortune: disability aid
 høst	sb	rejected	odd-unclear: event/abstract
 høvl	sb	approved	
-idrætsleder	sb	approved	
 idrætspark	sb	approved	
-ikkeryger	sb	rejected	death-illness-misfortune: health/life-status label
-illusionist	sb	approved	
 iltapparat	sb	rejected	death-illness-misfortune: medical/breathing aid
-indbygger	sb	rejected	odd-unclear: relational, odd standalone
-indehaver	sb	rejected	odd-unclear: relational, needs an object
-individ	sb	rejected	odd-unclear: abstract, can sound dehumanising
 indkøbsvogn	sb	approved	
 indlægssål	sb	rejected	body-appearance: foot/hygiene item
 indmad	sb	rejected	body-appearance: innards/offal
 indpakning	sb	rejected	odd-unclear: process/abstract noun
-indpisker	sb	rejected	sensitive: political whip, harsh connotation
 indstilling	sb	rejected	odd-unclear: abstract (setting/nomination)
 indtag	sb	rejected	odd-unclear: abstract (intake)
-indvandrer	sb	rejected	sensitive: origin/immigration status
 infirmeri	sb	rejected	death-illness-misfortune: sick bay
-informatør	sb	rejected	negative: informant (snitch) sense
-ingeniør	sb	approved	
 ingrediens	sb	rejected	odd-unclear: too generic
 installation	sb	rejected	odd-unclear: abstract/technical
-instruktør	sb	approved	
 instrument	sb	approved	
-investor	sb	rejected	sensitive: wealth/class status label (cf. aktionær) (second review)
 isbryder	sb	approved	
 isdessert	sb	approved	
 isterning	sb	approved	
 jagt	sb	rejected	weapons-violence: hunting/killing (also yacht)
 jakke	sb	approved	
 jakkesæt	sb	approved	
-jakobiner	sb	rejected	sensitive: political/historical
-janitshar	sb	rejected	odd-unclear: archaic/rare
-jazzmusiker	sb	approved	
-jeg	sb	rejected	odd-unclear: pronoun/abstract self
 jordnød	sb	approved	
-journalist	sb	approved	
 joystick	sb	rejected	body-appearance: well-known sexual innuendo; English tech term (second review)
-jubilar	sb	approved	
 juice	sb	approved	
 junge	sb	rejected	odd-unclear: dialect/archaic
-jurist	sb	approved	
 justering	sb	rejected	odd-unclear: abstract (adjustment)
 kabel	sb	approved	
 kabine	sb	approved	
-kabinet	sb	rejected	odd-unclear: ambiguous (government cabinet/room/case)
 kaffe	sb	approved	
 kaffebønne	sb	approved	
-kaffedrikker	sb	approved	
 kaffekande	sb	approved	
 kage	sb	approved	
 kagerulle	sb	rejected	weapons-violence: comic trope of the wife hitting the husband with the rolling pin (second review)
@@ -1293,68 +861,44 @@ kalvekød	sb	rejected	odd-unclear: raw-meat mass noun (flesh/slaughter), odd as 
 kam	sb	rejected	body-appearance: personal grooming item (comb, lice comb); ambiguous (crest, pork loin) (second review)
 kamera	sb	approved	
 kamin	sb	approved	
-kammer	sb	rejected	odd-unclear: ambiguous, ominous (chamber, body chamber, parliament)
 kampvogn	sb	rejected	weapons-violence: tank
 kanal	sb	approved	
 kande	sb	approved	
-kandidat	sb	rejected	sensitive: political/election candidate; also HR applicant status, confusable with real case status (second review)
 kane	sb	approved	
 kano	sb	approved	
-kanon	sb	rejected	weapons-violence: cannon
-kapelmester	sb	rejected	odd-unclear: old-fashioned title; 'kapel' evokes (funeral) chapel (second review)
 kappe	sb	approved	
 kapsel	sb	rejected	death-illness-misfortune: medicine/pill capsule; also beer bottle cap (second review)
-kaptajn	sb	rejected	weapons-violence: also a military rank (second review)
 kar	sb	rejected	odd-unclear: ambiguous (tub/blood vessel)
-karakter	sb	rejected	odd-unclear: abstract (grade/character)
 karet	sb	approved	
-karl	sb	rejected	sensitive: gendered/class (farmhand)
 karosseri	sb	rejected	body-appearance: slang for a (woman's) body; vehicle part (second review)
 kartoffel	sb	rejected	sensitive: well-known slang term for ethnic Danes (ethnicity) (second review)
 kasino	sb	rejected	death-illness-misfortune: gambling, addiction connotation
 kasse	sb	approved	
 kasseapparat	sb	approved	
-kasserer	sb	approved	
 kassette	sb	approved	
 kateder	sb	approved	
 katedral	sb	rejected	sensitive: religious building
-kautionist	sb	rejected	odd-unclear: legal/financial jargon
-kavaler	sb	rejected	sensitive: gendered/romantic
 kedel	sb	approved	
-kejser	sb	rejected	sensitive: royal title
-kemiingeniør	sb	approved	
-kemiker	sb	approved	
-kender	sb	rejected	odd-unclear: unclear standalone ('connoisseur'/verb 'knows')
 ketchup	sb	approved	
 keyboard	sb	approved	
 kikkert	sb	approved	
 kiks	sb	rejected	negative: also means a blunder/miss
-kilde	sb	rejected	odd-unclear: 'source' as a person, odd
 kiosk	sb	approved	
-kirke	sb	rejected	sensitive: religion
 kirkekontor	sb	rejected	sensitive: religion
 kiste	sb	rejected	death-illness-misfortune: coffin
 kjole	sb	approved	
 klangbund	sb	rejected	odd-unclear: technical/abstract
-klasse	sb	rejected	odd-unclear: abstract group; class connotation
-klasselærer	sb	approved	
-klassiker	sb	rejected	odd-unclear: 'a classic' as a person, odd
 klaver	sb	approved	
 klaverbænk	sb	approved	
 klemme	sb	rejected	negative: 'i klemme' = in a tight spot
-kleppert	sb	rejected	negative: nag/worn-out horse, derogatory
-klient	sb	rejected	sensitive: social-services client status
-klimaforsker	sb	approved	
 klinge	sb	rejected	weapons-violence: blade
 klinik	sb	rejected	death-illness-misfortune: medical clinic
-klippe	sb	rejected	odd-unclear: metaphorical 'rock' for a person
 klo	sb	rejected	body-appearance: claw, body part
 klokke	sb	approved	
 kloster	sb	rejected	sensitive: religion
 klostercelle	sb	rejected	sensitive: religion, also 'cell'
 klub	sb	approved	
 klump	sb	rejected	negative: lump; tumour/'lump in the throat' connotation
-klunser	sb	rejected	negative: scavenger/rag-picker, poverty
 klæde	sb	rejected	odd-unclear: old-fashioned/ambiguous (cloth, clothes, verb 'to dress') (second review)
 klædedragt	sb	rejected	odd-unclear: formal/abstract
 klæder	sb	rejected	odd-unclear: plural form, odd in identifier
@@ -1367,113 +911,68 @@ koben	sb	rejected	weapons-violence: crowbar, burglary tool
 kobling	sb	rejected	odd-unclear: vehicle part (clutch) / abstract 'link' (second review)
 kofanger	sb	rejected	odd-unclear: vehicle part rather than standalone thing; collision connotation (second review)
 kogegrej	sb	rejected	odd-unclear: informal collective term, not a single thing (second review)
-kok	sb	approved	
-kollega	sb	approved	
 kollegie	sb	approved	
-kollektør	sb	rejected	odd-unclear: rare jargon (lottery agent)
-komet	sb	rejected	odd-unclear: metaphorical for a person
 komfur	sb	approved	
-komiker	sb	rejected	negative: used ironically ('din komiker') for someone not taken seriously (second review)
 kommode	sb	approved	
 kompas	sb	approved	
 komponent	sb	rejected	odd-unclear: abstract/technical
-komponist	sb	approved	
 kompot	sb	approved	
-konduktør	sb	approved	
-kone	sb	rejected	sensitive: gendered marital status (wife)
 konfekt	sb	approved	
-konferencier	sb	rejected	odd-unclear: French spelling, hard to spell, not everyday (second review)
 konfiture	sb	approved	
-konge	sb	rejected	sensitive: royal title
-konservator	sb	rejected	odd-unclear: jargon; also taxidermist
-konsulent	sb	approved	
 konsumfisk	sb	rejected	odd-unclear: technical
-kontakt	sb	rejected	odd-unclear: 'contact' as a person, odd/ambiguous
 kontor	sb	approved	
-kontorist	sb	approved	
-kontrollant	sb	rejected	negative: control/enforcement role (fines, benefit-fraud control) (second review)
-kontrollør	sb	rejected	negative: ticket inspector handing out fines; control/enforcement connotation (second review)
 kontrolpanel	sb	approved	
 konvoj	sb	rejected	weapons-violence: military convoy connotation
 konvolut	sb	approved	
 kop	sb	approved	
 kopimaskine	sb	approved	
-kor	sb	approved	
 korn	sb	approved	
 kornprodukt	sb	rejected	odd-unclear: technical category
 kornsort	sb	rejected	odd-unclear: technical category
-korridor	sb	approved	
-korsanger	sb	approved	
 korset	sb	rejected	body-appearance: lingerie/body-shaping garment
-kortspiller	sb	rejected	death-illness-misfortune: gambling association (poker) (second review)
-kosmetolog	sb	approved	
 kost	sb	rejected	odd-unclear: ambiguous (broom/diet)
-kostforagter	sb	rejected	odd-unclear: idiom-only word
 kostume	sb	approved	
 kotelet	sb	rejected	sensitive: usually pork (religious dietary, cf. bacon); slang 'koteletter' = sideburns (second review)
 kran	sb	approved	
 kravlegård	sb	rejected	negative: infantilising; figurative for being confined/kept in check (second review)
-krebs	sb	rejected	sensitive: zodiac sign; 'Krebs' = cancer in German
 kredsløb	sb	rejected	odd-unclear: abstract/medical
-krigsfange	sb	rejected	weapons-violence: prisoner of war
-krigshelt	sb	rejected	weapons-violence: war
 krigsskib	sb	rejected	weapons-violence: warship
-kriminolog	sb	rejected	weapons-violence: crime association (second review)
 kro	sb	approved	
 krog	sb	rejected	negative: idioms 'på krogen'/'bide på krogen' (caught, tricked); boxing hook (second review)
-krukke	sb	rejected	negative: common insult for a vain/affected person (second review)
 krus	sb	approved	
 krydderi	sb	approved	
 krydderurt	sb	approved	
 krykke	sb	rejected	death-illness-misfortune: disability aid
 krystalglas	sb	approved	
-kræs	sb	rejected	odd-unclear: food word, odd for a person
 krøllejern	sb	rejected	body-appearance: hair-styling/beauty tool, gender-coded (second review)
 kuffert	sb	approved	
 kuglepen	sb	approved	
 kukkasse	sb	rejected	odd-unclear: dated slang
 kulisse	sb	rejected	odd-unclear: theatre jargon; figurative 'just a façade' (second review)
 kumme	sb	rejected	body-appearance: toilet bowl sense
-kunde	sb	approved	
-kunstkender	sb	approved	
-kunstmaler	sb	approved	
-kunstner	sb	approved	
 kuppel	sb	approved	
 kursted	sb	rejected	death-illness-misfortune: health resort/treatment
 kurv	sb	rejected	negative: idiom 'få en kurv' = be rejected (second review)
-kusine	sb	rejected	sensitive: family relation, gendered
-kusk	sb	rejected	odd-unclear: archaic occupation (coachman) (second review)
 kuvert	sb	approved	
-kvinde	sb	rejected	sensitive: gender
 kvægfarm	sb	rejected	odd-unclear: uncommon compound; 'kvæg' used dehumanisingly of people (second review)
 kværn	sb	rejected	negative: 'systemets kværn' = being ground down by bureaucracy (second review)
-kylling	sb	rejected	negative: 'kylling' = coward; human sense rated -1 (second review)
 kål	sb	rejected	negative: idiom 'gøre kål på' = destroy/finish off; 'kålhoved' insult (second review)
 kælder	sb	rejected	negative: 'ligge i kælderen' = at the bottom; dark/damp connotation (second review)
 kælderetage	sb	rejected	odd-unclear: formal building term; gloomy basement connotation (second review)
 kælderrum	sb	rejected	odd-unclear: building part; gloomy basement connotation (second review)
-kæledægge	sb	rejected	negative: teacher's pet, mocking
 kælk	sb	approved	
-kæmpe	sb	rejected	body-appearance: giant, refers to body size
 kæp	sb	rejected	weapons-violence: stick, beating/weapon sense
-kærlighed	sb	rejected	odd-unclear: abstract emotion
-køber	sb	approved	
-købmand	sb	approved	
 kød	sb	rejected	body-appearance: flesh/meat
 køkken	sb	approved	
-køkkenleder	sb	approved	
 køkkenregion	sb	rejected	odd-unclear: odd compound
 køler	sb	approved	
 kølergitter	sb	rejected	odd-unclear: technical car part
 køleskab	sb	approved	
 køletaske	sb	approved	
 kølle	sb	rejected	weapons-violence: club
-kønsforsker	sb	rejected	sensitive: gender/sex
 køreledning	sb	rejected	odd-unclear: technical
-kører	sb	rejected	odd-unclear: reads as the verb 'kører' (drives); noun rare outside compounds (second review)
 kørestol	sb	rejected	death-illness-misfortune: disability aid
 køretøj	sb	rejected	odd-unclear: formal generic term (police/legal register) (second review)
-laborant	sb	approved	
 laboratorie	sb	approved	
 lad	sb	rejected	odd-unclear: ambiguous with verb 'let', truck-bed jargon
 lade	sb	approved	
@@ -1485,43 +984,26 @@ laks	sb	approved
 lam	sb	rejected	death-illness-misfortune: homograph of 'lam' = paralysed; religious 'Guds lam'/'offerlam' (second review)
 lammekød	sb	rejected	odd-unclear: raw-meat mass noun (flesh/slaughter), odd as identifier (second review)
 lampe	sb	approved	
-landarbejder	sb	rejected	sensitive: class label (labourer), cf. arbejder (second review)
 landbrug	sb	rejected	odd-unclear: mainly abstract (the agricultural sector); politically charged (second review)
 landejendom	sb	rejected	odd-unclear: formal property/legal term (second review)
-landmand	sb	approved	
-landsbybo	sb	rejected	sensitive: residence/origin label, can read as provincial
 lap	sb	rejected	sensitive: also dated/derogatory term for Sami people
 laptop	sb	approved	
 laser	sb	approved	
 last	sb	rejected	negative: also means vice/moral failing
 lastbil	sb	approved	
-leder	sb	approved	
-ledsager	sb	rejected	death-illness-misfortune: disability-service role (ledsageordning); escort connotation (second review)
-legebarn	sb	rejected	negative: calls an adult a child; can read as childish
-legekammerat	sb	rejected	negative: childish for an adult; adult sexual-partner connotation (second review)
 lejebolig	sb	rejected	odd-unclear: legal/economic housing form, confusable with the client's actual housing (cf. andelsbolig) (second review)
-lejer	sb	rejected	sensitive: housing/economic status label
-lejesoldat	sb	rejected	weapons-violence: mercenary
 lejlighed	sb	approved	
-lejr	sb	rejected	weapons-violence: also prison/refugee/concentration camp
 lever	sb	rejected	body-appearance: liver, body organ
 levning	sb	rejected	negative: leftover/remains; also human remains
 lift	sb	rejected	death-illness-misfortune: patient hoist in care settings; cosmetic facelift (second review)
-lige	sb	rejected	odd-unclear: an equal; does not read as a person name
 lighter	sb	approved	
 lighus	sb	rejected	death-illness-misfortune: morgue
 ligkiste	sb	rejected	death-illness-misfortune: coffin
-likvidator	sb	rejected	death-illness-misfortune: bankruptcy liquidator; evokes liquidating/killing
 likør	sb	rejected	sensitive: alcoholic drink
 lineal	sb	approved	
-lingvist	sb	approved	
 linse	sb	approved	
-litterat	sb	approved	
 liv	sb	rejected	odd-unclear: abstract (life); also waist
 livret	sb	approved	
-livsnyder	sb	rejected	negative: hedonist label, can imply indulgence/laziness; alcohol/tobacco topic (second review)
-livvagt	sb	rejected	weapons-violence: bodyguard; security/violence context
-lobby	sb	rejected	sensitive: political lobby sense; otherwise vague
 loddekolbe	sb	rejected	odd-unclear: specialist tool (second review)
 loft	sb	rejected	sensitive: 'loftet' = benefit cap (kontanthjælpsloft) in social services; 'gå op i loftet' = lose temper (second review)
 lokale	sb	rejected	odd-unclear: reads as the adjective 'lokale' (local) (second review)
@@ -1539,106 +1021,56 @@ lut	sb	rejected	odd-unclear: rare (lute), easily confused with lye
 lyddæmper	sb	rejected	weapons-violence: gun silencer
 lydsystem	sb	approved	
 lygte	sb	approved	
-lykkeridder	sb	rejected	negative: fortune hunter/adventurer, unflattering
-lynafleder	sb	rejected	negative: as Person: one who absorbs blame/anger
-lyriker	sb	approved	
-lys	sb	rejected	odd-unclear: as Person not clearly a person; 'ikke et lys' irony
 lysmåler	sb	rejected	odd-unclear: technical photo instrument
 lystbåd	sb	approved	
-långiver	sb	rejected	odd-unclear: financial/legal role, not natural for a name
-låntager	sb	rejected	death-illness-misfortune: debtor/borrower status
 lår	sb	rejected	body-appearance: thigh
 lårstykke	sb	rejected	body-appearance: thigh cut; body-part word
 lås	sb	rejected	weapons-violence: idiom 'bag lås og slå' (prison); confusable with a locked-case status (second review)
-lægdommer	sb	rejected	odd-unclear: legal role tied to criminal trials
-lægesekretær	sb	rejected	death-illness-misfortune: medical/illness setting (second review)
 lænestol	sb	approved	
 længe	sb	rejected	odd-unclear: ambiguous; usually adverb 'long time'
-lærer	sb	approved	
-lærerinde	sb	rejected	sensitive: dated gender-marked form
-læseforsker	sb	rejected	odd-unclear: rare specialist title
-læser	sb	rejected	odd-unclear: as Case the device sense is unclear
 læsesal	sb	approved	
 læskedrik	sb	approved	
 løb	sb	rejected	weapons-violence: also gun barrel; otherwise abstract (run)
-løber	sb	rejected	weapons-violence: gang slang for drug runner; also verb form 'løber' (second review)
 løbesko	sb	approved	
 løftestang	sb	approved	
 løg	sb	approved	
-lønmodtager	sb	rejected	odd-unclear: administrative/economic category term
-løve	sb	rejected	odd-unclear: animal, not a person word; also zodiac sign
-machotype	sb	rejected	negative: macho type, unflattering and gendered
 mad	sb	rejected	odd-unclear: generic mass noun; English homograph 'mad' (insane) (second review)
 madkurv	sb	approved	
 madpakke	sb	approved	
 madpandekage	sb	approved	
 madrest	sb	rejected	negative: food scraps/waste
 magasin	sb	rejected	weapons-violence: also gun magazine
-mage	sb	rejected	odd-unclear: animal mate / archaic 'equal'
-majestæt	sb	rejected	sensitive: royal title
-maler	sb	approved	
 malergrej	sb	rejected	odd-unclear: colloquial collective 'painting stuff'
-mand	sb	rejected	sensitive: gender-specific; also 'husband'
 manometer	sb	rejected	odd-unclear: technical gauge
 marcipan	sb	approved	
 marengs	sb	approved	
-markis	sb	rejected	sensitive: noble title
 marmelade	sb	approved	
-marskal	sb	rejected	weapons-violence: military rank
 maske	sb	rejected	negative: disguise/robbery mask; 'tabe masken'
 maskine	sb	approved	
-massør	sb	rejected	body-appearance: massage; possible sexual connotation
 mast	sb	approved	
-matador	sb	rejected	weapons-violence: bullfighter
-matematiker	sb	approved	
-matros	sb	approved	
-mavedanser	sb	rejected	body-appearance: belly dancer; body-focused
 medalje	sb	approved	
-medarbejder	sb	approved	
-medborger	sb	rejected	sensitive: citizenship status
 medborgerhus	sb	approved	
-medhjælper	sb	approved	
-medie	sb	rejected	odd-unclear: abstract (media); also spiritual medium
-medlem	sb	approved	
-medmenneske	sb	rejected	odd-unclear: generic 'fellow human'
-medsøster	sb	rejected	sensitive: gendered; religious/sisterhood connotation
 mejeri	sb	approved	
 mejsel	sb	approved	
 mekanik	sb	rejected	odd-unclear: abstract (mechanics)
-mekaniker	sb	approved	
 mekanisme	sb	rejected	odd-unclear: abstract
 mel	sb	approved	
-mellemleder	sb	rejected	negative: often used mockingly; hierarchical
 mellemmåltid	sb	approved	
 melon	sb	rejected	body-appearance: slang for breasts/head (second review)
 membran	sb	rejected	odd-unclear: technical/biological
 menighedshus	sb	rejected	sensitive: religious building
-menigmand	sb	rejected	sensitive: 'common man', class label
-meningsfælle	sb	rejected	sensitive: political/opinion ally
-menneske	sb	rejected	odd-unclear: too generic
-menneskedyr	sb	rejected	odd-unclear: philosophical, odd
-menneskehed	sb	rejected	odd-unclear: humanity, not a person
 menu	sb	approved	
-mester	sb	approved	
-meteorolog	sb	approved	
 metro	sb	approved	
 middag	sb	approved	
 middagsbord	sb	approved	
 middagsmad	sb	approved	
 mikrofon	sb	approved	
 mikroskop	sb	approved	
-militærlæge	sb	rejected	weapons-violence: military
-millionær	sb	rejected	sensitive: wealth/class label
 mindesmærke	sb	rejected	death-illness-misfortune: memorial; death association
 mine	sb	rejected	weapons-violence: landmine
-minearbejder	sb	rejected	sensitive: class label (worker); mining-accident connotation (second review)
-mineralog	sb	rejected	odd-unclear: rare specialist occupation (second review)
 minutur	sb	approved	
 mobiltelefon	sb	approved	
-model	sb	rejected	body-appearance: fashion model; appearance
-moder	sb	rejected	sensitive: family status/gender; formal
 modetøj	sb	rejected	odd-unclear: collective term; appearance/fashion focus (second review)
-modtager	sb	rejected	sensitive: recipient, e.g. of benefits
 mokka	sb	approved	
 mole	sb	approved	
 montre	sb	rejected	odd-unclear: uncommon French-derived word (display case) (second review)
@@ -1646,118 +1078,69 @@ morgenbrød	sb	approved
 morgenmad	sb	approved	
 mos	sb	approved	
 most	sb	rejected	odd-unclear: uncommon on its own; reads as English 'most'
-motionist	sb	approved	
 motor	sb	approved	
 motorcykel	sb	approved	
-motorcyklist	sb	approved	
 motorskib	sb	approved	
 mousse	sb	approved	
-mur	sb	approved	
-murer	sb	approved	
 mus	sb	rejected	body-appearance: vulgar slang for female genitals
 museum	sb	approved	
-musikchef	sb	approved	
-musikelsker	sb	approved	
-musiker	sb	approved	
-musikforsker	sb	approved	
 musikhus	sb	approved	
 muskat	sb	approved	
-muskelmand	sb	rejected	body-appearance: body/appearance
 musling	sb	rejected	body-appearance: slang for female genitals; 'lukke sig som en musling' (second review)
-myndling	sb	rejected	death-illness-misfortune: legal ward; incapacity status
 målebånd	sb	approved	
 målebæger	sb	approved	
 måler	sb	approved	
-målmand	sb	approved	
-målvogter	sb	approved	
-mægler	sb	approved	
 mælk	sb	approved	
 mælkeprodukt	sb	rejected	odd-unclear: category term, not a concrete thing
 møbel	sb	approved	
-møbelsnedker	sb	approved	
-mødeleder	sb	approved	
-møller	sb	rejected	odd-unclear: reads as the common surname Møller
-møntsamler	sb	approved	
 mørkekammer	sb	rejected	odd-unclear: dated specialist room; 'dark chamber' ring (second review)
-nabo	sb	approved	
 nabohus	sb	approved	
 nationalbank	sb	rejected	odd-unclear: institution, not an everyday thing
 natklub	sb	rejected	sensitive: nightlife/alcohol connotations
 nattøj	sb	rejected	body-appearance: nightwear/bedroom; collective (second review)
-naturforsker	sb	approved	
 navigator	sb	rejected	odd-unclear: usually a person; device sense technical
-navn	sb	rejected	odd-unclear: not a person word
-navnefælle	sb	rejected	odd-unclear: namesake; odd as identifier
 nederdel	sb	approved	
 negleklipper	sb	rejected	body-appearance: hygiene item
 net	sb	rejected	odd-unclear: ambiguous (net/internet/adjective 'net' = neat) (second review)
 netbank	sb	rejected	odd-unclear: online service, not a concrete thing
-netværk	sb	rejected	odd-unclear: abstract
-nevø	sb	rejected	sensitive: family-relation word
-nipsgenstand	sb	rejected	negative: objectifying ('trophy') for a person
 nummerplade	sb	rejected	odd-unclear: vehicle part; confusable with an actual identifier (second review)
 nyre	sb	rejected	body-appearance: kidney, body organ
 nål	sb	rejected	death-illness-misfortune: also medical/drug needle
 nød	sb	rejected	death-illness-misfortune: also distress/need
 nøgle	sb	approved	
-objekt	sb	rejected	negative: objectifying for a person
-officer	sb	rejected	weapons-violence: military
-okkultist	sb	rejected	sensitive: occult/religion
 okse	sb	rejected	negative: insult for a big clumsy/dumb person; castrated bull (second review)
 oksekød	sb	rejected	odd-unclear: raw-meat mass noun (flesh/slaughter); beef religious sensitivity (second review)
-oldebarn	sb	rejected	sensitive: family/age word
 olie	sb	approved	
 olieanlæg	sb	rejected	odd-unclear: industrial installation
 olietanker	sb	approved	
 omformer	sb	rejected	odd-unclear: technical
 omgang	sb	rejected	negative: also a beating/scolding; sexual 'omgang'
-onkel	sb	rejected	sensitive: family-relation word
-opdrætter	sb	rejected	odd-unclear: animal-breeding term, odd as a person label (second review)
 opera	sb	approved	
-operatør	sb	approved	
-ophavsmand	sb	rejected	odd-unclear: formal; often 'originator of' something bad
 oplader	sb	approved	
 oplukker	sb	approved	
 optik	sb	rejected	odd-unclear: abstract field
-optiker	sb	approved	
-optimist	sb	approved	
 opvaskebalje	sb	approved	
-ordkunstner	sb	approved	
-organisator	sb	approved	
 orgel	sb	approved	
 orgelpibe	sb	rejected	odd-unclear: instrument part, not a standalone everyday thing (second review)
 ost	sb	approved	
-outsider	sb	rejected	negative: outsider, exclusion
 overall	sb	approved	
-overhoved	sb	rejected	odd-unclear: formal/odd
-overlever	sb	rejected	death-illness-misfortune: survivor of trauma/disaster
-overmand	sb	rejected	negative: superior who defeats you
-overmenneske	sb	rejected	sensitive: Übermensch, ideological
-overspiser	sb	rejected	negative: overeater
-oversætter	sb	approved	
-overtjener	sb	approved	
 overtrækstøj	sb	rejected	odd-unclear: uncommon collective term (second review)
 overtøj	sb	approved	
 ovn	sb	approved	
 ovnret	sb	approved	
 pakke	sb	rejected	negative: slang 'få pakke' = get beaten up/thrashed (second review)
-pakkepost	sb	rejected	odd-unclear: not a person word
 pande	sb	rejected	body-appearance: also forehead
 pandekage	sb	approved	
-panel	sb	approved	
 papirfabrik	sb	approved	
 parabol	sb	rejected	sensitive: symbol in ghetto/immigration debate ('parabolby'); ethnicity (second review)
 paraply	sb	approved	
 parfumeri	sb	approved	
-part	sb	rejected	odd-unclear: legal 'party', not a natural name
-passager	sb	approved	
 passagerfly	sb	approved	
 passagerskib	sb	approved	
 passer	sb	rejected	odd-unclear: reads as the verb 'passer' (fits/looks after) (second review)
 pasta	sb	approved	
 pastelfarve	sb	rejected	odd-unclear: a colour, not a concrete thing
 pastil	sb	approved	
-patriot	sb	rejected	sensitive: nationalism/politics
 pavestol	sb	rejected	sensitive: religion
 peanut	sb	rejected	negative: 'det er peanuts' = trifle, belittles the case; English loan (second review)
 peber	sb	approved	
@@ -1769,52 +1152,26 @@ pen	sb	approved
 pendul	sb	approved	
 pengeautomat	sb	approved	
 pengekasse	sb	approved	
-pengemand	sb	rejected	sensitive: wealth label
 pension	sb	rejected	sensitive: age/retirement
-pensionist	sb	rejected	sensitive: age/retirement
-performer	sb	approved	
-person	sb	rejected	odd-unclear: too generic
 personbil	sb	approved	
-personlighed	sb	rejected	odd-unclear: abstract
-pianist	sb	approved	
 pibe	sb	rejected	sensitive: tobacco pipe
 pil	sb	rejected	weapons-violence: arrow
 pille	sb	rejected	death-illness-misfortune: medicine pill
 pilleglas	sb	rejected	death-illness-misfortune: medicine
-pilot	sb	approved	
 pind	sb	approved	
-pioner	sb	approved	
 plade	sb	rejected	negative: slang 'køre en plade' = to bluff/lie; highly ambiguous (second review)
 platform	sb	rejected	odd-unclear: mostly abstract (digital/political platform) (second review)
 pløk	sb	rejected	odd-unclear: uncommon (tent peg); 'pløkfuld' = blind drunk (second review)
 politibil	sb	rejected	weapons-violence: police
-politichef	sb	rejected	weapons-violence: police
-politimand	sb	rejected	weapons-violence: police
-politisoldat	sb	rejected	weapons-violence: police/military
 port	sb	approved	
 pose	sb	approved	
-post	sb	rejected	odd-unclear: as Person not clearly a person
-postbud	sb	approved	
 posthus	sb	approved	
 potte	sb	rejected	body-appearance: potty
-praktikant	sb	rejected	negative: junior/inexperienced status; job-centre placement connotation (second review)
-prins	sb	rejected	sensitive: royal title
-prinsesse	sb	rejected	sensitive: royal title
 printer	sb	approved	
-pristager	sb	approved	
 privatbolig	sb	rejected	odd-unclear: administrative/legal housing term (second review)
-privatlærer	sb	approved	
-producer	sb	approved	
-professor	sb	approved	
-profil	sb	rejected	odd-unclear: not clearly a person
-prognostiker	sb	rejected	odd-unclear: rare
 program	sb	rejected	odd-unclear: abstract
-programchef	sb	approved	
-programmør	sb	approved	
 proptrækker	sb	rejected	death-illness-misfortune: tool used almost only for wine (alcohol) (second review)
-præfekt	sb	rejected	odd-unclear: rare/archaic title
 præstedragt	sb	rejected	sensitive: religion
-psykolog	sb	approved	
 pulterrum	sb	rejected	negative: junk room; reads as judgement of the case
 pumpe	sb	approved	
 punch	sb	rejected	sensitive: alcoholic drink; also 'hit'
@@ -1823,12 +1180,10 @@ pyramide	sb	approved
 påhængsvogn	sb	approved	
 påklædning	sb	rejected	odd-unclear: abstract attire/act of dressing
 pålæg	sb	rejected	odd-unclear: also official order/injunction
-pædagog	sb	approved	
 pære	sb	approved	
 pølse	sb	rejected	body-appearance: phallic slang
 racer	sb	rejected	sensitive: also plural of 'race' (ethnicity)
 racerbil	sb	approved	
-racerkører	sb	approved	
 radar	sb	approved	
 radio	sb	approved	
 raffinaderi	sb	rejected	odd-unclear: industrial refinery, not an everyday thing (second review)
@@ -1836,10 +1191,8 @@ raket	sb	rejected	weapons-violence: also missile
 ramme	sb	approved	
 rat	sb	approved	
 reaktor	sb	rejected	odd-unclear: technical; nuclear associations
-realist	sb	approved	
 reb	sb	approved	
 reception	sb	approved	
-redder	sb	approved	
 redskab	sb	rejected	body-appearance: jocular euphemism for penis; 'et redskab for' = someone's pawn (second review)
 reflektor	sb	approved	
 register	sb	rejected	odd-unclear: abstract; e.g. criminal record
@@ -1847,173 +1200,116 @@ regnemaskine	sb	approved
 regnmåler	sb	approved	
 regntøj	sb	approved	
 reje	sb	rejected	body-appearance: 'lille reje' = mocking term for a small, scrawny person (second review)
-rejseleder	sb	approved	
-rejsende	sb	approved	
-rektor	sb	approved	
-rekvirent	sb	rejected	odd-unclear: legal jargon
 rem	sb	rejected	negative: strap used for punishment
 remonce	sb	rejected	odd-unclear: baking jargon (pastry filling), unknown to many (second review)
 renseanlæg	sb	rejected	body-appearance: sewage treatment
 reol	sb	approved	
-repræsentant	sb	approved	
-researcher	sb	approved	
 residens	sb	rejected	odd-unclear: formal/official
-respondent	sb	rejected	odd-unclear: survey jargon
 rest	sb	rejected	odd-unclear: abstract remainder
 restaurant	sb	approved	
 restemad	sb	rejected	negative: leftovers, unflattering
 ret	sb	rejected	odd-unclear: ambiguous; also court/law
 retssal	sb	rejected	weapons-violence: courtroom, crime context
-revisor	sb	approved	
 ribbe	sb	rejected	odd-unclear: ambiguous technical; rib
 ribben	sb	rejected	body-appearance: rib
 ribs	sb	approved	
 rideskole	sb	approved	
-rigmand	sb	rejected	sensitive: wealth/gender label
-rigsrevisor	sb	rejected	odd-unclear: unique official title
 rille	sb	rejected	odd-unclear: groove, not a standalone thing
 ringmur	sb	rejected	odd-unclear: historical fortification wall, not everyday (second review)
 ris	sb	rejected	negative: also punishment/criticism ('få ris')
 rivejern	sb	rejected	negative: slang for a nagging woman
-robot	sb	approved	
-rockmusiker	sb	approved	
 rodfrugt	sb	approved	
 roe	sb	approved	
-rolle	sb	rejected	odd-unclear: not a person
-rollemodel	sb	approved	
 ror	sb	approved	
-rotte	sb	rejected	negative: rat, insulting
 router	sb	approved	
-rugemoder	sb	rejected	sensitive: surrogate mother
 rulle	sb	approved	
 rum	sb	approved	
 rumfartøj	sb	approved	
 rummål	sb	rejected	odd-unclear: unit of volume
-rumpilot	sb	rejected	odd-unclear: not a real everyday occupation (astronaut is the usual word) (second review)
 ryg	sb	rejected	body-appearance: back (body)
-ryger	sb	rejected	death-illness-misfortune: smoker, addiction
 rygsæk	sb	approved	
 rynke	sb	rejected	body-appearance: wrinkle
 rytmeboks	sb	rejected	odd-unclear: rare music-tech term (drum machine) (second review)
-rytter	sb	approved	
-rådgiver	sb	approved	
 rådhus	sb	approved	
 rækkehus	sb	approved	
-ræsonnør	sb	rejected	odd-unclear: rare/literary
 rødvin	sb	rejected	sensitive: alcoholic drink
 rør	sb	approved	
 saft	sb	approved	
 saftpresser	sb	approved	
 saks	sb	approved	
-sal	sb	approved	
 salat	sb	approved	
 salathoved	sb	approved	
 salatsæt	sb	approved	
-salgsleder	sb	approved	
 salon	sb	approved	
 salt	sb	approved	
 saltbøsse	sb	rejected	sensitive: contains 'bøsse' (gay man / slur); schoolyard joke word (second review)
-samarit	sb	approved	
 samtaleanlæg	sb	approved	
 sandal	sb	approved	
 sandwich	sb	approved	
-sanger	sb	approved	
-sangskriver	sb	approved	
-sangstjerne	sb	approved	
 sari	sb	rejected	sensitive: ethnic/cultural garment
-satanist	sb	rejected	sensitive: religion
 satellit	sb	approved	
-satiriker	sb	approved	
 sauce	sb	approved	
 sauna	sb	rejected	body-appearance: nudity and sweating/bathing connotation (second review)
 sav	sb	approved	
 saxofon	sb	approved	
 scene	sb	rejected	negative: 'lave en scene' = make a scene, a row (second review)
-scenograf	sb	approved	
 schnitzel	sb	approved	
 sedan	sb	approved	
 seismometer	sb	rejected	odd-unclear: technical
 sejl	sb	approved	
 sejlbåd	sb	approved	
-sejler	sb	approved	
 sejlskib	sb	approved	
-sejrherre	sb	rejected	weapons-violence: victor, war connotation
-sekretær	sb	approved	
 sele	sb	approved	
-selvmorder	sb	rejected	death-illness-misfortune: suicide
 sendemast	sb	approved	
 sendeudstyr	sb	rejected	odd-unclear: technical collective noun, not a single concrete thing (second review)
 seng	sb	approved	
-senior	sb	rejected	sensitive: age
 sennep	sb	approved	
 server	sb	approved	
 servering	sb	rejected	odd-unclear: act of serving, abstract
 shelter	sb	rejected	death-illness-misfortune: also homeless/bomb shelter
 shorts	sb	approved	
 siddemøbel	sb	rejected	odd-unclear: catalogue jargon
-sidemand	sb	approved	
 signal	sb	rejected	odd-unclear: abstract
 sigtemiddel	sb	rejected	weapons-violence: gun sight
 sikring	sb	rejected	odd-unclear: ambiguous: fuse / security measure
-sild	sb	rejected	body-appearance: as Person: slang for a girl, sexualizing
 silo	sb	approved	
 simulator	sb	approved	
-single	sb	rejected	sensitive: relationship status
 sirene	sb	rejected	death-illness-misfortune: emergency alarm; also mythic seductress
 sirup	sb	approved	
 sjal	sb	approved	
 sjippetov	sb	approved	
-sjæl	sb	rejected	odd-unclear: abstract 'soul', religious connotation, not a person noun
 skab	sb	rejected	death-illness-misfortune: homonym 'skab' = scabies/mange; also 'ud af skabet' (coming out) (second review)
 skadestue	sb	rejected	death-illness-misfortune: emergency room, injury
 skaft	sb	rejected	body-appearance: has anatomical/slang penis sense
-skakspiller	sb	approved	
 skakt	sb	rejected	odd-unclear: technical shaft (mine/elevator), not everyday
 skaldyr	sb	approved	
 skammel	sb	approved	
 skank	sb	rejected	negative: obscure butcher term; reads as English insult 'skank'
-skat	sb	rejected	odd-unclear: intimate endearment 'darling' or 'tax'
-skatmester	sb	approved	
-skattechef	sb	rejected	negative: tax-authority role, evokes debt and collection in case settings (second review)
-skatteyder	sb	rejected	odd-unclear: civic/economic status word, reads sarcastically as a name
 ske	sb	approved	
 skede	sb	rejected	body-appearance: vagina / sheath
 ski	sb	approved	
 skib	sb	approved	
-skibskaptajn	sb	approved	
-skibsreder	sb	rejected	sensitive: byword for great wealth (shipping magnate), class connotation (second review)
 skibsside	sb	rejected	odd-unclear: ship's side, not an everyday thing
 skibsskrog	sb	rejected	odd-unclear: ship hull, technical; 'skrog' also wreck
 skilift	sb	approved	
-skiløber	sb	approved	
 skind	sb	rejected	body-appearance: skin/hide; 'stakkels skind' = poor thing
 skindtøj	sb	rejected	odd-unclear: uncommon; fur/leather gear connotation (second review)
 skinke	sb	rejected	body-appearance: ham; slang for buttocks
 skitøj	sb	approved	
 skive	sb	approved	
-skjald	sb	rejected	odd-unclear: archaic Norse poet
 skjold	sb	rejected	weapons-violence: shield, war equipment
 skjorte	sb	approved	
 sko	sb	approved	
 skohorn	sb	approved	
-skole	sb	approved	
-skolebarn	sb	rejected	sensitive: age: schoolchild, childish for adults
-skoleelev	sb	rejected	sensitive: age: school pupil
-skoleleder	sb	approved	
-skolelærer	sb	approved	
-skomager	sb	approved	
 skorsten	sb	approved	
 skraber	sb	rejected	negative: 'en skraber' = a scrape/scolding; also razor (second review)
 skraldebil	sb	rejected	negative: garbage truck implies the case is rubbish
 skranke	sb	rejected	odd-unclear: counter/barrier; 'for skranken' = standing trial
-skribent	sb	approved	
 skrin	sb	approved	
 skrivebord	sb	approved	
-skriver	sb	approved	
 skrue	sb	rejected	negative: slang for prison guard; 'en skrue løs' = crazy (second review)
 skruenøgle	sb	approved	
 skruetrækker	sb	approved	
-skrædder	sb	approved	
 skræl	sb	rejected	odd-unclear: peel scraps/waste, odd as an identifier (second review)
 skud	sb	rejected	weapons-violence: gunshot
 skuffe	sb	rejected	negative: homograph of 'skuffe' = disappoint; 'lagt i skuffen' = shelved case (second review)
@@ -2024,32 +1320,22 @@ skydeskår	sb	rejected	weapons-violence: firing slit in fortification
 skydevåben	sb	rejected	weapons-violence: firearm
 skygge	sb	rejected	odd-unclear: shadow, not concrete; ominous connotations
 skyts	sb	rejected	weapons-violence: artillery
-skytte	sb	rejected	weapons-violence: shooter/marksman
 skål	sb	rejected	body-appearance: also bra cup; 'skål!' = drinking toast (second review)
-skæbne	sb	rejected	odd-unclear: fate, not a person
 skær	sb	rejected	odd-unclear: glow/hue/skerry, ambiguous and abstract
 skærm	sb	approved	
-skærsliber	sb	rejected	odd-unclear: archaic trade; idiom for chatterbox
 skøjte	sb	approved	
-skøjteløber	sb	approved	
-skønhed	sb	rejected	body-appearance: appearance judgement 'beauty'
 slag	sb	rejected	weapons-violence: blow/battle
 slagtøj	sb	approved	
 slange	sb	rejected	negative: 'en slange' = treacherous, deceitful person (second review)
 slankemad	sb	rejected	body-appearance: diet food, weight/appearance
-slider	sb	approved	
 slik	sb	approved	
 slips	sb	approved	
 slot	sb	approved	
 sluse	sb	approved	
 slå	sb	rejected	odd-unclear: door bolt; reads as verb 'hit'
 slæde	sb	approved	
-slægtning	sb	rejected	odd-unclear: relational family word, needs a referent
 slægtsgård	sb	rejected	odd-unclear: specialised term (farm held by one family for generations) (second review)
 slør	sb	rejected	sensitive: veil, religious headscarf connotation
-smager	sb	rejected	odd-unclear: rare standalone, reads as verb 'tastes'
-smed	sb	approved	
-sminkør	sb	approved	
 småbåd	sb	approved	
 småkage	sb	approved	
 småkød	sb	rejected	odd-unclear: butcher's term for stew meat, odd as a name
@@ -2057,70 +1343,44 @@ smør	sb	approved
 smørekande	sb	approved	
 smøreost	sb	approved	
 smørrebrød	sb	approved	
-snakkehoved	sb	rejected	negative: chatterbox
 snaps	sb	rejected	death-illness-misfortune: alcohol, addiction connotation
 snapseflaske	sb	rejected	death-illness-misfortune: alcohol bottle, addiction connotation
 snavsetøj	sb	rejected	negative: dirty laundry, also idiom for scandal
-snedker	sb	approved	
 snegl	sb	rejected	negative: snail implies slowness for a case
 snude	sb	rejected	body-appearance: animal snout, body part
 snurretop	sb	approved	
-socialchef	sb	rejected	sensitive: head of social services; loaded and confusing as an identifier in case settings (second review)
 sodavand	sb	approved	
 sofa	sb	approved	
 sok	sb	approved	
 solbriller	sb	approved	
 solcelle	sb	approved	
 solcenter	sb	rejected	body-appearance: tanning salon, appearance/skin
-soldat	sb	rejected	weapons-violence: military
-solstråle	sb	rejected	odd-unclear: figurative endearment, not a person noun
 sommerhus	sb	approved	
-sopran	sb	rejected	sensitive: gendered voice type, odd for men
 sorbet	sb	approved	
-souschef	sb	approved	
 soveværelse	sb	rejected	body-appearance: bedroom, intimacy innuendo
 sovs	sb	approved	
 spand	sb	rejected	negative: 'gammel spand' = old wreck; slop/toilet bucket connotation (second review)
-sparer	sb	rejected	odd-unclear: rare standalone; could suggest stinginess
 sparkedragt	sb	approved	
-spasmager	sb	rejected	negative: joker, often dismissive
 specialskole	sb	rejected	death-illness-misfortune: special-needs school, disability
 speeder	sb	approved	
-spejder	sb	approved	
 spid	sb	rejected	odd-unclear: uncommon (rotisserie spit); impaling connotation (second review)
 spil	sb	rejected	death-illness-misfortune: also gambling/betting; 'bare spil' = pretence (second review)
 spillebord	sb	rejected	death-illness-misfortune: gambling table, addiction connotation
-spilleklub	sb	rejected	death-illness-misfortune: gambling club, addiction connotation
-spiller	sb	approved	
 spinat	sb	approved	
-spiritist	sb	rejected	sensitive: religious/occult belief
 spiritus	sb	rejected	death-illness-misfortune: liquor, addiction connotation
-spirrevip	sb	rejected	negative: mocking word for a fop
 spisebestik	sb	approved	
 spisefisk	sb	rejected	odd-unclear: technical food-fish term
 spiseolie	sb	approved	
 spisested	sb	approved	
 spisestue	sb	approved	
 spjæld	sb	rejected	weapons-violence: slang for jail
-sponsor	sb	approved	
-sportsdanser	sb	approved	
 sportsfly	sb	approved	
-sportsudøver	sb	approved	
 sporvogn	sb	approved	
-spreder	sb	rejected	odd-unclear: technical device; odd as person (spreader of rumors)
-springer	sb	rejected	odd-unclear: chess knight / reads as verb 'jumps'
-sprogbruger	sb	rejected	odd-unclear: linguistic jargon
-sproglærer	sb	approved	
-sprogtalent	sb	approved	
 sprøjte	sb	rejected	death-illness-misfortune: syringe, injection/drug use
-spædbarn	sb	rejected	sensitive: age: infant, mocking for adults
 spændebånd	sb	rejected	odd-unclear: technical strap; restraint connotation (second review)
 stadion	sb	approved	
-stald	sb	approved	
 stang	sb	rejected	body-appearance: slang for erection
 station	sb	approved	
-statistiker	sb	approved	
-statsborger	sb	rejected	sensitive: citizenship/nationality status
 stav	sb	rejected	odd-unclear: ambiguous: staff, letter stave, walking aid, weapon sense
 sted	sb	rejected	odd-unclear: 'place', too abstract
 stegepande	sb	approved	
@@ -2128,18 +1388,14 @@ stemmegaffel	sb	approved
 stemmejern	sb	approved	
 stempel	sb	rejected	negative: 'et stempel' = stigma/label, loaded in social and legal cases (second review)
 stenfrugt	sb	rejected	odd-unclear: botanical jargon (drupe)
-stenhugger	sb	rejected	death-illness-misfortune: in Denmark mainly a headstone carver (second review)
 stenøkse	sb	rejected	weapons-violence: stone axe, weapon
-steward	sb	rejected	sensitive: gendered (male counterpart of stewardesse); also stadium security steward (second review)
 sti	sb	rejected	death-illness-misfortune: homonym 'sti på øjet' = eye stye; also pigsty pen (second review)
-stifinder	sb	approved	
 stige	sb	approved	
 stik	sb	rejected	weapons-violence: stab/sting
 stikkontakt	sb	approved	
 stikvåben	sb	rejected	weapons-violence: stabbing weapon
 stilk	sb	approved	
 sting	sb	rejected	death-illness-misfortune: medical stitches / stabbing pain
-stjerne	sb	approved	
 stof	sb	rejected	death-illness-misfortune: also 'drugs' (stoffer)
 stok	sb	rejected	death-illness-misfortune: walking cane; caning connotation
 stol	sb	approved	
@@ -2150,42 +1406,27 @@ strik	sb	rejected	negative: 'en strik' = rascal (about a child); otherwise a mas
 strygejern	sb	approved	
 strømkilde	sb	rejected	odd-unclear: technical/abstract power source
 strømpe	sb	approved	
-student	sb	approved	
 studie	sb	rejected	odd-unclear: ambiguous study/studio, abstract
 stue	sb	approved	
 stueetage	sb	approved	
-stuepige	sb	rejected	sensitive: maid, class and gender role
-stueplante	sb	rejected	negative: figurative for passive stay-at-home person
-stump	sb	rejected	negative: diminutive, can mock size
-stykke	sb	rejected	negative: 'et stykke' about a person is derogatory
 styretøj	sb	rejected	odd-unclear: technical car part
-styrmand	sb	approved	
 stødvåben	sb	rejected	weapons-violence: thrusting weapon
-støtte	sb	rejected	odd-unclear: abstract 'support', not a person noun
 støvle	sb	rejected	negative: 'din store støvle' = oaf, idiot (second review)
 støvsuger	sb	approved	
 suite	sb	approved	
 sukker	sb	approved	
-superkvinde	sb	rejected	sensitive: gendered, ironic
 supermarked	sb	approved	
 suppe	sb	approved	
-surfer	sb	approved	
-sut	sb	rejected	negative: pacifier; slang insult
-svend	sb	rejected	odd-unclear: reads as man's first name; gendered/archaic
 svinekød	sb	rejected	sensitive: pork, religious dietary sensitivity; 'svin' insult
 sving	sb	rejected	odd-unclear: turn/curve, ambiguous and abstract
-svækling	sb	rejected	negative: weakling
 sværd	sb	rejected	weapons-violence: sword
 svævebane	sb	approved	
 svævefly	sb	approved	
 svømmehal	sb	approved	
-svømmer	sb	rejected	odd-unclear: as Case reads as a person, not a thing
 sweater	sb	approved	
-sygehjælper	sb	rejected	odd-unclear: outdated job title; contains 'syge' (sick) (second review)
 sygestue	sb	rejected	death-illness-misfortune: sick room
 syl	sb	rejected	odd-unclear: rare pointed tool (awl)
 syltetøj	sb	approved	
-syngepige	sb	rejected	sensitive: archaic gendered term with dubious connotation
 synthesizer	sb	approved	
 sysager	sb	rejected	odd-unclear: archaic plural collective
 system	sb	rejected	odd-unclear: abstract
@@ -2198,146 +1439,90 @@ sættekasse	sb	approved
 søger	sb	rejected	odd-unclear: viewfinder; reads as 'seeker'
 søjle	sb	approved	
 søm	sb	approved	
-sømand	sb	approved	
-søn	sb	rejected	odd-unclear: relational family word, gendered
-søskende	sb	rejected	odd-unclear: collective plural 'siblings', relational
-søskendebarn	sb	rejected	odd-unclear: relational family word (cousin)
 taburet	sb	rejected	sensitive: common political idiom 'ministertaburet' (cabinet seat) (second review)
 tag	sb	approved	
 tagetage	sb	approved	
 takeaway	sb	approved	
-talepædagog	sb	approved	
-taler	sb	approved	
-talerør	sb	rejected	odd-unclear: figurative 'mouthpiece', relational
 talje	sb	rejected	body-appearance: waist, body part
 tallerken	sb	approved	
-talsmand	sb	approved	
 tandbørste	sb	rejected	body-appearance: hygiene item
 tandhjul	sb	approved	
-tandlæge	sb	approved	
 tang	sb	approved	
 tangent	sb	approved	
 tank	sb	rejected	weapons-violence: also read as military tank
-tankelæser	sb	rejected	odd-unclear: occult/fictional role
 tankstation	sb	approved	
-tante	sb	rejected	sensitive: gendered family word, mocking for older women
 tarm	sb	rejected	body-appearance: intestine
 taske	sb	rejected	negative: 'sur/dum taske' = insult for a woman (second review)
 tastatur	sb	approved	
 taxa	sb	approved	
-teater	sb	rejected	negative: also means fuss/drama, bad for a case
 teblad	sb	approved	
-tedrikker	sb	approved	
-teenager	sb	rejected	sensitive: age
-tegner	sb	approved	
 tekande	sb	approved	
 teknik	sb	rejected	odd-unclear: abstract
-tekniker	sb	approved	
 telefon	sb	approved	
 telegraf	sb	rejected	odd-unclear: archaic device
 telt	sb	approved	
 tempel	sb	rejected	sensitive: religious building
-teoretiker	sb	approved	
-terapeut	sb	approved	
 terminal	sb	rejected	death-illness-misfortune: also 'terminal illness' reading
 termometer	sb	rejected	death-illness-misfortune: fever/illness; rectal-thermometer joke in DK (second review)
 terning	sb	approved	
 terrasse	sb	approved	
-tidtager	sb	approved	
 tilbehør	sb	rejected	odd-unclear: collective/abstract 'accessories'
-tilbudsjæger	sb	rejected	negative: bargain hunter, implies cheapness
-tilflytter	sb	rejected	sensitive: origin/newcomer status
-tilhænger	sb	rejected	odd-unclear: relational follower; political/religious sense
-tilhører	sb	approved	
 timer	sb	rejected	odd-unclear: reads as 'hours'
-tipper	sb	rejected	death-illness-misfortune: betting punter, gambling
 toddy	sb	rejected	death-illness-misfortune: alcoholic drink
-toer	sb	rejected	negative: low school grade '02'; odd as both person and thing
 tog	sb	approved	
 togstamme	sb	rejected	odd-unclear: railway jargon
 togvogn	sb	approved	
 toilet	sb	rejected	body-appearance: toilet
 toilettaske	sb	rejected	body-appearance: hygiene item
-tolder	sb	rejected	weapons-violence: customs/border enforcement officer (second review)
 tomat	sb	approved	
 tommestok	sb	approved	
-top	sb	approved	
-trafikant	sb	rejected	odd-unclear: traffic jargon
 traktor	sb	approved	
-translatør	sb	approved	
 trappe	sb	approved	
 triangel	sb	approved	
 trin	sb	rejected	odd-unclear: ambiguous step/level, abstract
-trojaner	sb	rejected	odd-unclear: historical ethnonym; malware/condom brand
-troldmand	sb	rejected	sensitive: gendered (-mand, not a job title); occult (second review)
 tromme	sb	approved	
 trommestik	sb	approved	
 trone	sb	rejected	sensitive: royalty; toilet slang
 tronstol	sb	rejected	sensitive: royalty
 trug	sb	rejected	odd-unclear: rare word (trough)
-trykker	sb	approved	
 trykpresse	sb	approved	
 trylledrik	sb	rejected	odd-unclear: fantasy item, not everyday; potion/drug connotation (second review)
 træhus	sb	approved	
 trækker	sb	rejected	odd-unclear: technical truck unit; reads as verb 'pulls'
-trækplaster	sb	rejected	odd-unclear: figurative, literally a medical plaster
 trækvogn	sb	approved	
-træner	sb	approved	
 trøje	sb	approved	
-trøster	sb	rejected	odd-unclear: implies grief context, figurative
-tsar	sb	rejected	sensitive: royalty/politics
 tud	sb	rejected	body-appearance: slang for face/crying; body sense
 tunge	sb	rejected	body-appearance: tongue
 tunnel	sb	approved	
-turist	sb	approved	
 turistbureau	sb	approved	
-tvilling	sb	rejected	sensitive: family status / astrology sign
 tyggegummi	sb	approved	
-tyksak	sb	rejected	body-appearance: fatso
-type	sb	rejected	negative: 'en type' is dismissive
-tyrefægter	sb	rejected	weapons-violence: bullfighting, animal violence
 tår	sb	rejected	odd-unclear: quantity 'sip'; near 'tåre' tear
 tårn	sb	approved	
 tændrør	sb	approved	
-tænker	sb	approved	
 tæppe	sb	approved	
 tærskel	sb	approved	
 tærte	sb	approved	
 tøj	sb	approved	
 tøjbutik	sb	approved	
 tømmerflåde	sb	approved	
-tømrer	sb	approved	
 tønde	sb	rejected	body-appearance: 'en tønde' = slang for a fat person; beer barrel (second review)
 tørkage	sb	approved	
 ubåd	sb	rejected	weapons-violence: submarine, mainly military
 udbytte	sb	rejected	odd-unclear: abstract dividend/yield
 udgang	sb	rejected	odd-unclear: abstract 'exit'
-udgiver	sb	approved	
 udhæng	sb	rejected	odd-unclear: construction jargon
-udlejer	sb	rejected	sensitive: landlord, class/property status
-udlænding	sb	rejected	sensitive: foreigner, origin
 udløser	sb	rejected	odd-unclear: technical shutter release; trigger sense
 udrustning	sb	rejected	weapons-violence: military equipment
 udstyr	sb	rejected	odd-unclear: collective; slang for genitals
-udvandrer	sb	rejected	sensitive: emigrant, origin
-udvikler	sb	approved	
-udøver	sb	rejected	odd-unclear: vague 'practitioner'
 ufo	sb	rejected	odd-unclear: implies weird/unidentified case
-underbo	sb	rejected	odd-unclear: relational 'downstairs neighbour'
 underbukser	sb	rejected	body-appearance: underwear
 undertrøje	sb	rejected	body-appearance: underwear
 undertøj	sb	rejected	body-appearance: underwear
-ungarbejder	sb	rejected	sensitive: age
 uniform	sb	rejected	weapons-violence: evokes police/military (second review)
-urfader	sb	rejected	odd-unclear: archaic 'patriarch'
 urt	sb	rejected	odd-unclear: singular is literary; homonym = brewing wort (second review)
 vadsæk	sb	rejected	odd-unclear: old-fashioned; 'sæk' insult connotation (second review)
-vagt	sb	rejected	odd-unclear: as Case it is a shift/duty, not a thing
 vagthus	sb	rejected	weapons-violence: military guardhouse
-vagtmand	sb	rejected	weapons-violence: security guard, policing/coercion connotation (second review)
-vagtmester	sb	rejected	weapons-violence: prison officer / military rank
 vagttårn	sb	rejected	weapons-violence: prison/military watchtower
-valgforsker	sb	rejected	sensitive: politics
 vand	sb	approved	
 vandbakkelse	sb	approved	
 vandbeholder	sb	approved	
@@ -2346,9 +1531,7 @@ vandkande	sb	approved
 vandkanon	sb	rejected	weapons-violence: riot-control water cannon
 vandmølle	sb	approved	
 vandrehjem	sb	approved	
-vandrer	sb	approved	
 vandscooter	sb	approved	
-vanemenneske	sb	rejected	negative: creature of habit, mildly negative
 vanilje	sb	approved	
 vante	sb	approved	
 varevogn	sb	approved	
@@ -2363,26 +1546,15 @@ vaskekumme	sb	rejected	body-appearance: bathroom hygiene fixture
 vaskemaskine	sb	approved	
 vaskeri	sb	approved	
 vasketøj	sb	rejected	negative: 'beskidt vasketøj' = private scandals; dirty-clothes hygiene (second review)
-vegetar	sb	rejected	sensitive: lifestyle/belief label
-vejviser	sb	approved	
-ven	sb	approved	
 ventesal	sb	rejected	negative: implies waiting/delay for a case
 venteværelse	sb	rejected	negative: implies waiting/delay; medical setting
 ventil	sb	approved	
 ventilator	sb	rejected	death-illness-misfortune: medical respirator sense
 vest	sb	approved	
-veteran	sb	rejected	sensitive: age / war veteran
-videnskab	sb	rejected	odd-unclear: abstract 'science', not a person
-vidne	sb	rejected	weapons-violence: legal witness, crime context
-vidunderbarn	sb	rejected	sensitive: age: 'child' for adults
 vifte	sb	approved	
-vikar	sb	approved	
-viking	sb	rejected	sensitive: national/historical identity; raiding
 vikingeskib	sb	approved	
-vildkat	sb	rejected	negative: figurative 'wild woman'
 villa	sb	approved	
 vin	sb	rejected	death-illness-misfortune: alcohol
-vinder	sb	approved	
 vindmåler	sb	approved	
 vindrue	sb	approved	
 vindue	sb	approved	
@@ -2390,28 +1562,16 @@ vinfad	sb	rejected	death-illness-misfortune: wine barrel, alcohol
 vinge	sb	approved	
 vinkel	sb	rejected	odd-unclear: abstract geometry
 vinkelmåler	sb	approved	
-vinkender	sb	rejected	death-illness-misfortune: alcohol connoisseur
 vinsort	sb	rejected	death-illness-misfortune: alcohol; abstract variety
-visesanger	sb	approved	
 vogn	sb	approved	
-vokalist	sb	approved	
-voksen	sb	rejected	sensitive: age
-volontør	sb	rejected	odd-unclear: dated/uncommon word (unpaid trainee) (second review)
 voltmeter	sb	rejected	odd-unclear: technical instrument
-vovehals	sb	rejected	negative: implies recklessness
-vulkan	sb	rejected	odd-unclear: not a person; figurative temper
 våben	sb	rejected	weapons-violence: weapon
 våbenart	sb	rejected	weapons-violence: weapon type
-våbensmed	sb	rejected	weapons-violence: weapon smith
-vårhare	sb	rejected	odd-unclear: figurative, frisky/sexual connotation
 væg	sb	approved	
-vægt	sb	rejected	body-appearance: weight; Libra sense for person
 vækkeur	sb	approved	
-værge	sb	rejected	death-illness-misfortune: legal guardian implies incapacity
 værk	sb	rejected	odd-unclear: ambiguous: work/factory/ache
 værksted	sb	approved	
 værktøj	sb	approved	
-vært	sb	approved	
 værtshus	sb	rejected	death-illness-misfortune: pub, alcohol
 væske	sb	rejected	odd-unclear: substance; bodily fluid sense
 væv	sb	rejected	body-appearance: body tissue
@@ -2419,29 +1579,34 @@ whisky	sb	rejected	death-illness-misfortune: alcohol
 wienerbrød	sb	approved	
 yacht	sb	approved	
 yderdør	sb	approved	
-yndling	sb	rejected	odd-unclear: endearment, favouritism
-yngling	sb	rejected	sensitive: archaic, age
 åre	sb	rejected	body-appearance: vein sense
 æble	sb	approved	
 æde	sb	rejected	odd-unclear: animal feed; reads as verb 'devour'
 æggeret	sb	approved	
-ægtefælle	sb	rejected	sensitive: family/marital status
-ægtemand	sb	rejected	sensitive: marital status, gendered
 ældrebolig	sb	rejected	sensitive: age
-æresdoktor	sb	rejected	odd-unclear: rare academic title
 ærme	sb	approved	
 æske	sb	approved	
-æstet	sb	rejected	negative: can be mocking (snob)
 økologi	sb	rejected	odd-unclear: abstract
-økonom	sb	approved	
-økonomichef	sb	approved	
 økse	sb	rejected	weapons-violence: axe
 ølflaske	sb	rejected	death-illness-misfortune: beer bottle, alcohol
 øloplukker	sb	rejected	death-illness-misfortune: bottle opener, alcohol
 ølskum	sb	rejected	death-illness-misfortune: beer foam, alcohol
 øse	sb	approved	
 øsekar	sb	rejected	odd-unclear: rare nautical bailer
+appetitlige barnevogn	pair	rejected	sensitive: 'appetizing' + pram reads predatory/sexualising
+appetitlige børneværelse	pair	rejected	sensitive: 'appetizing' + child's room reads predatory/sexualising
+appetitlige seng	pair	rejected	sensitive: sexual innuendo ('appetizing bed')
+appetitlige sparkedragt	pair	rejected	sensitive: 'appetizing' + baby onesie reads predatory/sexualising
 blå brev	pair	rejected	negative: 'det blå brev' (German 'blauer Brief') = dismissal or warning notice
 blå bønne	pair	rejected	weapons-violence: slang 'blå bønner' = bullets, gunshots
 blå strømpe	pair	rejected	negative: evokes 'blåstrømpe' (bluestocking), dated derogatory term for an intellectual woman
+byggede bygning	pair	rejected	odd-unclear: tautology reads as an error
+dobbelte hat	pair	rejected	negative: evokes 'dobbelthat' = conflicting dual roles/conflict of interest in HR/legal cases
+dybe tallerken	pair	rejected	negative: idiom 'opfinde den dybe tallerken' mocks someone for stating the obvious
+dybe vand	pair	rejected	negative: evokes 'ude på dybt vand' = out of one's depth/in trouble
+elektriske stol	pair	rejected	death-illness-misfortune: the electric chair (execution)
+elektriske tændrør	pair	rejected	weapons-violence: 'tændrør' also = detonator; reads as electric blasting cap
+elektroniske tændrør	pair	rejected	weapons-violence: reads as electronic detonator
+mekaniske appelsin	pair	rejected	odd-unclear: evokes 'A Clockwork Orange' (violent novel/film)
+mekaniske tændrør	pair	rejected	weapons-violence: reads as mechanical fuze (munitions)
 store rygsæk	pair	rejected	sensitive: 'en stor/tung rygsæk' is social-work jargon for emotional baggage or a troubled past
