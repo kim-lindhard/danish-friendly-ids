@@ -107,6 +107,27 @@ public class WordReviewFacts
     }
 
     [Theory]
+    [MemberData(nameof(Lists))]
+    public void No_two_approved_words_fold_to_the_same_ascii_spelling(string listName)
+    {
+        // Arrange
+        var approved = EmbeddedList(listName).Entries
+            .Where(entry => entry.Verdict == ReviewVerdict.Approved && entry.Subject != ReviewSubject.Pair)
+            .Select(entry => entry.Word)
+            .Distinct(StringComparer.Ordinal);
+
+        // Act
+        var clashes = approved
+            .GroupBy(IdStyle.Fold, StringComparer.Ordinal)
+            .Where(group => group.Count() > 1)
+            .Select(group => string.Join(" / ", group))
+            .ToList();
+
+        // Assert
+        Assert.Empty(clashes);
+    }
+
+    [Theory]
     [MemberData(nameof(Presets))]
     public void Every_candidate_of_a_preset_has_a_verdict_in_its_list(string kindName)
     {

@@ -21,6 +21,12 @@ if (ids.TryNext(IdKind.Person, IdFormat.ThreeWords, id => store.Exists(id.ToStri
 
 long space = ids.CapacityOf(IdKind.Person, IdFormat.ThreeWords);    // exact
 
+var id = ids.Next(IdKind.Person, IdFormat.ThreeWords.WithNumber(99));
+id.ToString();                                  // "kløgtige dansende pilot 42"
+id.ToString(IdStyle.Ascii);                     // "kloegtige dansende pilot 42"
+id.ToString(IdStyle.UrlSlug);                   // "kloegtige-dansende-pilot-42"
+ids.TryResolve(IdKind.Person, "kloegtige-dansende-pilot-42", out var back);   // back to "kløgtige dansende pilot 42"
+
 var vehicle = new IdKind("Køretøj", Vocabulary.Objects, [MeaningCategory.Colour], [MeaningCategory.Vehicle]);
 ids.Next(vehicle);                                         // "røde traktor"
 ```
@@ -33,6 +39,12 @@ ids.Next(vehicle);                                         // "røde traktor"
   - `IdFormat.ThreeWords` is an adjective + an -ende word + a noun;
   - `.WithNumber(n)` appends a number from 1 to n;
   - no identifier repeats a word.
+- **Styles:**
+  - `IdStyle.Danish` (the default) writes æ, ø, å with spaces;
+  - `IdStyle.Ascii` folds them to ae, oe, aa, for systems that don't allow æøå;
+  - `IdStyle.UrlSlug` is ASCII with hyphens: only a–z, 0–9 and `-`, all unreserved in a URL, so a slug never needs percent-encoding.
+
+  No two approved words in a list fold to the same spelling (a test guards this), so every style is as unique as the Danish one, and the counts are the same. `TryResolve(kind, text)` reads any style back to the Danish identifier, or returns false if the kind could not have made it.
 - **How many?** `CapacityOf(kind, format)` counts exactly: blocked pairs and repeated words are subtracted.
   `dotnet run --project DanishFriendlyIds.Sample -- capacity` prints the table below.
 

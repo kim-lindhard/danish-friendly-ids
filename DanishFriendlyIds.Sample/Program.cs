@@ -3,9 +3,10 @@ using DanishFriendlyIds.Identifiers;
 using DanishFriendlyIds.Words;
 
 const string Usage = """
-    Usage: dotnet run --project DanishFriendlyIds.Sample -- [count=50] [seed] [two|three] [maximum number]
+    Usage: dotnet run --project DanishFriendlyIds.Sample -- [count=50] [seed] [two|three] [maximum number, 0 = none] [danish|ascii|url]
            dotnet run --project DanishFriendlyIds.Sample -- capacity
            dotnet run --project DanishFriendlyIds.Sample -- unreviewed
+           dotnet run --project DanishFriendlyIds.Sample -- resolve person|object <identifier in any style>
     """;
 const int DefaultCount = 50;
 var presets = IdKind.Presets;
@@ -14,6 +15,20 @@ if (args.Length > 0 && args[0] == "unreviewed")
 {
     PrintUnreviewed();
     return 0;
+}
+
+if (args.Length == 3 && args[0] == "resolve")
+{
+    var kind = presets.FirstOrDefault(preset => string.Equals(preset.Name, args[1], StringComparison.OrdinalIgnoreCase));
+    var resolver = new FriendlyIdGenerator();
+    if (kind is not null && resolver.TryResolve(kind, args[2], out var resolved))
+    {
+        Console.WriteLine($"{resolved}  |  {resolved.ToString(IdStyle.Ascii)}  |  {resolved.ToString(IdStyle.UrlSlug)}");
+        return 0;
+    }
+
+    Console.Error.WriteLine($"Not an identifier {args[1]} could have made: {args[2]}");
+    return 1;
 }
 
 if (args.Length > 0 && args[0] == "capacity")
@@ -25,11 +40,13 @@ if (args.Length > 0 && args[0] == "capacity")
 var count = DefaultCount;
 var seed = 0;
 var maximumNumber = 0;
+IdStyle? style = IdStyle.Danish;
 var argumentsAreValid =
     (args.Length < 1 || int.TryParse(args[0], CultureInfo.InvariantCulture, out count)) &&
     (args.Length < 2 || int.TryParse(args[1], CultureInfo.InvariantCulture, out seed)) &&
     (args.Length < 3 || args[2] is "two" or "three") &&
-    (args.Length < 4 || int.TryParse(args[3], CultureInfo.InvariantCulture, out maximumNumber) && 2 <= maximumNumber);
+    (args.Length < 4 || args[3] == "0" || int.TryParse(args[3], CultureInfo.InvariantCulture, out maximumNumber) && 2 <= maximumNumber) &&
+    (args.Length < 5 || IdStyle.TryFromName(args[4], out style));
 
 if (argumentsAreValid == false)
 {
@@ -38,7 +55,7 @@ if (argumentsAreValid == false)
 }
 
 var words = args.Length >= 3 && args[2] == "three" ? IdFormat.ThreeWords : IdFormat.TwoWords;
-var format = args.Length >= 4 ? words.WithNumber(maximumNumber) : words;
+var format = 2 <= maximumNumber ? words.WithNumber(maximumNumber) : words;
 var ids = new FriendlyIdGenerator(args.Length >= 2 ? new Random(seed) : Random.Shared);
 
 foreach (var kind in presets)
@@ -49,7 +66,7 @@ foreach (var kind in presets)
         $"{pools.Nouns.Count:N0} nouns = {ids.CapacityOf(kind, format):N0} identifiers"));
 
     foreach (var id in Enumerable.Range(0, count).Select(_ => ids.Next(kind, format)))
-        Console.WriteLine($"  {id}");
+        Console.WriteLine($"  {id.ToString(style ?? IdStyle.Danish)}");
 
     Console.WriteLine();
 }

@@ -54,6 +54,34 @@ public sealed class FriendlyIdGenerator(Lexicon lexicon, ReviewLists reviews, Ra
         return id is not null;
     }
 
+    /// <summary>
+    /// Turns an identifier written in any <see cref="IdStyle"/> (e.g. a URL slug) back into the Danish
+    /// identifier this kind would have made, or returns false if it could not have made it.
+    /// </summary>
+    public bool TryResolve(IdKind kind, string? text, [NotNullWhen(true)] out FriendlyId? id)
+    {
+        id = FriendlyId.TryParse(text, out var parsed) ? Resolve(kind, parsed) : null;
+        return id is not null;
+    }
+
+    private FriendlyId? Resolve(IdKind kind, FriendlyId parsed)
+    {
+        var pools = PoolsOf(kind);
+        IReadOnlyList<string>[] slots = parsed.Words.Count == 2
+            ? [pools.FirstWords, pools.Nouns]
+            : [pools.Adjectives, pools.Participles, pools.Nouns];
+
+        var words = parsed.Words
+            .Zip(slots, (written, slot) => slot.FirstOrDefault(word => IdStyle.Fold(word) == IdStyle.Fold(written)))
+            .OfType<string>()
+            .ToArray();
+        if (words.Length != parsed.Words.Count)
+            return null;
+
+        var resolved = parsed.Number is { } number ? FriendlyId.Of(words).WithNumber(number) : FriendlyId.Of(words);
+        return IdentifierSpace.IsAllowed(resolved, reviews.For(kind.Vocabulary)) ? resolved : null;
+    }
+
     private FriendlyId? FirstAllowed(IdKind kind, IdFormat format, WordPools pools, Func<FriendlyId, bool> isTaken)
     {
         var review = reviews.For(kind.Vocabulary);
