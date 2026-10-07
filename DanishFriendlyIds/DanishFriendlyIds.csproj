@@ -7,6 +7,28 @@
         <RootNamespace>DanishFriendlyIds</RootNamespace>
     </PropertyGroup>
 
+    <!-- The version comes from the git tag: .github/workflows/publish.yml packs v0.2.0 as 0.2.0. -->
+    <PropertyGroup>
+        <PackageId>DanishFriendlyIds</PackageId>
+        <Authors>Kim Lindhard</Authors>
+        <Copyright>Copyright (c) 2026 Kim Lindhard</Copyright>
+        <Description>Human-friendly Danish identifiers: "glade danser" for a person, "blå kasse" for an object. Every word comes from the official Danish word registers (COR, CC0) and is hand-reviewed, so no identifier is ever negative. Two or three words, an optional number, and Danish, ASCII or URL-slug spelling.</Description>
+        <PackageTags>danish;dansk;friendly-id;human-readable;identifier;readable-id;slug;words</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/kim-lindhard/danish-friendly-ids</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/kim-lindhard/danish-friendly-ids</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
     <!-- Written by DanishFriendlyIds.WordListBuilder, which itself references this project. -->
     <ItemGroup Condition="Exists('Data/danish-words.tsv.gz')">
         <EmbeddedResource Include="Data/danish-words.tsv.gz" LogicalName="DanishFriendlyIds.danish-words.tsv.gz" />

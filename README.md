@@ -3,8 +3,11 @@
 A .NET library for human-friendly Danish identifiers: a person can be *glade danser* or
 *energiske maler*, an object or a case *blå kasse*.
 
-**Status: Stage 2.** The generator works, and every Danish word is categorised and available in code.
-Packaging (Stage 3) comes next.
+```
+dotnet add package DanishFriendlyIds
+```
+
+The API and the reviewed word lists may still change before 1.0.
 
 ## Generating identifiers
 
@@ -159,3 +162,12 @@ All data comes from [Det Centrale Ordregister](https://ordregister.dk) and is re
 - COR.SEM 1.0, DSL and Center for Sprogteknologi, University of Copenhagen (CST)
 
 CC0 asks for no attribution; the credit is given anyway.
+
+## Licence
+
+The code is under the [MIT licence](https://github.com/kim-lindhard/danish-friendly-ids/blob/main/LICENSE). The word data is CC0, as above.
+
+## Releasing
+
+Push a tag such as `v0.2.0`. The Publish workflow tests, packs that version and pushes it to nuget.org through
+NuGet trusted publishing.

@@ -1,0 +1,27 @@
+name: Publish
+
+# Push a tag such as v0.2.0 to publish DanishFriendlyIds 0.2.0 to nuget.org.
+# NuGet trusted publishing: nuget.org trusts this workflow file, so no API key is stored.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+      - run: dotnet test DanishFriendlyIds.slnx
+      - run: dotnet pack DanishFriendlyIds/DanishFriendlyIds.csproj --configuration Release --output out -p:Version=${GITHUB_REF_NAME#v}
+      - uses: NuGet/login@v1
+        id: login
+        with:
+          user: Kim-Lindhard
+      - run: dotnet nuget push "out/*.nupkg" --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
