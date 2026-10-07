@@ -52,7 +52,7 @@ public class KindRulesFacts
         var drawn = Drawn(ids, IdKind.Person);
 
         // Assert
-        Assert.Equal([new FriendlyId("energiske", "danser")], drawn);
+        Assert.Equal([FriendlyId.Of("energiske", "danser")], drawn);
     }
 
     [Fact]

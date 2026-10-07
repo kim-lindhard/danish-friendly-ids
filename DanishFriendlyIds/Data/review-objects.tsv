@@ -386,6 +386,568 @@ ydre	adj	rejected	odd-unclear: abstract
 ægte	adj	rejected	sensitive: implies an authenticity judgement (fraud context); 'ægte/uægte barn' (second review)
 økologiske	adj	rejected	odd-unclear: only fits food/farming; odd on other things (second review)
 østlige	adj	rejected	sensitive: region/political
+absorberende	part	rejected	body-appearance: mostly diaper/incontinence/sanitary product language
+adskillende	part	rejected	odd-unclear: abstract (separating)
+afbrydende	part	rejected	odd-unclear: abstract/technical (interrupting)
+afbøjende	part	rejected	odd-unclear: technical (deflecting)
+afdækkende	part	rejected	odd-unclear: abstract (covering/revealing)
+affyrende	part	rejected	weapons-violence: firing weapons
+afgrænsende	part	rejected	odd-unclear: abstract (delimiting)
+afgående	part	rejected	odd-unclear: status-like (outgoing/departing); euphemism for dying
+afkølende	part	rejected	odd-unclear: an effect, not something a thing visibly does; reads as product/medical (cooling gel for burns/fever); odd before most objects (afkølende lampe) (second review)
+aflejrende	part	rejected	odd-unclear: technical (depositing sediment)
+afløsende	part	rejected	odd-unclear: HR/status reading (substitute, relieving)
+afmærkende	part	rejected	odd-unclear: technical/administrative (marking)
+afrejsende	part	rejected	odd-unclear: describes people; status-like (departing)
+afsluttende	part	rejected	odd-unclear: case-status reading (concluding)
+afspillende	part	rejected	odd-unclear: odd on objects (playing back media)
+afvisende	part	rejected	negative: rejecting, dismissive
+anbringende	part	rejected	odd-unclear: legal/social-services term (plea; child placement)
+anholdende	part	rejected	odd-unclear: police/legal term (arresting)
+ankommende	part	rejected	odd-unclear: status-like (arriving)
+anlæggende	part	rejected	odd-unclear: legal reading (anlægge sag = file a lawsuit)
+arbejdende	part	rejected	odd-unclear: person/HR status; class reading (den arbejdende klasse)
+arresterende	part	rejected	odd-unclear: police/legal term (arresting)
+askende	part	rejected	odd-unclear: obscure; smoking/ash connotation
+avancerende	part	rejected	odd-unclear: abstract/career reading (advancing)
+badende	part	rejected	body-appearance: bathing people, nudity reading
+bagende	part	rejected	odd-unclear: odd on objects; mainly 'scorching sun' or people baking
+balancerende	part	approved	
+balsamerende	part	rejected	death-illness-misfortune: embalming corpses
+bankende	part	rejected	weapons-violence: beating someone up; also pounding heart/noise
+baserende	part	rejected	odd-unclear: abstract (basing)
+beflyvende	part	rejected	odd-unclear: technical aviation term
+begravende	part	rejected	death-illness-misfortune: burying, funerals
+begyndende	part	rejected	odd-unclear: status-like (beginning); 'begyndende demens' collocation
+begående	part	rejected	negative: committing crimes
+behandlende	part	rejected	odd-unclear: case/medical term (behandlende læge/sagsbehandler)
+berigende	part	rejected	odd-unclear: abstract (enriching)
+berørende	part	rejected	body-appearance: touching bodies; also 'emotionally affecting'
+beskuende	part	rejected	odd-unclear: describes people only (contemplating)
+bestående	part	rejected	odd-unclear: status-like (existing; passed exam)
+besvimende	part	rejected	death-illness-misfortune: fainting, medical
+besøgende	part	rejected	odd-unclear: describes people (visitor)
+betragtende	part	rejected	odd-unclear: describes people only (observing)
+bevægende	part	rejected	odd-unclear: mainly emotional 'moving/touching'; odd on objects
+bidende	part	rejected	negative: biting; harsh cold/sarcasm
+bindende	part	rejected	odd-unclear: legal reading (binding agreement)
+bladrende	part	rejected	odd-unclear: person action (leafing through pages)
+blafrende	part	approved	
+blinkende	part	approved	
+blivende	part	rejected	odd-unclear: odd form, abstract (lasting)
+blokerende	part	rejected	negative: blocking, obstructing
+blomstrende	part	approved	
+blundende	part	rejected	odd-unclear: describes people/animals only (dozing)
+blændende	part	rejected	negative: blinding glare; blænde = blind someone
+blæsende	part	rejected	negative: 'blæse på'/'blæsende ligeglad' = couldn't care less; otherwise a weather word, odd before objects (second review)
+boende	part	rejected	odd-unclear: person/status reading (residing)
+boksende	part	rejected	weapons-violence: boxing, hitting
+borende	part	rejected	negative: drilling noise; 'borende smerte' (drilling pain)
+bosættende	part	rejected	sensitive: settlers/settling, political reading
+bowlende	part	rejected	odd-unclear: describes people only (bowling)
+bredende	part	rejected	odd-unclear: odd form (spreading, e.g. disease)
+bremsende	part	rejected	odd-unclear: abstract/obstructive (braking, holding back)
+bringende	part	rejected	odd-unclear: abstract, odd alone (bringing)
+broderende	part	rejected	odd-unclear: describes people only (embroidering)
+brydende	part	rejected	negative: breaking; law-breaking
+brændende	part	rejected	negative: fire danger
+brølende	part	rejected	negative: roaring noise
+bukkende	part	rejected	odd-unclear: describes people only (bowing)
+byggende	part	rejected	odd-unclear: describes people only (building)
+bærende	part	rejected	odd-unclear: technical/abstract (load-bearing); pregnancy reading
+bødende	part	rejected	odd-unclear: obscure; fine/penance reading (bøde)
+bøjende	part	rejected	odd-unclear: odd on objects; also grammatical inflection
+børstende	part	rejected	odd-unclear: person hygiene action (brushing)
+changerende	part	rejected	odd-unclear: rare/obscure; readers may take it as 'changing'
+cirkulerende	part	rejected	odd-unclear: document/case-status reading (circulating)
+cyklende	part	rejected	odd-unclear: describes people only (cycling)
+dalende	part	rejected	negative: declining, falling
+dannende	part	rejected	odd-unclear: abstract (forming, educating)
+dansende	part	approved	
+dekorerende	part	rejected	odd-unclear: person action, odd on objects (decorating)
+delende	part	rejected	odd-unclear: abstract (sharing/dividing)
+deltagende	part	rejected	odd-unclear: describes people (participating, sympathetic)
+designende	part	rejected	odd-unclear: describes people only (designing)
+donerende	part	rejected	odd-unclear: describes people; organ/medical donation reading
+downloadende	part	rejected	odd-unclear: technical/status-like (downloading)
+drejende	part	approved	
+driftende	part	rejected	odd-unclear: technical (operating) or car drifting
+drikkende	part	rejected	death-illness-misfortune: drinking alcohol, addiction
+druknende	part	rejected	death-illness-misfortune: drowning
+dryppende	part	rejected	negative: dripping, leaking
+dunkende	part	rejected	negative: thumping noise; throbbing headache
+dykkende	part	rejected	negative: plummeting (prices/results) reading; odd on most objects
+dyrkende	part	rejected	odd-unclear: person action (cultivating; dyrke sex/motion)
+dækkende	part	rejected	odd-unclear: abstract (covering, adequate)
+efterladende	part	rejected	death-illness-misfortune: leaving behind; bereaved (efterladte) reading
+eftersøgende	part	rejected	odd-unclear: police/legal term (searching for wanted persons)
+eksisterende	part	rejected	odd-unclear: status-like (existing)
+ekspederende	part	rejected	odd-unclear: administrative (dispatching/serving)
+endende	part	rejected	odd-unclear: status-like (ending)
+erstattende	part	rejected	odd-unclear: legal/compensation reading (replacing)
+etablerende	part	rejected	odd-unclear: abstract (establishing)
+fabrikerende	part	rejected	negative: fabricating lies/evidence
+faldende	part	rejected	negative: falling, declining; fallen in war
+falmende	part	rejected	negative: fading, decay
+famlende	part	rejected	negative: fumbling, clumsy
+fangende	part	rejected	odd-unclear: capture/prisoner reading
+farende	part	rejected	odd-unclear: odd/archaic (rushing; farende svend)
+farserende	part	rejected	odd-unclear: odd food-prep term (stuffing meat)
+fastgørende	part	rejected	odd-unclear: technical (fastening)
+fedende	part	rejected	body-appearance: fattening, weight
+fejrende	part	rejected	odd-unclear: describes people only (celebrating)
+ferierende	part	rejected	odd-unclear: people/HR status (on vacation)
+festende	part	rejected	odd-unclear: describes people; partying/alcohol
+filmende	part	rejected	odd-unclear: person action; surveillance reading
+firende	part	rejected	odd-unclear: obscure (lowering by rope; giving in)
+fiskende	part	rejected	odd-unclear: describes people/animals (fishing)
+fjedrende	part	approved	
+fjernende	part	rejected	odd-unclear: abstract (removing)
+flydende	part	rejected	odd-unclear: mainly reads 'liquid'/'fluent'; 'det flyder' = messy
+flyttende	part	rejected	odd-unclear: people/status reading (relocating)
+flyvende	part	approved	
+flådende	part	rejected	odd-unclear: obscure; sounds like flå (skin)
+fløjtende	part	approved	
+fnisende	part	rejected	odd-unclear: describes people only (giggling)
+fodrende	part	rejected	odd-unclear: describes people only (feeding)
+foldende	part	rejected	odd-unclear: odd form for objects (folding)
+forbindende	part	rejected	odd-unclear: abstract (connecting)
+forbrugende	part	rejected	odd-unclear: abstract/economic (consuming)
+fordampende	part	rejected	odd-unclear: odd (evaporating, vanishing)
+fordelende	part	rejected	odd-unclear: abstract (distributing)
+foregående	part	rejected	odd-unclear: status/temporal (previous)
+forekommende	part	rejected	odd-unclear: abstract (occurring)
+forestående	part	rejected	odd-unclear: status-like (upcoming)
+forfaldende	part	rejected	negative: decaying; payment falling due
+forfølgende	part	rejected	negative: persecuting/stalking
+forhøjende	part	rejected	odd-unclear: abstract (raising)
+forlæggende	part	rejected	odd-unclear: odd (misplacing, relocating)
+formende	part	rejected	body-appearance: body-shaping (formende undertøj)
+formgivende	part	rejected	odd-unclear: abstract (designing)
+forpurrende	part	rejected	negative: thwarting
+forseglende	part	rejected	odd-unclear: legal reading (sealing)
+forstuvende	part	rejected	death-illness-misfortune: spraining, injury
+forsvarende	part	rejected	odd-unclear: legal defence/military reading
+forsvindende	part	rejected	negative: vanishing; missing-person reading
+forsålende	part	rejected	odd-unclear: obscure (resoling shoes)
+fortsættende	part	rejected	odd-unclear: status-like (continuing)
+fortøjende	part	rejected	odd-unclear: technical (mooring)
+forudgående	part	rejected	odd-unclear: status/temporal (preceding)
+forulykkende	part	rejected	death-illness-misfortune: having an accident
+fostrende	part	rejected	odd-unclear: abstract; foster/fetus association
+frembrydende	part	rejected	odd-unclear: abstract/literary (breaking forth)
+fremkaldende	part	rejected	odd-unclear: provoking/inducing (e.g. vomiting); photo developing
+fremrykkende	part	rejected	odd-unclear: military advance or rescheduling reading
+fremstående	part	rejected	body-appearance: protruding body features (teeth, cheekbones)
+fremtrædende	part	rejected	odd-unclear: describes people (prominent)
+frysende	part	rejected	negative: freezing, feeling cold
+fråsende	part	rejected	negative: gorging, gluttony
+fugtende	part	rejected	body-appearance: moisturizing skin, hygiene
+fungerende	part	rejected	odd-unclear: HR status (acting manager)
+fyldende	part	rejected	odd-unclear: odd (filling)
+fyrende	part	rejected	weapons-violence: firing guns; also firing employees
+fående	part	rejected	odd-unclear: odd form (getting)
+fældende	part	rejected	odd-unclear: legal reading (fælde dom); shedding
+fængende	part	rejected	odd-unclear: abstract 'catchy' or catching fire
+fængslende	part	rejected	odd-unclear: imprisoning reading in legal context
+fødende	part	rejected	body-appearance: giving birth
+følende	part	rejected	odd-unclear: describes people only (feeling)
+følgende	part	rejected	odd-unclear: abstract (following)
+førende	part	rejected	odd-unclear: abstract (leading)
+gabende	part	rejected	negative: gaping hole; yawning
+gelejdende	part	rejected	odd-unclear: obscure (escorting)
+gemmende	part	rejected	odd-unclear: odd (hiding/saving)
+genererende	part	rejected	odd-unclear: technical (generating)
+gengivende	part	rejected	odd-unclear: abstract (reproducing)
+genlydende	part	rejected	odd-unclear: literary/rare (resounding)
+gennende	part	rejected	odd-unclear: odd (herding)
+genoplivende	part	rejected	death-illness-misfortune: resuscitation, medical emergency
+genskabende	part	rejected	odd-unclear: abstract (recreating)
+glidende	part	rejected	negative: case reading 'lade sagen glide' = let it slide/neglect; slipping sense (sentiment -1); lubricant association (glidecreme) (second review)
+glippende	part	rejected	negative: failing, slipping
+glødende	part	rejected	negative: red-hot = burn/fire hazard on an object; intensifier in 'glødende had/vrede' (second review)
+gnidende	part	rejected	body-appearance: rubbing, bodily reading
+gravende	part	rejected	odd-unclear: people/animal action; graves
+gribende	part	rejected	odd-unclear: mainly emotional 'moving'; grabbing
+gryntende	part	rejected	negative: grunting
+græssende	part	rejected	odd-unclear: describes animals only (grazing)
+gyngende	part	rejected	negative: 'på gyngende grund' = on shaky ground, reads as a weak/uncertain case; swaying-hips body reading (second review)
+gående	part	rejected	odd-unclear: describes people only (walking)
+gødende	part	rejected	odd-unclear: odd (fertilizing, manure)
+gøende	part	rejected	odd-unclear: barking; animal-only verb, noise, odd on objects
+gørende	part	rejected	odd-unclear: only used inside compounds; odd alone
+hamrende	part	rejected	odd-unclear: slang intensifier ('hamrende fuld'); hammering noise
+hastende	part	rejected	odd-unclear: reads like case urgency status ('hastende sag')
+havende	part	rejected	odd-unclear: having; abstract, odd
+havnende	part	rejected	odd-unclear: ending up somewhere; odd
+heksende	part	rejected	sensitive: witchcraft/occult reading
+helbredende	part	rejected	death-illness-misfortune: healing; medical/illness connotation
+helende	part	rejected	death-illness-misfortune: healing; medical/illness connotation
+hentende	part	rejected	odd-unclear: fetching; odd on objects
+holdende	part	rejected	odd-unclear: holding; mainly compound-only, odd
+hoppende	part	approved	
+hostende	part	rejected	death-illness-misfortune: coughing; illness
+huggende	part	rejected	weapons-violence: chopping/hacking; violent reading
+huskende	part	rejected	odd-unclear: remembering; people-only mental verb
+hvidtende	part	rejected	odd-unclear: whitewashing; activity verb, odd on objects
+hvilende	part	rejected	odd-unclear: reads like case/business status (dormant, 'hvilende sag')
+hviskende	part	rejected	odd-unclear: people verb; can suggest gossip/secrets
+hæftende	part	rejected	odd-unclear: legal liability reading ('hæftende')
+hældende	part	rejected	odd-unclear: pouring/tilting; ambiguous, also drinking idiom
+hændende	part	rejected	odd-unclear: happening; abstract
+hængende	part	rejected	death-illness-misfortune: hanging connotation; also reads like stalled/pending case
+hørende	part	rejected	odd-unclear: hearing; also legal hearing/belonging; odd
+høstende	part	rejected	odd-unclear: harvesting; people activity
+høvlende	part	rejected	odd-unclear: planing wood; technical, odd
+iagttagende	part	rejected	odd-unclear: observing; people/surveillance reading
+iførende	part	rejected	odd-unclear: putting on clothes; odd
+ilende	part	rejected	odd-unclear: hurrying; literary, implies urgency
+indbringende	part	rejected	odd-unclear: lucrative / bringing a case before a board; legal-financial
+inddelende	part	rejected	odd-unclear: dividing; abstract
+indeholdende	part	rejected	odd-unclear: containing; technical/abstract
+indfarvende	part	rejected	odd-unclear: dyeing; technical
+indhentende	part	rejected	odd-unclear: obtaining information; case-procedure reading
+indlæggende	part	rejected	death-illness-misfortune: hospital admission reading
+indrammende	part	rejected	odd-unclear: framing; also framing someone for a crime
+indrettende	part	rejected	odd-unclear: furnishing; odd
+indskydende	part	rejected	odd-unclear: interjecting; odd
+indspillende	part	rejected	odd-unclear: recording; odd
+indstillende	part	rejected	odd-unclear: recommending to a board; case-procedure reading
+indsættende	part	rejected	odd-unclear: inserting/depositing/installing; odd
+indtagende	part	rejected	odd-unclear: charming/ingesting/conquering; ambiguous
+indvandrende	part	rejected	sensitive: immigrating; ethnicity/migration politics
+inklinerende	part	rejected	odd-unclear: inclining; obscure/abstract
+isolerende	part	rejected	negative: social isolation reading
+jagende	part	rejected	negative: hunting/chasing; 'jagende smerte' (stabbing pain)
+kantende	part	rejected	odd-unclear: edging; technical, odd
+kastende	part	rejected	odd-unclear: throwing; odd, can imply violence
+kiggende	part	rejected	odd-unclear: looking; people verb, peeping reading
+klappende	part	rejected	odd-unclear: clapping; people verb
+klaprende	part	approved	
+klarende	part	rejected	odd-unclear: 'klarende samtale'; case-procedure reading
+klingende	part	approved	
+klippende	part	rejected	odd-unclear: cutting; odd
+knirkende	part	rejected	negative: creaking; wear/noise nuisance
+knusende	part	rejected	negative: crushing; destruction, 'knusende nederlag'
+knækkende	part	rejected	negative: breaking; damage
+knælende	part	rejected	odd-unclear: kneeling; people verb, prayer/submission
+kogende	part	rejected	negative: boiling; scalding danger, 'kogende raseri'
+komponerende	part	rejected	odd-unclear: composing; people verb
+korroderende	part	rejected	negative: corroding; decay
+kortlæggende	part	rejected	odd-unclear: mapping/surveying; case-assessment reading
+kreerende	part	rejected	odd-unclear: creating; people verb
+kronende	part	rejected	odd-unclear: crowning; royalty, odd
+krybende	part	rejected	negative: crawling/creeping; sycophantic, creepy
+kulminerende	part	rejected	odd-unclear: culminating; abstract
+kvælende	part	rejected	weapons-violence: strangling/suffocating
+kyssende	part	rejected	body-appearance: kissing; intimate/bodily
+kælende	part	rejected	body-appearance: caressing; intimate/bodily
+kæmpende	part	rejected	weapons-violence: fighting/combat
+kørende	part	rejected	odd-unclear: reads like case status ('kørende sag')
+ladende	part	rejected	odd-unclear: loading/charging/letting; ambiguous
+landende	part	rejected	odd-unclear: landing; odd on most objects, 'lande en sag'
+lastende	part	rejected	odd-unclear: loading/blaming; ambiguous
+lavende	part	rejected	odd-unclear: making; abstract, odd
+leddelende	part	rejected	odd-unclear: articulating/jointing; technical
+ledende	part	rejected	odd-unclear: managerial HR reading ('ledende medarbejder'); conductive
+legerende	part	rejected	odd-unclear: alloying; technical
+lettende	part	rejected	odd-unclear: taking off/relieving; odd
+levende	part	rejected	odd-unclear: alive/dead status reading; odd on objects
+levnende	part	rejected	odd-unclear: leaving behind; odd
+liggende	part	rejected	odd-unclear: lying; reads like idle case, person lying down
+limende	part	rejected	odd-unclear: gluing; odd
+listende	part	rejected	negative: sneaking
+loddende	part	rejected	odd-unclear: soldering/sounding; technical
+lugtende	part	rejected	negative: smelling bad
+lukkende	part	rejected	odd-unclear: closing; case-status reading
+lydende	part	rejected	odd-unclear: legal 'lydende på'; odd
+lysende	part	approved	
+lånende	part	rejected	odd-unclear: borrowing; financial, odd
+læggende	part	rejected	odd-unclear: laying; odd
+lækkende	part	rejected	negative: leaking
+løbende	part	rejected	odd-unclear: reads like case status ('løbende')
+løftende	part	rejected	odd-unclear: lifting; odd
+løjende	part	rejected	odd-unclear: abating (wind); obscure
+løsnende	part	rejected	odd-unclear: loosening; odd, suggests failure
+malende	part	rejected	odd-unclear: painting; people activity, odd
+manglende	part	rejected	negative: missing/lacking
+marcherende	part	rejected	odd-unclear: marching; people/military verb
+markerende	part	rejected	odd-unclear: marking/signalling; abstract
+masende	part	rejected	negative: pushing/crowding
+miavende	part	rejected	odd-unclear: meowing; animal-only, odd on objects
+migrerende	part	rejected	sensitive: migration reading
+modnende	part	rejected	odd-unclear: ripening/maturing; odd
+modstillende	part	rejected	odd-unclear: contrasting; abstract
+modstående	part	rejected	odd-unclear: opposite/opposing party; legal-abstract
+motionerende	part	rejected	odd-unclear: exercising; people verb
+murende	part	rejected	odd-unclear: bricklaying; odd
+måbende	part	rejected	odd-unclear: gaping; people verb
+målende	part	rejected	odd-unclear: measuring; technical
+mærkende	part	rejected	odd-unclear: feeling/marking; odd
+møblerende	part	rejected	odd-unclear: furnishing; odd
+mødende	part	rejected	odd-unclear: legal 'mødende part'; odd
+mørknende	part	rejected	negative: darkening; gloomy
+navigerende	part	rejected	odd-unclear: navigating; odd
+nedlæggende	part	rejected	negative: closing down/redundancy, killing game
+nikkende	part	rejected	odd-unclear: nodding; people verb
+nydende	part	rejected	odd-unclear: enjoying; people verb, sensual reading
+nynnende	part	rejected	odd-unclear: humming; people verb
+nående	part	rejected	odd-unclear: reaching; odd
+nærmende	part	rejected	odd-unclear: reflexive-only verb; odd
+obducerende	part	rejected	death-illness-misfortune: performing autopsy
+observerende	part	rejected	odd-unclear: observing; surveillance/case reading
+omfavnende	part	rejected	body-appearance: embracing; bodily
+omringende	part	rejected	odd-unclear: surrounding/encircling; abstract, military
+opbevarende	part	rejected	odd-unclear: storing; odd
+opdrættende	part	rejected	odd-unclear: breeding; odd
+opdæmmende	part	rejected	odd-unclear: damming; odd
+opererende	part	rejected	odd-unclear: surgery/military/operational-status readings
+opfyldende	part	rejected	odd-unclear: fulfilling (conditions); case reading
+opførende	part	rejected	odd-unclear: performing/building; odd
+opnående	part	rejected	odd-unclear: achieving; abstract
+opskruende	part	rejected	odd-unclear: screwing up; odd
+opstående	part	rejected	odd-unclear: arising (problems)/resurrection; odd
+optagende	part	rejected	odd-unclear: absorbing/recording/occupied; ambiguous
+optrædende	part	rejected	odd-unclear: performing/acting as; people/legal
+opvækkende	part	rejected	sensitive: religious revival/resurrection
+ordnende	part	rejected	odd-unclear: arranging; abstract
+overfaldende	part	rejected	weapons-violence: assaulting
+overførende	part	rejected	odd-unclear: transferring; case/disease transfer reading
+overgående	part	rejected	odd-unclear: exceeding/transitional; abstract
+overlevende	part	rejected	death-illness-misfortune: survivor; death connotation
+overvindende	part	rejected	odd-unclear: overcoming; abstract
+ovnstegende	part	rejected	odd-unclear: oven-roasting; odd
+pacende	part	rejected	odd-unclear: anglicism 'pace'; odd
+pakkende	part	rejected	odd-unclear: packing/gripping; odd
+panorerende	part	rejected	odd-unclear: panning; technical
+parkerende	part	rejected	odd-unclear: 'parkeret sag'; case-status reading
+passerende	part	rejected	odd-unclear: passing by; relational, odd as identifier
+piskende	part	rejected	weapons-violence: whipping
+pjaskende	part	rejected	odd-unclear: childish/sloppy register (pjask, pjasket = wishy-washy); wet splashing odd before most objects (second review)
+placerende	part	rejected	odd-unclear: placing; odd
+plantende	part	rejected	odd-unclear: planting; people activity
+plejende	part	rejected	odd-unclear: care/nursing; social-services reading
+plukkende	part	rejected	odd-unclear: picking/fleecing; odd
+pressende	part	rejected	negative: pressuring
+printende	part	rejected	odd-unclear: printing; tautological/odd
+producerende	part	rejected	odd-unclear: producing; industrial/abstract
+prydende	part	approved	
+prøvende	part	rejected	odd-unclear: trying/testing; legal review reading
+pudsende	part	rejected	odd-unclear: polishing/plastering; odd
+pulserende	part	rejected	body-appearance: throbbing/pulse; bodily reading like vibrerende
+pumpende	part	rejected	body-appearance: pumping; bodily/slang reading
+rammende	part	rejected	odd-unclear: hitting/apt; odd
+ransagende	part	rejected	odd-unclear: police search; legal reading
+raslende	part	approved	
+reagerende	part	rejected	odd-unclear: reacting; abstract
+reddende	part	rejected	death-illness-misfortune: rescuing; implies emergency
+reducerende	part	rejected	odd-unclear: reducing; abstract/cutbacks
+regnende	part	rejected	odd-unclear: raining/calculating; odd
+rejsende	part	rejected	odd-unclear: traveller (person) / raising a case; odd
+rendende	part	rejected	odd-unclear: running around; slangy, odd
+rensende	part	rejected	odd-unclear: cleansing; implies dirt, odd
+resterende	part	rejected	odd-unclear: remaining; case/amount reading
+rettende	part	rejected	odd-unclear: correcting; abstract
+returnerende	part	rejected	odd-unclear: returning; status reading
+rimende	part	rejected	odd-unclear: rhyming/frosting; odd
+ringende	part	approved	
+rivende	part	rejected	negative: tearing; 'rivende strøm' danger
+rodende	part	rejected	negative: messy/rummaging
+roende	part	rejected	odd-unclear: rowing; people activity
+rullende	part	approved	
+rygende	part	rejected	death-illness-misfortune: smoking; addiction/fire
+rykkende	part	rejected	odd-unclear: jerking; also payment reminder ('rykker')
+rystende	part	rejected	negative: shaking/shocking
+rådnende	part	rejected	negative: rotting
+rækkende	part	rejected	odd-unclear: reaching/handing; odd
+rørende	part	rejected	odd-unclear: touching/moving; emotional or bodily, odd
+rørlæggende	part	rejected	odd-unclear: pipe-laying; technical
+samlende	part	rejected	odd-unclear: abstract 'collecting/unifying', odd on an object
+scorende	part	rejected	body-appearance: slang for picking someone up sexually; also sports scoring
+seende	part	rejected	odd-unclear: 'sighted' contrasts with blind; describes beings, not objects
+sejlende	part	rejected	negative: 'det sejler' = chaos, 'lade sagen sejle' = neglect, 'sejlende fuld' = drunk (second review)
+sendende	part	rejected	odd-unclear: technical 'transmitting', odd on an object
+serverende	part	rejected	odd-unclear: people verb (serving)
+siddende	part	rejected	odd-unclear: people posture; 'siddende regering' = incumbent (politics)
+sigende	part	rejected	odd-unclear: abstract 'telling/meaningful'
+sikrende	part	rejected	odd-unclear: abstract/technical 'securing'
+simulerende	part	rejected	odd-unclear: 'simulating', also faking illness
+sippende	part	rejected	odd-unclear: people verb (sipping a drink)
+skabende	part	rejected	odd-unclear: abstract 'creating'; 'skabe sig' = make a fuss
+skaffende	part	rejected	odd-unclear: abstract 'procuring'
+skatende	part	rejected	odd-unclear: people verb (skateboarding), anglicism
+skeende	part	rejected	odd-unclear: abstract 'happening'
+skillende	part	rejected	odd-unclear: abstract 'separating'; divorce reading
+skiltende	part	rejected	odd-unclear: 'skilte med' = flaunting, odd
+skinnende	part	approved	
+skjulende	part	rejected	negative: concealing/hiding, dishonesty reading in legal cases
+skrabende	part	rejected	negative: scraping noise, unpleasant
+skridende	part	rejected	negative: skidding/slipping; 'skride' = walk out, deadlines slipping
+skruende	part	rejected	odd-unclear: 'screwing', odd on an object
+skrående	part	rejected	odd-unclear: static tilt reads as crooked/defective (skrående bord, skrående hylde); faint 'skråplan' (going astray) echo (second review)
+skummende	part	rejected	negative: foaming suggests overflow/malfunction; 'skummende af raseri'
+skydende	part	rejected	weapons-violence: shooting
+skyllende	part	rejected	odd-unclear: flushing/rinsing, toilet association
+skålende	part	rejected	odd-unclear: people verb, toasting with alcohol
+skærende	part	rejected	negative: cutting; 'skærende lyd' = piercing noise
+skøjtende	part	rejected	odd-unclear: people verb (skating); 'skøjte hen over' = gloss over
+slagtende	part	rejected	weapons-violence: slaughtering
+slentrende	part	rejected	odd-unclear: people verb (strolling)
+slettende	part	rejected	odd-unclear: 'deleting' reads as a record operation
+slibende	part	rejected	negative: grinding/abrasive, noise; abrasive personality
+slidende	part	rejected	negative: wearing out, toiling
+slippende	part	rejected	odd-unclear: abstract 'letting go/releasing'
+slugende	part	rejected	body-appearance: swallowing, bodily
+slukkende	part	rejected	odd-unclear: 'switching off/extinguishing', reads as failure or closing
+sluttende	part	rejected	odd-unclear: 'ending/concluding' reads as case status
+slyngende	part	rejected	odd-unclear: winding is road-only; 'slynge' = hurl/sling
+slående	part	rejected	odd-unclear: abstract 'striking'; literal 'hitting' reading
+slæbende	part	rejected	odd-unclear: 'slæbende sag' = dragging case, status reading
+smagende	part	rejected	odd-unclear: people verb (tasting)
+smaskende	part	rejected	negative: noisy lip-smacking, rude
+smedende	part	rejected	odd-unclear: people verb; 'smede planer' = plotting
+smeltende	part	rejected	negative: melting implies heat damage on most objects
+smidende	part	rejected	odd-unclear: 'throwing/shedding', odd
+smuldrende	part	rejected	negative: crumbling, decay
+smuttende	part	rejected	negative: slipping, accident
+smækkende	part	rejected	negative: slamming, noise nuisance
+smørende	part	rejected	odd-unclear: smearing; 'smøre' = bribe
+sneende	part	rejected	odd-unclear: weather verb, odd on an object
+snoende	part	rejected	odd-unclear: describes paths/snakes, odd before objects; 'sno sig (udenom)' = wriggle out/evade, bad in legal/HR context (second review)
+snuppende	part	rejected	negative: snatching, theft
+snurrende	part	approved	
+sovende	part	rejected	odd-unclear: people verb; 'sovende sag' = dormant case (status)
+spadserende	part	rejected	odd-unclear: people verb (strolling)
+sparkende	part	rejected	weapons-violence: kicking
+spilkogende	part	rejected	negative: boiling hot, scalding danger
+spillende	part	rejected	odd-unclear: people activity; gambling reading
+spindende	part	rejected	odd-unclear: cat purring has sensual overtones; 'spinde rænker' = scheme, spin-doctoring; odd before objects (second review)
+spisende	part	rejected	odd-unclear: people verb (eating)
+spjættende	part	rejected	body-appearance: jerking/kicking legs, struggling body
+spottende	part	rejected	negative: mocking
+spredende	part	rejected	odd-unclear: abstract 'spreading', contagion reading
+springende	part	rejected	odd-unclear: 'springende punkt' idiom; 'springe' = burst (pipes)
+sprøjtende	part	rejected	body-appearance: squirting; bodily/sexual and drug-injection readings
+spændende	part	rejected	odd-unclear: evaluative 'exciting', flippant on a sensitive case
+stammende	part	rejected	death-illness-misfortune: stuttering (speech impediment); also abstract 'originating'
+standsende	part	rejected	odd-unclear: 'stopping/halting' reads as case status
+stangende	part	rejected	weapons-violence: butting/goring
+stavrende	part	rejected	odd-unclear: people verb (tottering)
+stemmende	part	rejected	sensitive: voting, politics
+stemplende	part	rejected	odd-unclear: stamping/branding someone; clocking in (HR)
+stigende	part	rejected	odd-unclear: abstract trend 'rising' (prices, numbers)
+stikkende	part	rejected	negative: stinging/prickly; 'stikke' = snitch
+stillende	part	rejected	odd-unclear: 'soothing/sedating' (stillende middel), odd
+stimulerende	part	rejected	body-appearance: stimulating, drug/sexual readings
+stivnende	part	rejected	negative: stiffening, frozen with fear, rigor
+stoppende	part	rejected	odd-unclear: 'stopping' reads as status; constipating
+stormende	part	rejected	negative: stormy/turbulent; storming = assault
+strammende	part	rejected	odd-unclear: 'tightening', odd
+strejfende	part	rejected	odd-unclear: roaming/stray, odd
+strikkende	part	rejected	odd-unclear: people verb (knitting)
+strålende	part	approved	
+strækkende	part	rejected	odd-unclear: stretching, people/body action
+strøende	part	rejected	odd-unclear: 'strewing', odd
+strømmende	part	rejected	odd-unclear: describes liquids; on objects reads as leaking
+stuvende	part	rejected	odd-unclear: stewing/stowing, odd
+stående	part	rejected	odd-unclear: adds nothing to most objects and reads as case status (pending/stalled, 'sagen står stille'); 'stå' slang for erection (second review)
+stødende	part	rejected	negative: 'stødende' = offensive
+størknende	part	rejected	negative: congealing/clotting (blood)
+støttende	part	rejected	odd-unclear: social-support term, confusing in social-services cases
+støvende	part	rejected	negative: dusty, dirt
+sugende	part	rejected	body-appearance: sucking, sexual reading
+summende	part	approved	
+surfende	part	rejected	odd-unclear: people verb (surfing)
+svedende	part	rejected	body-appearance: sweating
+svingende	part	rejected	negative: fluctuating/unstable ('svingende kvalitet'); swinger reading
+svævende	part	rejected	negative: 'sagen svæver' = undecided case; 'svævende svar' = vague/evasive; spaced-out sense (sentiment -1) (second review)
+svømmende	part	rejected	odd-unclear: people/animal verb; 'svømme i' = overwhelmed
+syende	part	rejected	odd-unclear: people verb (sewing)
+syngende	part	approved	
+synkende	part	rejected	negative: sinking
+sående	part	rejected	odd-unclear: people verb (sowing)
+sælgende	part	rejected	odd-unclear: 'selling', salesy/pushy
+sænkende	part	rejected	odd-unclear: 'lowering', odd
+sættende	part	rejected	odd-unclear: 'setting/putting', odd
+tabende	part	rejected	negative: losing
+tagende	part	rejected	odd-unclear: 'taking', odd
+takkende	part	rejected	odd-unclear: people verb (thanking)
+tappende	part	rejected	negative: draining ('tappe for kræfter')
+tastende	part	rejected	odd-unclear: people verb (typing/fumbling)
+tatoverende	part	rejected	body-appearance: tattooing, body
+tegnende	part	rejected	odd-unclear: people verb; legal 'signing'
+tiende	part	rejected	odd-unclear: 'keeping silent'; homograph of 'tenth/tithe'
+tildækkende	part	rejected	odd-unclear: 'covering/veiling', odd
+tilfaldende	part	rejected	odd-unclear: legal 'accruing' (inheritance)
+tilladende	part	rejected	odd-unclear: abstract/legal 'permitting'
+tilsluttende	part	rejected	odd-unclear: abstract/technical 'connecting/joining'
+tjenende	part	rejected	sensitive: servant/servitude, class connotation
+tolererende	part	rejected	odd-unclear: abstract mental 'tolerating'
+tordnende	part	rejected	negative: thundering noise, angry
+trampende	part	rejected	negative: stomping, noise nuisance
+traskende	part	rejected	odd-unclear: people verb (trudging)
+trippende	part	rejected	odd-unclear: people verb (impatient steps); drug 'tripping'
+trykkende	part	rejected	negative: oppressive ('trykkende stemning')
+trædende	part	rejected	odd-unclear: 'stepping/treading', odd
+trænende	part	rejected	odd-unclear: people verb (training)
+trængende	part	rejected	sensitive: 'de trængende' = the needy, social class
+turnerende	part	rejected	odd-unclear: people verb (touring band)
+tvingende	part	rejected	negative: forcing/coercion
+tømmende	part	rejected	odd-unclear: 'emptying', odd
+udarbejdende	part	rejected	odd-unclear: abstract 'preparing/drafting'
+udbedrende	part	rejected	odd-unclear: technical 'repairing'
+udbringende	part	rejected	odd-unclear: 'delivering/proposing a toast', odd
+udbærende	part	rejected	odd-unclear: 'delivering (mail)', odd
+uddykkende	part	rejected	odd-unclear: unclear verb, odd
+udfyldende	part	rejected	odd-unclear: 'filling in (forms)', case-processing reading
+udgående	part	rejected	odd-unclear: 'outgoing/discontinued', status reading
+udkommende	part	rejected	odd-unclear: 'being published', status reading
+udlignende	part	rejected	odd-unclear: abstract 'equalizing'
+udnyttende	part	rejected	negative: exploiting
+udrykkende	part	rejected	odd-unclear: emergency call-out, odd/alarming
+udsendende	part	rejected	odd-unclear: 'broadcasting/dispatching'; deployed soldiers
+udskiftende	part	rejected	odd-unclear: abstract 'replacing'
+udskillende	part	rejected	body-appearance: secreting bodily fluids
+udsmidende	part	rejected	negative: throwing out/evicting
+udstemplende	part	rejected	odd-unclear: unclear 'stamping out', odd
+udsættende	part	rejected	odd-unclear: postponing/eviction, case-status reading
+udvandrende	part	rejected	sensitive: emigrating, migration
+udviklende	part	rejected	odd-unclear: abstract 'developing/educational'
+udvindende	part	rejected	odd-unclear: technical 'extracting'
+udvisende	part	rejected	sensitive: 'udvise' = deport/expel
+undersøgende	part	rejected	odd-unclear: 'investigating', case-status reading
+undfangende	part	rejected	body-appearance: conceiving, pregnancy
+undgående	part	rejected	odd-unclear: abstract 'avoiding'
+vandende	part	rejected	odd-unclear: people verb (watering); watery eyes
+varende	part	rejected	odd-unclear: abstract 'lasting', time/status
+vaskende	part	rejected	odd-unclear: people verb (washing)
+vejende	part	rejected	odd-unclear: abstract 'weighing' ('vejende argument')
+vekslende	part	rejected	odd-unclear: 'alternating/mixed', modifies abstract nouns
+vendende	part	rejected	odd-unclear: 'turning', odd
+ventende	part	rejected	odd-unclear: 'waiting' reads as case status
+viftende	part	approved	
+vigende	part	rejected	negative: retreating/declining ('vigende salg')
+viklende	part	rejected	odd-unclear: 'wrapping/entangling', odd
+vindende	part	rejected	odd-unclear: 'winning' reads as case outcome in legal systems
+vinkende	part	rejected	odd-unclear: people gesture (waving hello)
+vippende	part	rejected	odd-unclear: wobbly/tipping; 'vippe regeringen' (topple)
+visende	part	rejected	odd-unclear: abstract 'showing'
+voksende	part	rejected	odd-unclear: abstract 'growing' ('voksende problem'); growth/tumour
+vraltende	part	rejected	body-appearance: waddling, mocks body shape
+vrimlende	part	rejected	negative: teeming/swarming, infestation
+vristende	part	rejected	negative: wrenching away, snatching
+vuggende	part	rejected	body-appearance: 'vuggende hofter' sensual reading; 'vugge i falsk tryghed' = lull/deceive; cradle/infant association in welfare cases (second review)
+vågnende	part	rejected	odd-unclear: people verb (waking up)
+vækkende	part	rejected	odd-unclear: 'waking/arousing', odd
+væltende	part	rejected	negative: toppling/overturning
+værende	part	rejected	odd-unclear: abstract 'being'
+væskende	part	rejected	body-appearance: oozing (wound)
+vævende	part	rejected	odd-unclear: weaving; 'væve' = ramble/talk nonsense
+åbnende	part	rejected	odd-unclear: 'opening' reads as case status
+åndende	part	rejected	odd-unclear: breathing, living-being verb
+åreladende	part	rejected	death-illness-misfortune: bloodletting, medical
+øjende	part	rejected	odd-unclear: people verb (eyeing)
+øjnende	part	rejected	odd-unclear: people verb (spotting)
 accelerator	sb	rejected	odd-unclear: technical (particle accelerator / throttle)
 accessoires	sb	rejected	odd-unclear: French plural spelling, collective
 adskillelse	sb	rejected	odd-unclear: abstract; also separation/divorce sense
@@ -1593,10 +2155,13 @@ yderdør	sb	approved
 ølskum	sb	rejected	death-illness-misfortune: beer foam, alcohol
 øse	sb	approved	
 øsekar	sb	rejected	odd-unclear: rare nautical bailer
+aflange summende	pair	rejected	sensitive: 'elongated buzzing', reads as vibrator
 appetitlige barnevogn	pair	rejected	sensitive: 'appetizing' + pram reads predatory/sexualising
 appetitlige børneværelse	pair	rejected	sensitive: 'appetizing' + child's room reads predatory/sexualising
+appetitlige hoppende	pair	rejected	body-appearance: 'appetising bouncing', sexualised body reading
 appetitlige seng	pair	rejected	sensitive: sexual innuendo ('appetizing bed')
 appetitlige sparkedragt	pair	rejected	sensitive: 'appetizing' + baby onesie reads predatory/sexualising
+behagelige summende	pair	rejected	sensitive: 'pleasant buzzing', reads as vibrator
 blå brev	pair	rejected	negative: 'det blå brev' (German 'blauer Brief') = dismissal or warning notice
 blå bønne	pair	rejected	weapons-violence: slang 'blå bønner' = bullets, gunshots
 blå strømpe	pair	rejected	negative: evokes 'blåstrømpe' (bluestocking), dated derogatory term for an intellectual woman
@@ -1607,6 +2172,23 @@ dybe vand	pair	rejected	negative: evokes 'ude på dybt vand' = out of one's dept
 elektriske stol	pair	rejected	death-illness-misfortune: the electric chair (execution)
 elektriske tændrør	pair	rejected	weapons-violence: 'tændrør' also = detonator; reads as electric blasting cap
 elektroniske tændrør	pair	rejected	weapons-violence: reads as electronic detonator
+flyvende glas	pair	rejected	weapons-violence: flying glass/shards, thrown glass
+flyvende mejsel	pair	rejected	weapons-violence: flying chisel, thrown or projectile hazard
+flyvende saks	pair	rejected	weapons-violence: flying scissors, thrown or projectile hazard
+flyvende sav	pair	rejected	weapons-violence: flying saw, thrown or projectile hazard
+flyvende skruenøgle	pair	rejected	weapons-violence: flying wrench, thrown or projectile hazard
+flyvende skruetrækker	pair	rejected	weapons-violence: flying screwdriver, thrown or projectile hazard
+flyvende stol	pair	rejected	weapons-violence: thrown chair, brawl
+hoppende autocamper	pair	rejected	sensitive: rocking camper van, sexual innuendo
+hoppende campingvogn	pair	rejected	sensitive: rocking caravan, sexual innuendo
+hoppende seng	pair	rejected	sensitive: bouncing bed, sexual innuendo
+lyserøde summende	pair	rejected	sensitive: 'pink buzzing', reads as vibrator
 mekaniske appelsin	pair	rejected	odd-unclear: evokes 'A Clockwork Orange' (violent novel/film)
 mekaniske tændrør	pair	rejected	weapons-violence: reads as mechanical fuze (munitions)
+pink summende	pair	rejected	sensitive: 'pink buzzing', reads as vibrator
+runde hoppende	pair	rejected	body-appearance: 'round bouncing', reads as breasts/buttocks
+store hoppende	pair	rejected	body-appearance: 'big bouncing', reads as breasts
 store rygsæk	pair	rejected	sensitive: 'en stor/tung rygsæk' is social-work jargon for emotional baggage or a troubled past
+summende agurk	pair	rejected	sensitive: reads as vibrator
+summende courgette	pair	rejected	sensitive: reads as vibrator
+summende gulerod	pair	rejected	sensitive: reads as vibrator

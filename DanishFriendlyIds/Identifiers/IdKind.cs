@@ -28,6 +28,9 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
 
     public IReadOnlyCollection<Topic> ExcludedTopics { get; init; } = [];
 
+    /// <summary>Which verbs may give an -ende word (dansende, blinkende); none unless a kind sets it.</summary>
+    public SenseFilter Participles { get; init; } = SenseFilter.Nothing;
+
     // A name given to a person must not hint at where they come from, their faith, politics or health.
     // Physical traits count (energisk, adræt); the review keeps out the ones about bodies.
     public static readonly IdKind Person = new(
@@ -36,7 +39,11 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
         SenseFilter.Any(MeaningCategory.Mental, MeaningCategory.Physical).Except(MeaningCategory.Condition),
         SenseFilter.Any(MeaningCategory.Human).Except(MeaningCategory.Group, MeaningCategory.Institution))
     {
-        ExcludedTopics = [new Topic("geg"), new Topic("rel"), new Topic("pol"), new Topic("med")]
+        ExcludedTopics = [new Topic("geg"), new Topic("rel"), new Topic("pol"), new Topic("med")],
+        Participles = SenseFilter.Any(
+                MeaningCategory.Act, MeaningCategory.Communication, MeaningCategory.Experience,
+                MeaningCategory.Mental, MeaningCategory.Social)
+            .Except(MeaningCategory.Condition)
     };
 
     // A thing may have a negative sense elsewhere (kold as a personality) as long as the sense it is used in is not.
@@ -51,7 +58,9 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
                 MeaningCategory.Garment, MeaningCategory.Building, MeaningCategory.Comestible)
             .ExceptWordsThatCanBe(MeaningCategory.Human))
     {
-        MinimumSentiment = -3
+        MinimumSentiment = -3,
+        Participles = SenseFilter.Any(MeaningCategory.Physical, MeaningCategory.Event, MeaningCategory.Existence)
+            .Except(MeaningCategory.Condition)
     };
 
     public static IReadOnlyList<IdKind> Presets { get; } = [Person, Object];

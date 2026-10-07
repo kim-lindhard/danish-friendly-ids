@@ -27,6 +27,21 @@ public class WordListAssemblerFacts
     }
 
     [Fact]
+    public void A_verb_gets_its_present_participle_and_other_words_get_none()
+    {
+        // Act
+        var dance = Only("danse", WordClass.Verb);
+        var happy = Only("glad", WordClass.Adjective);
+        var box = Only("kasse", WordClass.Noun);
+
+        // Assert
+        Assert.Equal("dansende", dance.PresentParticiple);
+        Assert.True(dance.Is(MeaningCategory.Act));
+        Assert.Null(happy.PresentParticiple);
+        Assert.Null(box.PresentParticiple);
+    }
+
+    [Fact]
     public void A_noun_has_no_definite_form()
     {
         // Act

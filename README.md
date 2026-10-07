@@ -11,13 +11,15 @@ Packaging (Stage 3) comes next.
 ```csharp
 var ids = new FriendlyIdGenerator();                       // embedded words, Random.Shared
 
-FriendlyId person = ids.Next(IdKind.Person);               // "glade danser"
-FriendlyId thing = ids.Next(IdKind.Object);                // "elektriske lampe"
+FriendlyId person = ids.Next(IdKind.Person);                        // "glade danser" or "dansende pilot"
+FriendlyId thing = ids.Next(IdKind.Object);                         // "elektriske lampe"
+ids.Next(IdKind.Person, IdFormat.ThreeWords);                       // "glade dansende pilot"
+ids.Next(IdKind.Object, IdFormat.TwoWords.WithNumber(99));          // "blå kasse 42"
 
-if (ids.TryNext(IdKind.Person, id => store.Exists(id.ToString()), out var free))   // up to 1,000 tries
-    store.Add(free.ToString());
+if (ids.TryNext(IdKind.Person, IdFormat.ThreeWords, id => store.Exists(id.ToString()), out var free))
+    store.Add(free.ToString());                                     // up to 1,000 tries
 
-long space = ids.CapacityOf(IdKind.Person);                // adjectives × nouns
+long space = ids.CapacityOf(IdKind.Person, IdFormat.ThreeWords);    // exact
 
 var vehicle = new IdKind("Køretøj", Vocabulary.Objects, [MeaningCategory.Colour], [MeaningCategory.Vehicle]);
 ids.Next(vehicle);                                         // "røde traktor"
@@ -25,6 +27,14 @@ ids.Next(vehicle);                                         // "røde traktor"
 
 - **Identifiers are random.** Uniqueness is the caller's job: store what you hand out, and use `TryNext` to retry against it.
 - **Adjectives are always in the definite form** (*glade*, *blå*, *runde*), which is the same for both genders.
+  Verbs appear as **-ende words** (*dansende*, *blinkende*), which never inflect.
+- **Formats:**
+  - `IdFormat.TwoWords` (the default) is an adjective or -ende word + a noun;
+  - `IdFormat.ThreeWords` is an adjective + an -ende word + a noun;
+  - `.WithNumber(n)` appends a number from 1 to n;
+  - no identifier repeats a word.
+- **How many?** `CapacityOf(kind, format)` counts exactly: blocked pairs and repeated words are subtracted.
+  `dotnet run --project DanishFriendlyIds.Sample -- capacity` prints the table below.
 
 **No identifier is ever negative.** Two layers make sure of that:
 
@@ -43,16 +53,24 @@ ids.Next(vehicle);                                         // "røde traktor"
    - death, illness and misfortune;
    - odd or unclear words.
 
-   A `pair` line blocks two words that are fine alone but insulting together.
+   A `pair` line blocks two words that are fine alone but insulting together, wherever they appear in an
+   identifier in that order (adjective + noun, -ende word + noun, adjective + -ende word).
 
-| Kind | Adjectives (a sense that is …) | Nouns (a sense that is …) | Size |
+| Kind | Adjectives (a sense that is …) | -ende words (a verb sense that is …) | Nouns (a sense that is …) |
 |---|---|---|---|
-| `IdKind.Person` (people list) | Mental or Physical, not Condition | Human, not Group/Institution | 61 × 275 − 23 blocked pairs ≈ 16,752 |
-| `IdKind.Object` (objects list) | Physical or Colour, not Condition | Container, Furniture, Instrument, Vehicle, Garment, Building or Comestible; no sense of the word names a person | 67 × 599 − 17 blocked pairs ≈ 40,116 |
+| `IdKind.Person` (people list) | Mental or Physical, not Condition | Act, Communication, Experience, Mental or Social, not Condition | Human, not Group/Institution |
+| `IdKind.Object` (objects list) | Physical or Colour, not Condition | Physical, Event or Existence, not Condition | Container, Furniture, Instrument, Vehicle, Garment, Building or Comestible; no sense of the word names a person |
+
+**How many** (from `Sample -- capacity`, 2026-10-07):
+
+| | 2 words | 2 words + 1–9 | 2 words + 1–99 | 3 words | 3 words + 1–9 | 3 words + 1–99 |
+|---|---:|---:|---:|---:|---:|---:|
+| `Person` (61 adjectives, 66 -ende words, 275 nouns) | 34,615 | 311,535 | 3,426,885 | 1,103,819 | 9,934,371 | 109,278,081 |
+| `Object` (67 adjectives, 23 -ende words, 599 nouns) | 53,880 | 484,920 | 5,334,120 | 917,631 | 8,258,679 | 90,845,469 |
 
 ### The review file
 
-Both review files have the columns `word`, `word_class` (`adj`, `sb` or `pair`), `verdict` (`approved` or
+Both review files have the columns `word`, `word_class` (`adj`, `part` for -ende words, `sb` or `pair`), `verdict` (`approved` or
 `rejected`) and `reason`, which is required for a rejection. `word` is the form shown in the identifier:
 the definite adjective (*glade*), the noun (*danser*), or for a pair both (*tomme tønde*).
 
@@ -90,6 +108,7 @@ headwords of the official spelling dictionary (COR, 64,253) and Den Danske Ordbo
 | `centrality` | The highest centrality of any sense, from 0 to 3; higher means more core vocabulary |
 | `restriction` | `sprogbrug` (marked usage) and `frekvens` (rare) when every sense carries them; `varemærke` for registered trademarks |
 | `senses` | Number of COR.SEM senses; 0 means no meaning data |
+| `present_participle` | Verbs only: the -ende form (*danse* → *dansende*). 7,475 verbs have one |
 
 The meaning columns above summarise across senses. `data/danish-senses.tsv` holds each sense on its own
 line, 42,711 in all. Its columns are `id`, `word_class`, `sense` (1, 2, …), `categories`, `topics`,

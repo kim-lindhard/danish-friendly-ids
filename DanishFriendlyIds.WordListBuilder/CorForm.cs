@@ -14,6 +14,7 @@ public sealed record CorForm(
     bool IsTrademark)
 {
     public const string DefiniteAdjectiveLabel = "adj.sg.best";
+    public const string PresentParticipleLabel = "vb.præs.part";
     public const string RegulatedStatus = "N";
     public const string NoStatus = "";
 }

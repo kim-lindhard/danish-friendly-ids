@@ -13,6 +13,7 @@ public static partial class WordPoolSelector
 
     public static WordPools Candidates(Lexicon lexicon, IdKind kind) => new(
         Candidates(lexicon.Of(WordClass.Adjective), word => word.DefiniteForm, kind.Adjectives, kind),
+        Candidates(lexicon.Of(WordClass.Verb), word => word.PresentParticiple, kind.Participles, kind),
         Candidates(lexicon.Of(WordClass.Noun), word => word.Lemma, kind.Nouns, kind));
 
     public static WordPools Select(Lexicon lexicon, ReviewLists reviews, IdKind kind) =>
@@ -38,6 +39,7 @@ public static partial class WordPoolSelector
 
     private static WordPools WithVerdict(WordPools candidates, WordReview review, ReviewVerdict verdict) => new(
         candidates.Adjectives.Where(adjective => review.Verdict(WordClass.Adjective, adjective) == verdict).ToList(),
+        candidates.Participles.Where(participle => review.Verdict(WordClass.Verb, participle) == verdict).ToList(),
         candidates.Nouns.Where(noun => review.Verdict(WordClass.Noun, noun) == verdict).ToList());
 
     private static List<string> Candidates(

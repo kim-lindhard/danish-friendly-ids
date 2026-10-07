@@ -32,9 +32,9 @@ public class WordReviewFacts
         var review = Parsed("tomme tønde\tpair\trejected\tidiom for a blowhard\n");
 
         // Assert
-        Assert.True(review.Blocks(new FriendlyId("tomme", "tønde")));
-        Assert.False(review.Blocks(new FriendlyId("tomme", "kasse")));
-        Assert.Equal([new FriendlyId("tomme", "tønde")], review.BlockedPairs);
+        Assert.True(review.Blocks(FriendlyId.Of("tomme", "tønde")));
+        Assert.False(review.Blocks(FriendlyId.Of("tomme", "kasse")));
+        Assert.Equal([new WordPair("tomme", "tønde")], review.BlockedPairs);
     }
 
     [Theory]
@@ -94,11 +94,12 @@ public class WordReviewFacts
     {
         // Arrange
         var review = EmbeddedList(listName);
+        bool IsApprovedWord(string word) =>
+            new[] { WordClass.Adjective, WordClass.Verb, WordClass.Noun }.Any(wordClass => review.IsApproved(wordClass, word));
 
         // Act
         var pairsWithUnapprovedWords = review.BlockedPairs
-            .Where(pair => review.IsApproved(WordClass.Adjective, pair.Adjective) == false
-                           || review.IsApproved(WordClass.Noun, pair.Noun) == false)
+            .Where(pair => IsApprovedWord(pair.First) == false || IsApprovedWord(pair.Second) == false)
             .ToList();
 
         // Assert
@@ -117,6 +118,7 @@ public class WordReviewFacts
 
         // Assert
         Assert.Empty(unreviewed.Adjectives);
+        Assert.Empty(unreviewed.Participles);
         Assert.Empty(unreviewed.Nouns);
     }
 

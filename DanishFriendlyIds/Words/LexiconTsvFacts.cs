@@ -49,8 +49,8 @@ public class LexiconTsvFacts
 
         // Assert
         Assert.Equal(
-            "id\tlemma\tword_class\tdefinite_form\tcategories\ttopics\tmin_sentiment\tcentrality\trestriction\tsenses\n" +
-            "COR.15653\tkold\tadj\tkolde\tMental|Physical|Property\tpsy\t-2\t3\t\t2\n",
+            "id\tlemma\tword_class\tdefinite_form\tcategories\ttopics\tmin_sentiment\tcentrality\trestriction\tsenses\tpresent_participle\n" +
+            "COR.15653\tkold\tadj\tkolde\tMental|Physical|Property\tpsy\t-2\t3\t\t2\t\n",
             words);
     }
 

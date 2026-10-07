@@ -23,6 +23,7 @@ public static class BuildReport
         report.AppendLine($"Headwords with meaning (COR.SEM):  {Number(words.Where(word => word.HasMeaning).Select(word => word.Id).Distinct().Count())}");
         report.AppendLine($"Senses on words:                   {Number(words.Sum(word => word.Senses.Count))}");
         report.AppendLine($"Adjectives without definite form:  {Number(adjectivesWithoutDefiniteForm.Count)}");
+        report.AppendLine($"Verbs with a present participle:   {Number(words.Count(word => word.PresentParticiple is not null))}");
         report.AppendLine($"COR.SEM senses not matched:        {Number(wordList.UnmatchedSenses.Count)}");
         report.AppendLine("  Expected: meanings of words that are not COR/COR.EXT headwords in that word class,");
         report.AppendLine("  such as compounds (barbersalon), comparatives (bedre) and words dropped from COR (bededagsferie).");

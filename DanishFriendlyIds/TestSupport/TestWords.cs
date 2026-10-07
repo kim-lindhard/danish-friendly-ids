@@ -12,6 +12,12 @@ public static class TestWords
     public static Word Adjective(string lemma, string definiteForm, params WordSense[] senses) =>
         new(new WordId($"TEST.{lemma}"), lemma, WordClass.Adjective, definiteForm, senses, new HashSet<Restriction>());
 
+    public static Word Verb(string lemma, string presentParticiple, params WordSense[] senses) =>
+        new(new WordId($"TEST.{lemma}"), lemma, WordClass.Verb, null, senses, new HashSet<Restriction>())
+        {
+            PresentParticiple = presentParticiple
+        };
+
     public static Word Noun(string lemma, params WordSense[] senses) =>
         new(new WordId($"TEST.{lemma}"), lemma, WordClass.Noun, null, senses, new HashSet<Restriction>());
 
@@ -22,18 +28,24 @@ public static class TestWords
         Sense(MeaningCategory.Property, MeaningCategory.Colour));
     public static readonly Word Flushed = Adjective("rødmosset", "rødmossede",
         Sense(MeaningCategory.Property, MeaningCategory.Physical, MeaningCategory.Condition));
+    public static readonly Word Dancing = Verb("danse", "dansende", Sense(MeaningCategory.Act, MeaningCategory.Physical));
+    public static readonly Word Singing = Verb("synge", "syngende", Sense(MeaningCategory.Act, MeaningCategory.Communication));
     public static readonly Word Dancer = Noun("danser", Sense(MeaningCategory.Human, MeaningCategory.Object));
+    public static readonly Word Pilot = Noun("pilot", Sense(MeaningCategory.Human, MeaningCategory.Object, MeaningCategory.Occupation));
+    public static readonly Word Baker = Noun("bager", Sense(MeaningCategory.Human, MeaningCategory.Object, MeaningCategory.Occupation));
     public static readonly Word Cyclist = Noun("cyklist", Sense(MeaningCategory.Human, MeaningCategory.Object));
     public static readonly Word Tractor = Noun("traktor", Sense(MeaningCategory.Vehicle, MeaningCategory.Artifact, MeaningCategory.Object));
     public static readonly Word Box = Noun("kasse", Sense(MeaningCategory.Container, MeaningCategory.Artifact, MeaningCategory.Object));
 
     public static readonly IdKind Vehicles = new("Køretøj", Vocabulary.Objects, [MeaningCategory.Colour], [MeaningCategory.Vehicle]);
 
-    public static ReviewEntry Approved(Word word) => new(
-        word.DefiniteForm ?? word.Lemma,
-        word.WordClass == WordClass.Adjective ? ReviewSubject.Adjective : ReviewSubject.Noun,
-        ReviewVerdict.Approved,
-        "");
+    public static ReviewEntry Approved(Word word) =>
+        word.WordClass == WordClass.Adjective ? new(word.DefiniteForm ?? "", ReviewSubject.Adjective, ReviewVerdict.Approved, "")
+        : word.WordClass == WordClass.Verb ? new(word.PresentParticiple ?? "", ReviewSubject.Participle, ReviewVerdict.Approved, "")
+        : new(word.Lemma, ReviewSubject.Noun, ReviewVerdict.Approved, "");
+
+    public static ReviewEntry BlockedPair(string first, string second) =>
+        new($"{first} {second}", ReviewSubject.Pair, ReviewVerdict.Rejected, "test");
 
     public static FriendlyIdGenerator Generator(
         IEnumerable<ReviewEntry> peopleList, IEnumerable<ReviewEntry> objectsList, params Word[] words) =>
@@ -45,6 +57,8 @@ public static class TestWords
     public static FriendlyIdGenerator ApprovingAll(params Word[] words) =>
         Generator(words.Select(Approved), words.Select(Approved), words);
 
-    public static List<FriendlyId> Drawn(FriendlyIdGenerator ids, IdKind kind) =>
-        Enumerable.Range(0, 200).Select(_ => ids.Next(kind)).Distinct().ToList();
+    public static List<FriendlyId> Drawn(FriendlyIdGenerator ids, IdKind kind) => Drawn(ids, kind, IdFormat.TwoWords);
+
+    public static List<FriendlyId> Drawn(FriendlyIdGenerator ids, IdKind kind, IdFormat format) =>
+        Enumerable.Range(0, 500).Select(_ => ids.Next(kind, format)).Distinct().ToList();
 }

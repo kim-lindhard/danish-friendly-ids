@@ -115,3 +115,16 @@ COR.99762.116.01	cyklist		sb.fk.pl.ubest.gen	cyklisters	K
 COR.99762.117.01	cyklist		sb.fk.pl.best.gen	cyklisternes	K
 COR.00218.880.01	bagefter		præp	bagefter	N
 COR.10935.900.01	bagefter		adv	bagefter	N
+COR.30076.200.01	danse		vb.inf.akt	danse	N
+COR.30076.201.01	danse		vb.inf.pass	danses	N
+COR.30076.203.01	danse		vb.præs.akt	danser	N
+COR.30076.204.01	danse		vb.præs.pass	danses	N
+COR.30076.205.01	danse		vb.præs.part	dansende	N
+COR.30076.206.01	danse		vb.præt.akt	dansede	N
+COR.30076.207.01	danse		vb.præt.pass	dansedes	N
+COR.30076.208.01	danse		vb.perf.part	danset	N
+COR.30076.209.01	danse		vb.imp	dans	N
+COR.30076.212.01	danse		vb.perf.part.sg.fk	danset	N
+COR.30076.213.01	danse		vb.perf.part.sg.itk	danset	N
+COR.30076.214.01	danse		vb.perf.part.sg.best	dansede	N
+COR.30076.215.01	danse		vb.perf.part.pl	dansede	N

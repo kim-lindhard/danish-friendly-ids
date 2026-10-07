@@ -17,7 +17,7 @@ public class FriendlyIdGeneratorFacts
         var drawn = Enumerable.Range(0, 10_000).Select(_ => ids.Next(IdKind.Person)).ToList();
 
         // Assert
-        Assert.All(drawn, id => Assert.Contains(id.Adjective, pools.Adjectives));
+        Assert.All(drawn, id => Assert.Contains(id.Words[0], pools.FirstWords));
         Assert.All(drawn, id => Assert.Contains(id.Noun, pools.Nouns));
     }
 
@@ -46,7 +46,7 @@ public class FriendlyIdGeneratorFacts
         var drawn = Drawn(ids, IdKind.Person);
 
         // Assert
-        Assert.Equal([new FriendlyId("glade", "danser")], drawn);
+        Assert.Equal([FriendlyId.Of("glade", "danser")], drawn);
     }
 
     [Fact]
@@ -60,7 +60,7 @@ public class FriendlyIdGeneratorFacts
         var drawn = Drawn(ids, IdKind.Person);
 
         // Assert
-        Assert.Equal([new FriendlyId("glade", "danser")], drawn);
+        Assert.Equal([FriendlyId.Of("glade", "danser")], drawn);
     }
 
     [Fact]
@@ -75,7 +75,7 @@ public class FriendlyIdGeneratorFacts
         var capacity = ids.CapacityOf(IdKind.Person);
 
         // Assert
-        Assert.Equal([new FriendlyId("rolige", "danser")], drawn);
+        Assert.Equal([FriendlyId.Of("rolige", "danser")], drawn);
         Assert.Equal(1, capacity);
     }
 
@@ -103,7 +103,7 @@ public class FriendlyIdGeneratorFacts
 
         // Assert
         Assert.True(found);
-        Assert.Equal(new FriendlyId("glade", "cyklist"), free);
+        Assert.Equal(FriendlyId.Of("glade", "cyklist"), free);
     }
 
     [Fact]
@@ -130,7 +130,7 @@ public class FriendlyIdGeneratorFacts
         var drawn = Drawn(ids, Vehicles);
 
         // Assert
-        Assert.Equal([new FriendlyId("røde", "traktor")], drawn);
+        Assert.Equal([FriendlyId.Of("røde", "traktor")], drawn);
     }
 
     [Fact]
@@ -144,7 +144,7 @@ public class FriendlyIdGeneratorFacts
         var found = ids.TryNext(Vehicles, _ => false, out var free);
 
         // Assert
-        Assert.Contains("1 adjectives and 1 nouns among its candidates are unreviewed", error.Message);
+        Assert.Contains("1 adjectives, 0 -ende words and 1 nouns among its candidates are unreviewed", error.Message);
         Assert.False(found);
         Assert.Null(free);
     }

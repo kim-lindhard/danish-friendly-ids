@@ -16,6 +16,8 @@ public sealed record SenseFilter(IReadOnlyCollection<MeaningCategory> AnyOf, IRe
     /// <summary>Categories no sense of the word may have, whichever sense matched.</summary>
     public IReadOnlyCollection<MeaningCategory> NoSenseOf { get; init; } = [];
 
+    public static SenseFilter Nothing { get; } = new([], []);
+
     public static SenseFilter Any(params MeaningCategory[] categories) => new(categories, []);
 
     public SenseFilter Except(params MeaningCategory[] categories) => this with { NoneOf = [.. NoneOf, .. categories] };

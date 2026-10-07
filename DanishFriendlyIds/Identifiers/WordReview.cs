@@ -14,6 +14,7 @@ public sealed class WordReview
     private const char Separator = '\t';
 
     private readonly Dictionary<(ReviewSubject Subject, string Word), ReviewEntry> entries;
+    private readonly HashSet<WordPair> blockedPairs;
 
     public WordReview(IEnumerable<ReviewEntry> entries)
     {
@@ -26,21 +27,23 @@ public sealed class WordReview
 
         BlockedPairs = this.entries.Values
             .Where(entry => entry.Subject == ReviewSubject.Pair && entry.Verdict == ReviewVerdict.Rejected)
-            .Select(entry => FriendlyId.TryParse(entry.Word, out var pair)
+            .Select(entry => WordPair.TryParse(entry.Word, out var pair)
                 ? pair
                 : throw new InvalidDataException($"Pair '{entry.Word}' is not two words"))
             .ToList();
+        blockedPairs = BlockedPairs.ToHashSet();
     }
 
     public static WordReview Empty { get; } = new([]);
 
     public IReadOnlyCollection<ReviewEntry> Entries => entries.Values;
 
-    public IReadOnlyList<FriendlyId> BlockedPairs { get; }
+    public IReadOnlyList<WordPair> BlockedPairs { get; }
 
     public ReviewVerdict Verdict(WordClass wordClass, string shownForm)
     {
         var subject = wordClass == WordClass.Adjective ? ReviewSubject.Adjective
+            : wordClass == WordClass.Verb ? ReviewSubject.Participle
             : wordClass == WordClass.Noun ? ReviewSubject.Noun
             : null;
 
@@ -52,8 +55,13 @@ public sealed class WordReview
     public bool IsApproved(WordClass wordClass, string shownForm) =>
         Verdict(wordClass, shownForm) == ReviewVerdict.Approved;
 
+    /// <summary>True when any two of the identifier's words, in order, form a blocked pair.</summary>
     public bool Blocks(FriendlyId id) =>
-        entries.TryGetValue((ReviewSubject.Pair, id.ToString()), out var entry) && entry.Verdict == ReviewVerdict.Rejected;
+        id.Words
+            .SelectMany((first, index) => id.Words.Skip(index + 1).Select(second => new WordPair(first, second)))
+            .Any(blockedPairs.Contains);
+
+    public bool Blocks(WordPair pair) => blockedPairs.Contains(pair);
 
     public static WordReview Parse(TextReader reader)
     {
@@ -81,7 +89,7 @@ public sealed class WordReview
             throw new InvalidDataException($"word-review line {lineNumber}: expected {Columns.Count} columns, found {fields.Length}");
 
         if (ReviewSubject.TryFromCode(fields[1], out var subject) == false)
-            throw new InvalidDataException($"word-review line {lineNumber}: unknown word_class '{fields[1]}' (adj, sb or pair)");
+            throw new InvalidDataException($"word-review line {lineNumber}: unknown word_class '{fields[1]}' (adj, part, sb or pair)");
 
         if (ReviewVerdict.TryFromCode(fields[2], out var verdict) == false)
             throw new InvalidDataException($"word-review line {lineNumber}: unknown verdict '{fields[2]}' (approved or rejected)");

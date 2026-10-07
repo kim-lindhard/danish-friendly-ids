@@ -12,7 +12,7 @@ public static class LexiconTsv
     public static IReadOnlyList<string> WordColumns { get; } =
     [
         "id", "lemma", "word_class", "definite_form", "categories", "topics",
-        "min_sentiment", "centrality", "restriction", "senses"
+        "min_sentiment", "centrality", "restriction", "senses", "present_participle"
     ];
 
     public static IReadOnlyList<string> SenseColumns { get; } =
@@ -50,7 +50,8 @@ public static class LexiconTsv
         OptionalInt(word.MinimumSentiment),
         OptionalInt(word.Centrality),
         JoinSorted(word.Restrictions.Select(restriction => restriction.Code)),
-        word.Senses.Count.ToString(CultureInfo.InvariantCulture));
+        word.Senses.Count.ToString(CultureInfo.InvariantCulture),
+        word.PresentParticiple ?? "");
 
     private static IEnumerable<string> SenseLines(Word word) =>
         word.Senses.Select((sense, index) => string.Join(ColumnSeparator,
@@ -78,7 +79,10 @@ public static class LexiconTsv
             wordClass,
             fields[3].Length == 0 ? null : fields[3],
             senses,
-            ParseRestrictions(fields[8], lineNumber));
+            ParseRestrictions(fields[8], lineNumber))
+        {
+            PresentParticiple = fields[10].Length == 0 ? null : fields[10]
+        };
     }
 
     private static WordSense ParseSense(string[] fields, int lineNumber) => new(

@@ -26,3 +26,5 @@ COR.SEM.15831.03	COR.15831			12002730	træt	adj.		3		egenskab|beskaffenhed	synse
 COR.SEM.1000497.01				11003097	bagefter	adv.		1		tidsmæssig	synset-68648	engang|kort efter|senere på året	derefter|dernæst|senere|siden|så	ADV_Time							0	manuel	4	0
 COR.SEM.1000497.02				11003097	bagefter	adv.		2		sted	synset-5505	efter|henne ved/i	bagved|efter	ADV_Place							0	manuel	4	0
 COR.SEM.1000497.03				11003097	bagefter	adv.		3		tidsmæssig	synset-68648	bagud|tilbage	bagud	ADV_Time							0	manuel	4	0
+COR.SEM.30076.01	COR.30076			11008375	danse	vb.		1		bevæge sig	synset-31753	gå|svinge træbenet|træde dansen		Act+Physical	dan		synset-47889|synset-13984	Performers_and_roles|Self_motion|Social_event			3	manuel	4	3
+COR.SEM.30076.02	COR.30076			11008375	danse	vb.		2		bevæge sig	synset-31753	flagre|slingre|svaje		Act+Physical			synset-33274	Body_movement|Self_motion			3	manuel	4	3

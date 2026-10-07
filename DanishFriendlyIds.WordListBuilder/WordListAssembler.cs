@@ -40,22 +40,22 @@ public static class WordListAssembler
         if (WordClass.TryFromCorLabel(forms.Key.WordClassLabel, out var wordClass) == false)
             throw new InvalidDataException($"{forms.Key.HeadwordId}: unknown word class '{forms.Key.WordClassLabel}'");
 
-        var definiteForm = wordClass == WordClass.Adjective
-            ? forms
-                .Where(form => form.GrammarLabel == CorForm.DefiniteAdjectiveLabel)
-                .Where(form => form.Status == CorForm.RegulatedStatus || form.Status == CorForm.NoStatus)
-                .OrderBy(form => form.Variant, StringComparer.Ordinal)
-                .Select(form => form.Form)
-                .FirstOrDefault()
-            : null;
-
         return new Headword(
             forms.Key.HeadwordId,
             forms.First().Lemma,
             wordClass,
-            definiteForm,
+            wordClass == WordClass.Adjective ? FirstRegulatedForm(forms, CorForm.DefiniteAdjectiveLabel) : null,
+            wordClass == WordClass.Verb ? FirstRegulatedForm(forms, CorForm.PresentParticipleLabel) : null,
             forms.Any(form => form.IsTrademark));
     }
+
+    private static string? FirstRegulatedForm(IEnumerable<CorForm> forms, string grammarLabel) =>
+        forms
+            .Where(form => form.GrammarLabel == grammarLabel)
+            .Where(form => form.Status == CorForm.RegulatedStatus || form.Status == CorForm.NoStatus)
+            .OrderBy(form => form.Variant, StringComparer.Ordinal)
+            .Select(form => form.Form)
+            .FirstOrDefault();
 
     /// <summary>
     /// COR.SEM 1.0 was linked to an older COR: some senses have no link, and some point at numbers
@@ -101,11 +101,15 @@ public static class WordListAssembler
             headword.WordClass,
             headword.DefiniteForm,
             senses.Select(ToWordSense).ToList(),
-            restrictionsOnEverySense.Concat(trademark).ToHashSet());
+            restrictionsOnEverySense.Concat(trademark).ToHashSet())
+        {
+            PresentParticiple = headword.PresentParticiple
+        };
     }
 
     private static WordSense ToWordSense(CorSemSense sense) =>
         new(sense.Categories, sense.Topics, sense.Sentiment, sense.Centrality, sense.Restrictions);
 
-    private sealed record Headword(WordId Id, string Lemma, WordClass WordClass, string? DefiniteForm, bool IsTrademark);
+    private sealed record Headword(
+        WordId Id, string Lemma, WordClass WordClass, string? DefiniteForm, string? PresentParticiple, bool IsTrademark);
 }

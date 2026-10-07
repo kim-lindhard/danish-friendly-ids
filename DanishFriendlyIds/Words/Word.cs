@@ -14,6 +14,9 @@ public sealed record Word(
     IReadOnlyList<WordSense> Senses,
     IReadOnlySet<Restriction> Restrictions)
 {
+    /// <summary>Verbs only: the -ende form (danse → dansende), which never inflects.</summary>
+    public string? PresentParticiple { get; init; }
+
     public bool HasMeaning => Senses.Count > 0;
 
     public IReadOnlySet<MeaningCategory> Categories => Senses.SelectMany(sense => sense.Categories).ToHashSet();

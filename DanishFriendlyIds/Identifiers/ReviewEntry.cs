@@ -19,14 +19,15 @@ public sealed record ReviewVerdict(string Code)
     public override string ToString() => Code;
 }
 
-/// <summary>What a review line is about: an adjective's definite form, a noun, or an adjective + noun pair.</summary>
+/// <summary>What a review line is about: an adjective's definite form, a verb's -ende form, a noun, or two words that may not appear together.</summary>
 public sealed record ReviewSubject(string Code)
 {
     public static readonly ReviewSubject Adjective = new("adj");
+    public static readonly ReviewSubject Participle = new("part");
     public static readonly ReviewSubject Noun = new("sb");
     public static readonly ReviewSubject Pair = new("pair");
 
-    public static IReadOnlyList<ReviewSubject> All { get; } = [Adjective, Noun, Pair];
+    public static IReadOnlyList<ReviewSubject> All { get; } = [Adjective, Participle, Noun, Pair];
 
     public static bool TryFromCode(string code, [NotNullWhen(true)] out ReviewSubject? subject)
     {
