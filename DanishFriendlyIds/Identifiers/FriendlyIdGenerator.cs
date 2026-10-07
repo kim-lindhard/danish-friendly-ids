@@ -41,7 +41,7 @@ public sealed class FriendlyIdGenerator(Lexicon lexicon, ReviewLists reviews, Ra
             throw new InvalidOperationException(EmptyPoolMessage(kind, format, pools));
 
         return FirstAllowed(kind, format, pools, _ => false)
-            ?? throw new InvalidOperationException($"{kind.Name}: every identifier drawn in {MaximumAttempts} attempts is blocked");
+            ?? throw new InvalidOperationException($"{kind.Description}: every identifier drawn in {MaximumAttempts} attempts is blocked");
     }
 
     public bool TryNext(IdKind kind, Func<FriendlyId, bool> isTaken, [NotNullWhen(true)] out FriendlyId? id) =>
@@ -103,7 +103,7 @@ public sealed class FriendlyIdGenerator(Lexicon lexicon, ReviewLists reviews, Ra
     private string EmptyPoolMessage(IdKind kind, IdFormat format, WordPools pools)
     {
         var unreviewed = WordPoolSelector.Unreviewed(lexicon, reviews, kind);
-        return $"{kind.Name} cannot make {format} identifiers: it has {pools.Adjectives.Count} approved adjectives, " +
+        return $"{kind.Description} cannot make {format} identifiers: it has {pools.Adjectives.Count} approved adjectives, " +
                $"{pools.Participles.Count} -ende words and {pools.Nouns.Count} nouns. " +
                $"{unreviewed.Adjectives.Count} adjectives, {unreviewed.Participles.Count} -ende words and " +
                $"{unreviewed.Nouns.Count} nouns among its candidates are unreviewed: " +

@@ -26,9 +26,15 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
     /// </summary>
     public int MinimumCentrality { get; init; } = 1;
 
-    public bool UsesLessCommonWords => MinimumCentrality == 0;
+    public bool UsesLessCommonWords => MinimumCentrality <= 0;
 
-    /// <summary>The same kind, also drawing less common words (centrality 0) that its review list approved.</summary>
+    /// <summary>The name, and whether less common words are drawn: "Person + less common words".</summary>
+    public string Description => UsesLessCommonWords ? $"{Name} + less common words" : Name;
+
+    /// <summary>
+    /// The same kind with its minimum centrality lowered to 0, so it draws every word its review list approved,
+    /// the peripheral ones included.
+    /// </summary>
     public IdKind WithLessCommonWords() => this with { MinimumCentrality = 0 };
 
     /// <summary>The lowest sentiment any sense of the word may have; an unrated sense counts as 0.</summary>
@@ -75,5 +81,5 @@ public sealed record IdKind(string Name, Vocabulary Vocabulary, SenseFilter Adje
 
     /// <summary>Every preset, with common words only and with less common words too.</summary>
     public static IReadOnlyList<IdKind> PresetsWithWordChoices { get; } =
-        [Person, Person.WithLessCommonWords(), Object, Object.WithLessCommonWords()];
+        Presets.SelectMany(preset => new[] { preset, preset.WithLessCommonWords() }).ToList();
 }

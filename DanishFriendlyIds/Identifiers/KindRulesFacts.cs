@@ -23,6 +23,7 @@ public class KindRulesFacts
         Assert.Equal(["glade", "ufortrødne"], lessCommonToo);
         Assert.False(IdKind.Person.UsesLessCommonWords);
         Assert.True(IdKind.Person.WithLessCommonWords().UsesLessCommonWords);
+        Assert.Equal("Person + less common words", IdKind.Person.WithLessCommonWords().Description);
     }
 
     [Fact]

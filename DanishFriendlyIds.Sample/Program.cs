@@ -6,11 +6,10 @@ const string Usage = """
     Usage: dotnet run --project DanishFriendlyIds.Sample -- [count=50] [seed] [two|three] [maximum number, 0 = none] [danish|ascii|url] [common|less]
            dotnet run --project DanishFriendlyIds.Sample -- capacity
            dotnet run --project DanishFriendlyIds.Sample -- unreviewed
-           dotnet run --project DanishFriendlyIds.Sample -- resolve person|object <identifier in any style>
+           dotnet run --project DanishFriendlyIds.Sample -- resolve person|object <identifier in any style> [common|less]
     """;
 const int DefaultCount = 50;
 var presets = IdKind.Presets;
-string Describe(IdKind kind) => kind.UsesLessCommonWords ? $"{kind.Name} + less common" : kind.Name;
 
 if (args.Length > 0 && args[0] == "unreviewed")
 {
@@ -18,9 +17,12 @@ if (args.Length > 0 && args[0] == "unreviewed")
     return 0;
 }
 
-if (args.Length == 3 && args[0] == "resolve")
+if (args.Length is 3 or 4 && args[0] == "resolve" && (args.Length == 3 || args[3] is "common" or "less"))
 {
-    var kind = presets.FirstOrDefault(preset => string.Equals(preset.Name, args[1], StringComparison.OrdinalIgnoreCase));
+    var kind = presets
+        .Where(preset => string.Equals(preset.Name, args[1], StringComparison.OrdinalIgnoreCase))
+        .Select(preset => args.Length == 4 && args[3] == "less" ? preset.WithLessCommonWords() : preset)
+        .FirstOrDefault();
     var resolver = new FriendlyIdGenerator();
     if (kind is not null && resolver.TryResolve(kind, args[2], out var resolved))
     {
@@ -65,7 +67,7 @@ foreach (var kind in presets.Select(preset => includeLessCommon ? preset.WithLes
 {
     var pools = ids.PoolsOf(kind);
     Console.WriteLine(string.Create(CultureInfo.InvariantCulture,
-        $"{Describe(kind)}, {format}: {pools.Adjectives.Count:N0} adjectives, {pools.Participles.Count:N0} -ende words, " +
+        $"{kind.Description}, {format}: {pools.Adjectives.Count:N0} adjectives, {pools.Participles.Count:N0} -ende words, " +
         $"{pools.Nouns.Count:N0} nouns = {ids.CapacityOf(kind, format):N0} identifiers"));
 
     foreach (var id in Enumerable.Range(0, count).Select(_ => ids.Next(kind, format)))
@@ -84,9 +86,9 @@ void PrintCapacity(FriendlyIdGenerator generator)
         IdFormat.ThreeWords, IdFormat.ThreeWords.WithNumber(9), IdFormat.ThreeWords.WithNumber(99)
     ];
 
-    Console.WriteLine($"{"",-22}" + string.Concat(formats.Select(format => $"{format,22}")));
+    Console.WriteLine($"{"",-28}" + string.Concat(formats.Select(format => $"{format,22}")));
     foreach (var kind in IdKind.PresetsWithWordChoices)
-        Console.WriteLine($"{Describe(kind),-22}" + string.Concat(formats.Select(format =>
+        Console.WriteLine($"{kind.Description,-28}" + string.Concat(formats.Select(format =>
             string.Create(CultureInfo.InvariantCulture, $"{generator.CapacityOf(kind, format),22:N0}"))));
 }
 

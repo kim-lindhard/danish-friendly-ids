@@ -21,6 +21,7 @@ if (ids.TryNext(IdKind.Person, IdFormat.ThreeWords, id => store.Exists(id.ToStri
 
 long space = ids.CapacityOf(IdKind.Person, IdFormat.ThreeWords);    // exact
 ids.Next(IdKind.Person.WithLessCommonWords());                      // also draws approved less common words
+ids.TryResolve(IdKind.Person.WithLessCommonWords(), "distraherede-showmaster", out var rare);
 
 var id = ids.Next(IdKind.Person, IdFormat.ThreeWords.WithNumber(99));
 id.ToString();                                  // "kløgtige dansende pilot 42"
@@ -78,10 +79,10 @@ ids.Next(vehicle);                                         // "røde traktor"
 
 | | 2 words | 2 words + 1–9 | 2 words + 1–99 | 3 words | 3 words + 1–9 | 3 words + 1–99 |
 |---|---:|---:|---:|---:|---:|---:|
-| `Person` (61 adjectives, 66 -ende words, 275 nouns) | 34,615 | 311,535 | 3,426,885 | 1,103,819 | 9,934,371 | 109,278,081 |
-| `Object` (67 adjectives, 23 -ende words, 599 nouns) | 53,880 | 484,920 | 5,334,120 | 917,631 | 8,258,679 | 90,845,469 |
-| `Person.WithLessCommonWords()` (81 adjectives, 93 -ende words, 723 nouns) | 124,956 | 1,124,604 | 12,370,644 | 5,432,644 | 48,893,796 | 537,831,756 |
-| `Object.WithLessCommonWords()` (195 adjectives, 40 -ende words, 2,458 nouns) | 576,097 | 5,184,873 | 57,033,603 | 19,050,519 | 171,454,671 | 1,886,001,381 |
+| `Person` (61 adjectives, 65 -ende words, 275 nouns) | 34,154 | 307,386 | 3,381,246 | 1,075,392 | 9,678,528 | 106,463,808 |
+| `Object` (67 adjectives, 23 -ende words, 599 nouns) | 53,474 | 481,266 | 5,293,926 | 900,397 | 8,103,573 | 89,139,303 |
+| `Person.WithLessCommonWords()` (81 adjectives, 92 -ende words, 723 nouns) | 123,549 | 1,111,941 | 12,231,351 | 5,314,672 | 47,832,048 | 526,152,528 |
+| `Object.WithLessCommonWords()` (195 adjectives, 40 -ende words, 2,458 nouns) | 566,605 | 5,099,445 | 56,093,895 | 18,479,574 | 166,316,166 | 1,829,477,826 |
 
 ### The review file
 
